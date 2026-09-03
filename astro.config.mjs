@@ -4,8 +4,8 @@ import glsl from 'vite-plugin-glsl';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ibaliqbal.github.io/codrops-barbajs-page-transition',
-  base: '/codrops-barbajs-page-transition/',
+  site: 'https://SwannSchilling.github.io/team-calendar',
+  base: '/team-calendar/',
   vite: {
     plugins: [glsl()],
     build: {

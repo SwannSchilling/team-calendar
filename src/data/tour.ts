@@ -216,6 +216,6 @@ export const honestyNote =
 
 export const footer = {
   tagline: "The studio scheduler that retires the sheet, the chat, and the napkin.",
-  github: "https://github.com/Ibaliqbal/codrops-barbajs-page-transition",
+  github: "https://github.com/SwannSchilling/team-calendar",
 };
 

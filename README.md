@@ -21,7 +21,7 @@ It presents the full `FEATURE_INVENTORY.md` (81 features, 11 work areas) in a gu
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321/codrops-barbajs-page-transition/
+npm run dev      # http://localhost:4321/team-calendar/
 npm run build    # outputs dist/
 npm run preview
 ```
@@ -36,7 +36,7 @@ The `.github/workflows/deploy.yml` workflow builds on every push to `main` and d
 
 1. In the repo, **Settings → Pages** → set **Source** to **GitHub Actions**.
 2. Push to `main` — the site goes live at
-   `https://<your-username>.github.io/codrops-barbajs-page-transition/`.
+   `https://SwannSchilling.github.io/team-calendar/`.
 
 If you rename the repo or move to a `username.github.io` repo, update `site` + `base` in
 `astro.config.mjs` (and drop `base` when publishing at the domain root).
