@@ -1,0 +1,60 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+
+const chairs = [
+  { name: 'Chair 1', artist: 'Mara K.' },
+  { name: 'Chair 2', artist: 'Devon R.' },
+  ...(compact ? [] : [{ name: 'Chair 3', artist: 'Ines B.' }]),
+];
+
+// 8 hour columns; values: null | booked | timeoff | buffer
+interface Cell {
+  kind: 'empty' | 'booked' | 'timeoff' | 'buffer';
+  name?: string;
+  meta?: string;
+  ref?: boolean;
+}
+
+function row(cells: (Cell | null)[]): Cell[] {
+  return Array.from({ length: 8 }, (_, i) => cells[i] ?? { kind: 'empty' as const });
+}
+
+const data: Cell[][] = [
+  row([null, null, { kind: 'booked', name: 'Alex M.', meta: '14:00 · custom' }, { kind: 'booked', name: 'Alex M.', meta: '15:00 · custom' }, { kind: 'buffer', meta: 'buffer' }, null, null, null]),
+  row([{ kind: 'timeoff', meta: 'time off' }, null, null, null, { kind: 'booked', name: 'Sami T.', meta: '18:00 · flash', ref: true }, { kind: 'booked', name: 'Sami T.', meta: '19:00 · flash', ref: true }, null, null]),
+  ...(compact ? [] : [row([null, { kind: 'booked', name: 'Lena P.', meta: '11:00 · cover-up' }, { kind: 'booked', name: 'Lena P.', meta: '12:00 · cover-up' }, { kind: 'buffer', meta: 'buffer' }, null, null, null, null])]),
+];
+---
+
+<figure class={`mock grid-mock ${compact ? 'is-compact' : ''}`} aria-label="Team calendar day view mockup">
+  <div class="mock__bar">
+    <span class="mock__dot"></span>
+    <span class="mock__dot"></span>
+    <span class="mock__title">Team calendar · Today, day view</span>
+    <span class="mock__pill mock__pill--live">real-time</span>
+  </div>
+  <div class="mock__body">
+    <div class="grid-mock__head">
+      <span></span>
+      {Array.from({ length: 8 }, (_, i) => <span class="grid-mock__hcell">{String(9 + i).padStart(2, '0')}h</span>)}
+    </div>
+    {data.map((cells, i) => (
+      <div class="grid-mock__row">
+        <div class="grid-mock__chair">{chairs[i].name}<small>{chairs[i].artist}</small></div>
+        {cells.map((c, j) => (
+          c.kind === 'booked'
+            ? <div class="grid-mock__cell grid-mock__cell--booked"><span class="grid-mock__name">{c.name}</span><span class="grid-mock__meta">{c.meta}{c.ref && <i class="grid-mock__ref" title="Reference image attached"></i>}</span></div>
+            : c.kind === 'timeoff'
+              ? <div class="grid-mock__cell grid-mock__cell--timeoff">{c.meta}</div>
+              : c.kind === 'buffer'
+                ? <div class="grid-mock__cell grid-mock__cell--buffer">{c.meta}</div>
+                : <div class="grid-mock__cell"></div>
+        ))}
+      </div>
+    ))}
+  </div>
+</figure>

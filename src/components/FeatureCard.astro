@@ -1,0 +1,27 @@
+---
+import StatusBadge from './StatusBadge.astro';
+import { plain, rolesFor, shortWhy } from '../utils/text';
+import type { Feature } from '../types';
+
+interface Props {
+  feature: Feature;
+  showNum?: boolean;
+}
+
+const { feature, showNum = true } = Astro.props;
+const roles = rolesFor(feature);
+---
+
+<article class="card" data-reveal>
+  <div class="card__top">
+    {showNum && <span class="card__num">#{feature.id.toString().padStart(2, '0')}</span>}
+    {!showNum && <span></span>}
+    <StatusBadge status={feature.status} />
+  </div>
+  <h3 class="card__title">{feature.title}</h3>
+  <p class="card__why">{shortWhy(feature)}</p>
+  <div class="card__foot">
+    {feature.differentiator && <span class="diff-star">★ differentiator</span>}
+    {roles.map((r) => <span class="role">{r}</span>)}
+  </div>
+</article>

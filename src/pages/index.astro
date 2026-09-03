@@ -1,0 +1,240 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { hero, storyIntro, storyBeats, pillarsIntro, pillars, differentIntro, differentPunch, inventoryIntro, legend, roadmap, honestyNote, footer } from "../data/tour";
+import featuresData from "../data/features.json";
+import MockDayGrid from "../components/MockDayGrid.astro";
+import MockLedger from "../components/MockLedger.astro";
+import MockPhone from "../components/MockPhone.astro";
+import MockFlow from "../components/MockFlow.astro";
+import MockTenant from "../components/MockTenant.astro";
+import MockMatrix from "../components/MockMatrix.astro";
+import MockLink from "../components/MockLink.astro";
+import MockRefs from "../components/MockRefs.astro";
+import FeatureCard from "../components/FeatureCard.astro";
+import StatusBadge from "../components/StatusBadge.astro";
+import { plain, rolesFor } from "../utils/text";
+import type { Feature } from "../types";
+
+const byId = new Map<number, Feature>();
+for (const cat of featuresData.categories) for (const f of cat.features) byId.set(f.id, f);
+
+const allRows = featuresData.categories.flatMap((c) => c.features.map((f) => ({ ...f, catId: c.id, catTitle: c.title })));
+---
+
+<Layout>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="container hero__grid">
+    <div>
+      <p class="kicker">{hero.kicker}</p>
+      <h1 class="hero__title">
+        <span data-mtext style="display:block">One app retires</span>
+        <span data-mtext class="accent" style="display:block">the sheet, the chat, and the napkin.</span>
+      </h1>
+      <p class="hero__sub">{hero.sub}</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href={hero.ctaPrimary.href}>{hero.ctaPrimary.label} ↓</a>
+        <a class="btn btn--ghost" href={hero.ctaSecondary.href}>{hero.ctaSecondary.label}</a>
+      </div>
+      <div class="hero__stats">
+        {hero.stats.map((s) => (
+          <div class="stat">
+            <div class="stat__value"><em>{s.value}</em></div>
+            <div class="stat__label">{s.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="hero__visual">
+      <MockDayGrid />
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="section" id="story">
+  <div class="container">
+    <div class="container--narrow" style="margin-inline:0">
+      <p class="kicker" data-reveal>{storyIntro.kicker}</p>
+      <h2 class="h2" data-reveal>{storyIntro.title}</h2>
+      <p class="lede" data-reveal>{storyIntro.sub}</p>
+    </div>
+    <div class="beats">
+      {storyBeats.map((beat, i) => (
+        <article class="beat" data-reveal style={`--reveal-delay:${i * 0.08}s`}>
+          <div class="beat__time">{beat.time}</div>
+          <h3 class="beat__title">{beat.title}</h3>
+          {beat.visual === "link" && <MockLink />}
+          {beat.visual === "grid" && <MockDayGrid compact />}
+          {beat.visual === "refs" && <MockRefs />}
+          {beat.visual === "ledger" && <MockLedger />}
+          {beat.visual === "phone" && <MockPhone compact />}
+          <p class="beat__pain"><span class="beat__pain-label">Before</span>{beat.pain}</p>
+          <p class="beat__fix"><span class="beat__fix-label">With Team Calendar</span>{beat.fix}</p>
+          <div class="beat__features">
+            {beat.featureIds.map((id) => {
+              const f = byId.get(id);
+              return f ? <a class="chip" href={`#inventory-${f.id}`}>#{f.id} · {f.title.length > 34 ? f.title.slice(0, 34) + '…' : f.title}</a> : null;
+            })}
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLKIT (pillars) ============ -->
+<section class="section" id="features" style="padding-top:3rem">
+  <div class="container">
+    <div style="margin-bottom:2.5rem">
+      <p class="kicker" data-reveal>{pillarsIntro.kicker}</p>
+      <h2 class="h2" data-reveal>{pillarsIntro.title}</h2>
+      <p class="lede" data-reveal>{pillarsIntro.sub}</p>
+    </div>
+    {pillars.map((p, pi) => (
+      <div class="pillar" data-reveal>
+        <div>
+          <div class="pillar__num">{p.num} · {p.kicker}</div>
+          <h3 class="pillar__title">{p.title}</h3>
+          <p class="pillar__intro">{p.intro}</p>
+          <div class="cards">
+            {p.featureIds.map((id) => {
+              const f = byId.get(id);
+              return f ? <FeatureCard feature={f} /> : null;
+            })}
+          </div>
+        </div>
+        <div class="pillar__visual">
+          {p.visual === "flow" && <MockFlow />}
+          {p.visual === "grid" && <MockDayGrid />}
+          {p.visual === "ledger" && <MockLedger />}
+          {p.visual === "phone" && <MockPhone />}
+          {p.visual === "tenant" && <MockTenant />}
+          {p.visual === "matrix" && <MockMatrix />}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<!-- ============ DIFFERENTIATORS ============ -->
+<section class="section" id="different">
+  <div class="container">
+    <p class="kicker" data-reveal>{differentIntro.kicker}</p>
+    <h2 class="h2" data-reveal>{differentIntro.title}</h2>
+    <p class="lede" data-reveal>{differentIntro.sub}</p>
+    <div class="diff-grid">
+      {featuresData.differentiators.map((d, i) => (
+        <button class="diff" data-reveal type="button" aria-expanded="false">
+          <div class="diff__head">
+            <span class="diff__n">{String(i + 1).padStart(2, '0')}</span>
+            <span class="diff__title">{d.title}</span>
+          </div>
+          <p class="diff__punch">{differentPunch[i + 1]}</p>
+          <p class="diff__refs">{d.refs}</p>
+          <div class="diff__detail">{plain(d.line)}</div>
+        </button>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ INVENTORY ============ -->
+<section class="section inventory" id="inventory">
+  <div class="container">
+    <p class="kicker" data-reveal>{inventoryIntro.kicker}</p>
+    <h2 class="h2" data-reveal>{inventoryIntro.title}</h2>
+    <p class="lede" data-reveal>{inventoryIntro.sub}</p>
+
+    <div class="inv-controls" data-reveal>
+      <input class="inv-search" id="inv-search" type="search" placeholder="Search features… (e.g. “commission”, “waitlist”)" aria-label="Search features" />
+      <select class="inv-select" id="inv-cat" aria-label="Filter by work area">
+        <option value="">All work areas</option>
+        {featuresData.categories.map((c) => <option value={c.id}>{c.title}</option>)}
+      </select>
+      <div class="inv-filters" role="group" aria-label="Filter by status">
+        {legend.map((l) => <button class="inv-filter" data-status={l.key} type="button" aria-pressed="false">{l.mark} {l.label}</button>)}
+      </div>
+      <div class="inv-filters" role="group" aria-label="Filter by role">
+        {['Owner', 'Admin', 'Artist', 'Client'].map((r) => <button class="inv-filter" data-role={r} type="button" aria-pressed="false">{r}</button>)}
+      </div>
+      <div class="inv-count" id="inv-count" aria-live="polite"></div>
+    </div>
+
+    <div class="inv-table" id="inv-table" data-reveal>
+      {allRows.map((f) => (
+        <>
+          <div class="inv-row" id={`inventory-${f.id}`} data-cat={f.catId} data-status={f.status.join(' ')} data-roles={rolesFor(f).join(' ')} data-text={plain(f.title + ' ' + f.what + ' ' + f.why).toLowerCase()} role="button" tabindex="0" aria-expanded="false">
+            <span class="inv-row__num">#{f.id}</span>
+            <span class="inv-row__title">{f.title}{f.differentiator && <span class="diff-star" style="font-size:0.7rem">★</span>}</span>
+            <span class="inv-row__status"><StatusBadge status={f.status} /></span>
+            <span class="inv-row__why">{plain(f.why)}</span>
+          </div>
+          <div class="inv-row__detail">
+            <div class="inv-detail__grid">
+              <div>
+                <div class="inv-detail__label">What it does</div>
+                <p class="inv-detail__text">{plain(f.what)}</p>
+              </div>
+              <div>
+                <div class="inv-detail__label">Who it’s for</div>
+                <p class="inv-detail__text">{f.for}{f.notes.length ? <br /> : null}{f.notes.map((n) => <span style="display:block">{n.key}: {plain(n.text)}</span>)}</p>
+              </div>
+            </div>
+          </div>
+        </>
+      ))}
+      <div class="inv-empty" id="inv-empty">No features match those filters — try widening the search.</div>
+    </div>
+
+    <div class="honesty" data-reveal>{honestyNote}</div>
+  </div>
+</section>
+
+<!-- ============ ROADMAP ============ -->
+<section class="section" id="roadmap">
+  <div class="container">
+    <p class="kicker" data-reveal>{roadmap.kicker}</p>
+    <h2 class="h2" data-reveal>{roadmap.title}</h2>
+    <p class="lede" data-reveal>{roadmap.sub}</p>
+    <div class="roadmap__grid">
+      <div class="roadmap__col" data-reveal>
+        <h3>Next up</h3>
+        <div class="roadmap__list">
+          {roadmap.soon.map((r) => (
+            r.id ? <a class="roadmap__item" href={`#inventory-${r.id}`}><small>⏳</small>{r.label}</a>
+                  : <span class="roadmap__item"><small>⏳</small>{r.label}</span>
+          ))}
+        </div>
+      </div>
+      <div class="roadmap__col" data-reveal style="--reveal-delay:0.1s">
+        <h3>Further out</h3>
+        <div class="roadmap__list">
+          {roadmap.later.map((r) => (
+            r.id ? <a class="roadmap__item" href={`#inventory-${r.id}`}><small>⏳</small>{r.label}</a>
+                  : <span class="roadmap__item"><small>⏳</small>{r.label}</span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <div class="footer__word">Team Calendar</div>
+      <p class="footer__tag">{footer.tagline}</p>
+    </div>
+    <div class="footer__meta">
+      <div><a href={footer.github} target="blank" rel="noreferrer">Source repository</a></div>
+      <div>Feature inventory · {featuresData.compiled}</div>
+      <div>Built with Astro · noise load-in with three.js + GSAP</div>
+    </div>
+  </div>
+</footer>
+
+</Layout>
+

@@ -1,0 +1,37 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<figure class={`mock phone-mock-wrap ${compact ? 'is-compact' : ''}`} aria-label="Installable PWA on a phone" style="padding:0">
+  <div class="phone-mock">
+    <div class="phone-mock__notch"></div>
+    <div class="phone-mock__homescreen">
+      <div class="phone-mock__app">
+        <span class="phone-mock__icon phone-mock__icon--main">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="16" rx="2.5" stroke="#0c0b09" stroke-width="2" />
+            <path d="M3 10h18" stroke="#0c0b09" stroke-width="2" />
+            <path d="M8 3v4M16 3v4" stroke="#0c0b09" stroke-width="2" stroke-linecap="round" />
+            <rect x="7" y="13" width="5" height="4" rx="1" fill="#0c0b09" />
+          </svg>
+        </span>
+        <span class="phone-mock__badge">3</span>
+        <span class="phone-mock__appname">Team Calendar</span>
+      </div>
+      {Array.from({ length: compact ? 3 : 7 }, () => <span class="phone-mock__app"><span class="phone-mock__icon phone-mock__icon--dim"></span><span class="phone-mock__appname">&nbsp;</span></span>)}
+    </div>
+    <div class="phone-mock__notif">
+      <div class="phone-mock__notiftitle"><span>New appointment</span><span>now</span></div>
+      <div class="phone-mock__notifbody">Alex M. · Sat 14:00 · Chair 1 — ref images attached</div>
+    </div>
+    <div class="phone-mock__notif">
+      <div class="phone-mock__notiftitle"><span>Appointment changed</span><span>2h</span></div>
+      <div class="phone-mock__notifbody">Sami T. rescheduled to Sun 18:00</div>
+    </div>
+    <div class="phone-mock__offline"><i></i>Offline — changes will sync when the connection returns</div>
+  </div>
+</figure>

@@ -1,0 +1,31 @@
+<figure class="mock tenant-mock" aria-label="One account, two studios, strict isolation">
+  <div class="mock__bar">
+    <span class="mock__dot"></span>
+    <span class="mock__dot"></span>
+    <span class="mock__title">Multi-tenant · one account, two studios</span>
+  </div>
+  <div class="mock__body">
+    <div class="tenant-mock__user">
+      <span class="tenant-mock__avatar"></span>
+      <div>
+        <div class="tenant-mock__uname">One sign-in</div>
+        <div class="tenant-mock__umeta">owner@studio.example · magic link or password</div>
+      </div>
+      <span class="mock__pill" style="margin-left:auto">member of 2</span>
+    </div>
+    <div class="tenant-mock__lines">
+      <div class="tenant-mock__studio">
+        <div class="tenant-mock__slug">/ink-haven</div>
+        <div class="tenant-mock__meta">Berlin · EUR · 4 artists<br />3 chairs · own working hours</div>
+      </div>
+      <div class="tenant-mock__studio">
+        <div class="tenant-mock__slug">/north-side</div>
+        <div class="tenant-mock__meta">Hamburg · EUR · 2 artists<br />1 chair · own working hours</div>
+      </div>
+    </div>
+    <div class="tenant-mock__lock">
+      <i>🔒</i>
+      Firestore rules enforce strict per-tenant isolation — no cross-studio data leakage, switching studio in-app.
+    </div>
+  </div>
+</figure>

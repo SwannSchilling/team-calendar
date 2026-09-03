@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <section class="error">
+    <div>
+      <div class="error__code">404</div>
+      <p class="error__msg">This chair is double-booked. Let’s get you back to the schedule.</p>
+      <a class="btn btn--primary" href={import.meta.env.BASE_URL}>Back to the tour</a>
+    </div>
+  </section>
+</Layout>

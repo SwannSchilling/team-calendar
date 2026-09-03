@@ -1,0 +1,26 @@
+---
+const links = [
+  { href: '#story', label: 'A day' },
+  { href: '#features', label: 'Toolkit' },
+  { href: '#different', label: 'Different' },
+  { href: '#inventory', label: 'Inventory' },
+  { href: '#roadmap', label: 'Roadmap' },
+];
+---
+
+<header class="frame">
+  <a class="frame__brand" href="#top">
+    <svg class="frame__mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <rect x="2.5" y="4.5" width="19" height="17" rx="3" stroke="#f2a93b" stroke-width="2" />
+      <path d="M2.5 9.5h19" stroke="#f2a93b" stroke-width="2" />
+      <path d="M8 2.5v4M16 2.5v4" stroke="#f2a93b" stroke-width="2" stroke-linecap="round" />
+      <rect x="6.5" y="12.5" width="6" height="4.5" rx="1" fill="#f2a93b" />
+    </svg>
+    <span class="frame__name">Team Calendar</span>
+    <span class="frame__kind">studio management PWA</span>
+  </a>
+  <nav class="frame__nav" aria-label="Sections">
+    {links.map((l) => <a class="frame__link" data-spy={l.href.slice(1)} href={l.href}>{l.label}</a>)}
+    <a class="frame__link frame__link--gh" href="https://github.com/Ibaliqbal/codrops-barbajs-page-transition" target="blank" rel="noreferrer">GitHub</a>
+  </nav>
+</header>

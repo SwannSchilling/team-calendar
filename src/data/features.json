@@ -1,0 +1,1352 @@
+{
+  "compiled": "Repository state as of 2026-08-29 (commit edbc187)",
+  "categories": [
+    {
+      "num": 1,
+      "title": "Booking & Scheduling",
+      "id": "booking-and-scheduling",
+      "features": [
+        {
+          "id": 1,
+          "title": "Smart / Guided Booking (two modes)",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "A guided client booking page with two modes — **Quick Book** (a recommended slot with a match score) and **Choose Your Own Time** (custom filters: service, artist, date, time, location).",
+          "for": "Clients",
+          "why": "Removes the \"DM us to book\" back-and-forth; a guided path instead of a bare form.",
+          "notes": [
+            {
+              "key": "Verify:",
+              "text": "UI is live but **availability and booking confirmation are currently client-side simulated (mock slots / mock booking IDs)**; the `getSmartAvailability` callable is commented out / not in the repo. **Do not claim \"real-time online booking\"** until the backend ships."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 2,
+          "title": "Service catalog / service picker",
+          "status": [
+            "live"
+          ],
+          "what": "Admin-defined service types, each with duration, price (in cents), optional hourly rate, color, default and active flags; clients pick from pill-style buttons.",
+          "for": "Admins (define), Clients (pick)",
+          "why": "Drives correct durations/prices through the whole flow; hourly-rate support fits custom tattoo work.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 3,
+          "title": "Real-time conflict detection / double-booking prevention",
+          "status": [
+            "live"
+          ],
+          "what": "`checkTimeSlotAvailability` checks workstation conflicts, member time-off, and working hours before a slot is accepted.",
+          "for": "Artists, Admins",
+          "why": "Nothing double-books a person or a chair; wrong-room / wrong-artist collisions are caught, not discovered at 2pm.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 4,
+          "title": "Staff booking on behalf of clients",
+          "status": [
+            "live"
+          ],
+          "what": "Full appointment form for staff, including ad-hoc \"add client\" inline so a new client can be booked in one pass.",
+          "for": "Artists, Admins",
+          "why": "Fast phone/counter booking without forcing a full client signup.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 5,
+          "title": "Appointment management (CRUD)",
+          "status": [
+            "live"
+          ],
+          "what": "Create / view / edit appointments from the calendar; each carries a client note and a team note.",
+          "for": "Artists, Admins",
+          "why": "One place to manage the whole day's book.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 6,
+          "title": "Appointment status workflow",
+          "status": [
+            "live"
+          ],
+          "what": "Lifecycle states `booked / completed / cancelled / no_show / pending_reschedule / time_off`, with transitions and related alerts.",
+          "for": "Artists, Admins, Owners",
+          "why": "Feeds accurate stats (no-shows, completed), finance, and reminders.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 7,
+          "title": "Multi-view team calendar",
+          "status": [
+            "live"
+          ],
+          "what": "**Day** (per-workstation time grid), **Week** (agenda), **Month** (overview).",
+          "for": "Everyone (role-scoped)",
+          "why": "The core surface; multiple views fit different planning horizons.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 8,
+          "title": "\"My schedule only\" filter",
+          "status": [
+            "live"
+          ],
+          "what": "Team members filter the calendar to just their own appointments.",
+          "for": "Artists",
+          "why": "No more scrolling through six people's bookings to find yours.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 9,
+          "title": "Appointment detail modal (linked context)",
+          "status": [
+            "live"
+          ],
+          "what": "A detail view linking the client's contact info, assigned artist, workstation, notes, reference images, and who created the booking.",
+          "for": "Artists, Admins",
+          "why": "Full context in one click before the client walks in.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 10,
+          "title": "Reference / booking images per appointment",
+          "status": [
+            "live"
+          ],
+          "what": "Client or team uploads reference images (design refs, before/after); auto-resized on upload, deletable; surfaced in the artist's upcoming schedule and the team-member profile; a notification to the assigned team member is designed.",
+          "for": "Artists, Clients",
+          "why": "A creative-studio workflow — the artist sees exactly what to draw before the appointment. *(Differentiator.)*",
+          "notes": [],
+          "differentiator": true,
+          "niche": false
+        },
+        {
+          "id": 11,
+          "title": "Client self-reschedule via secure one-time link",
+          "status": [
+            "progress"
+          ],
+          "what": "A tokenized, expiring link (48h, admin-configurable) that lets a client pick an alternative slot computed from the artist's real working hours + time-off + reschedule slots.",
+          "for": "Clients, Admins (policy)",
+          "why": "Cuts \"can I move my appointment?\" messages without giving clients a full login.",
+          "notes": [
+            {
+              "key": "Note (status conflict):",
+              "text": "Backend functions exist, but feature doc 008 marks this **\"in progress / blocked\"** (documented bugs in `initiateReschedule` — date-range / working-hours), while `PROJECT_PROGRESS` lists it **DONE**. Treated as 🟡 pending verification."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 12,
+          "title": "Reschedule policy controls + per-artist slot windows",
+          "status": [
+            "live"
+          ],
+          "what": "Admin policy knobs — `searchStartDaysBefore`, `maxSearchDays`, `maxSlotsPerSearch`, `tokenExpirationHours` — plus per-member reschedule slot windows.",
+          "for": "Admins",
+          "why": "Studios control how far out / how many slots a client may search; artists can carve out their own reschedulable windows.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 13,
+          "title": "Per-artist & business-wide working hours",
+          "status": [
+            "live"
+          ],
+          "what": "Working-hours definitions at both the business level and per artist.",
+          "for": "Admins, Artists",
+          "why": "Drives availability, conflict checks, and reschedule slot search.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 14,
+          "title": "Time-off scheduling (with reason) + staff status bar",
+          "status": [
+            "live"
+          ],
+          "what": "Artists book time off with a reason; a status bar surfaces it across the team.",
+          "for": "Artists, Admins",
+          "why": "Prevents booking into a known absence; the team can see who's out.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 15,
+          "title": "Buffer time (per artist + per workstation)",
+          "status": [
+            "live"
+          ],
+          "what": "`bufferMinutes` on both team members and workstations.",
+          "for": "Admins, Artists",
+          "why": "Built-in clean-up/setup time so appointments don't butt against each other.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 16,
+          "title": "Workstation / chair as a bookable resource",
+          "status": [
+            "live"
+          ],
+          "what": "Appointments are tied to a location + a specific workstation; workstations have **capacity** and **buffer**, and conflict detection runs **per workstation** (day view renders a per-chair time grid).",
+          "for": "Admins, Artists",
+          "why": "Most booking tools book *people*; this books the **physical chair too**, so two artists can't be double-booked into the same station. *(Differentiator.)*",
+          "notes": [],
+          "differentiator": true,
+          "niche": false
+        },
+        {
+          "id": 17,
+          "title": "Multi-location scheduling",
+          "status": [
+            "live"
+          ],
+          "what": "Appointments carry a `locationId`; each location has its own timezone and currency.",
+          "for": "Owners running more than one site",
+          "why": "Correct time and currency across regions from one app.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": {
+        "area": "Booking",
+        "text": "Block-out time slots (shorter than time-off)"
+      }
+    },
+    {
+      "num": 2,
+      "title": "Client Management",
+      "id": "client-management",
+      "features": [
+        {
+          "id": 18,
+          "title": "Client profiles / database",
+          "status": [
+            "live"
+          ],
+          "what": "A client record with name, email, phone, and **Instagram handle**, plus contact info and booking history.",
+          "for": "Artists, Admins",
+          "why": "Everything about a client lives in one place, not scattered across notes apps and group chats. The Instagram field is a social-first touch for creative studios. *(Niche.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": true
+        },
+        {
+          "id": 19,
+          "title": "Live client stats",
+          "status": [
+            "live"
+          ],
+          "what": "Auto-maintained counters — total visits, completed, cancelled, no-shows — updated by the `updateClientStats` Cloud Function.",
+          "for": "Admins, Owners",
+          "why": "Real retention / no-show signal without manual tracking.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 20,
+          "title": "Client search",
+          "status": [
+            "live"
+          ],
+          "what": "Search clients by name, email, or phone.",
+          "for": "Artists, Admins",
+          "why": "Fast lookup at the desk or before an appointment.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 21,
+          "title": "Booking enable / disable per client (`canBook`)",
+          "status": [
+            "live"
+          ],
+          "what": "An admin-gated activation flag that controls whether a client may self-book.",
+          "for": "Admins",
+          "why": "Studios control who can book online (e.g., only after a phone screening or a first-visit deposit).",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 22,
+          "title": "Add / edit / delete clients from admin",
+          "status": [
+            "live"
+          ],
+          "what": "Full client CRUD in the admin area, plus \"add client\" inline in the booking form.",
+          "for": "Admins",
+          "why": "Keep the client database clean and current.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 23,
+          "title": "Client self-signup (email/password + magic link)",
+          "status": [
+            "live"
+          ],
+          "what": "Clients can create an account (email/password or passwordless magic link); new accounts start **pending activation** until an admin enables `canBook`.",
+          "for": "Clients",
+          "why": "Self-service onboarding, still gated by the studio.",
+          "notes": [
+            {
+              "key": "Note:",
+              "text": "post multi-tenant deploy, the onboarding flow changes with the client-onboarding wave (see §49)."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 24,
+          "title": "Composite client profile (multi-tenant)",
+          "status": [
+            "pending"
+          ],
+          "what": "Client documents keyed as `clients/{businessId}_{authUid}`, so one person can be a client across multiple studios.",
+          "for": "Clients who visit more than one studio; Owners",
+          "why": "A single account spanning studios without data leaking between them. Part of the multi-tenant wave (deploy pending).",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 25,
+          "title": "Versioned privacy consent + re-consent",
+          "status": [
+            "live"
+          ],
+          "what": "Consent is versioned; when the privacy policy updates, clients are prompted to re-consent.",
+          "for": "Clients, Owners (compliance)",
+          "why": "GDPR-style consent trail with auditability.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 26,
+          "title": "Self-service data export (JSON download)",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "A client can download all of their data as JSON (right to data portability).",
+          "for": "Clients",
+          "why": "A GDPR data-right, self-served.",
+          "notes": [
+            {
+              "key": "Verify:",
+              "text": "UI exists; the `requestDataExport` callable is **not found** in the current repo. Confirm before claiming."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 27,
+          "title": "Self-service account / data deletion (with reason)",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "A client can request deletion of their account / data, providing a reason.",
+          "for": "Clients",
+          "why": "The \"right to be forgotten,\" self-served and logged.",
+          "notes": [
+            {
+              "key": "Verify:",
+              "text": "UI exists; the `requestDataDeletion` callable is **not found** in the current repo. Confirm before claiming."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 3,
+      "title": "Team & Staff",
+      "id": "team-and-staff",
+      "features": [
+        {
+          "id": 28,
+          "title": "Multi-artist team calendar with per-artist color coding",
+          "status": [
+            "live"
+          ],
+          "what": "A shared team calendar where each artist is color-coded and their schedule is distinct.",
+          "for": "Admins, Owners",
+          "why": "Admins see everyone; the visual separation makes a busy shop readable.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 29,
+          "title": "Three-tier roles + custom role definitions",
+          "status": [
+            "live"
+          ],
+          "what": "Owner / Admin / Member (Artist) tiers, plus the ability to define custom roles.",
+          "for": "Owners, Admins",
+          "why": "Granular, studio-specific permission shapes rather than only three fixed buckets.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 30,
+          "title": "Role-based UI access",
+          "status": [
+            "live"
+          ],
+          "what": "UI gates by role — admin dashboard, finance gated by a `financeEnabled` flag, client-only navigation, and role-aware header nav.",
+          "for": "Everyone",
+          "why": "A new hire doesn't see the whole shop's financials on day one; nobody is locked out of what they need.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 31,
+          "title": "Client → staff promotion flow",
+          "status": [
+            "pending"
+          ],
+          "what": "An atomic, auth-account-aware flow that turns a client into a team member.",
+          "for": "Owners, Admins",
+          "why": "Hire an existing client without manual account surgery.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "The **new P6 implementation is deploy pending** (multi-tenant wave); the **old flow is live** in the meantime."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 32,
+          "title": "Team member management (complete setup)",
+          "status": [
+            "live"
+          ],
+          "what": "Full team-member administration, including working hours, colors, reschedule slots, and promotion.",
+          "for": "Admins, Owners",
+          "why": "One place to run the team.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 33,
+          "title": "Per-team-member stats",
+          "status": [
+            "live"
+          ],
+          "what": "Stats per team member, maintained by the `updateTeamMemberStats` Cloud Function.",
+          "for": "Admins, Owners",
+          "why": "Performance / activity view per artist.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": {
+        "area": "Team",
+        "text": "Internal team messaging"
+      }
+    },
+    {
+      "num": 4,
+      "title": "Payments & Finance",
+      "id": "payments-and-finance",
+      "features": [
+        {
+          "id": 34,
+          "title": "Finance module (complete)",
+          "status": [
+            "live"
+          ],
+          "what": "A full finance area: ledgers, sync, checkout, commission, month-close, recurring entries, and printing.",
+          "for": "Owners, Admins, Artists",
+          "why": "Studio money is tracked inside the scheduler instead of on a napkin.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 35,
+          "title": "Per-artist commission / split-pay ledger",
+          "status": [
+            "live"
+          ],
+          "what": "Per-transaction artist-vs-shop split, tracked on each ledger entry.",
+          "for": "Owners, Artists",
+          "why": "The \"who owes what\" answer is automatic, per transaction. *(Differentiator.)*",
+          "notes": [],
+          "differentiator": true,
+          "niche": false
+        },
+        {
+          "id": 36,
+          "title": "Ledger checkout / finalize",
+          "status": [
+            "live"
+          ],
+          "what": "A checkout-and-finalize step for ledger entries; finalized entries lock in place.",
+          "for": "Admins, Owners",
+          "why": "No \"wait, did we already pay that out?\" — confirmed entries can't be double-counted.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 37,
+          "title": "Month-close + carry-forward + locked months",
+          "status": [
+            "live"
+          ],
+          "what": "Close a month, carry forward balances, and lock closed months from further edits.",
+          "for": "Owners",
+          "why": "Clean period boundaries with immutability for accounting.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 38,
+          "title": "Recurring events / recurring ledger entries",
+          "status": [
+            "live"
+          ],
+          "what": "Support for recurring (repeating) appointments / ledger items.",
+          "for": "Admins",
+          "why": "Regulars and retainer work without re-entry.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 39,
+          "title": "\"Paid upfront\" €0.00 rule (commission integrity)",
+          "status": [
+            "live"
+          ],
+          "what": "A rule that treats fully-paid-upfront jobs so the commission split stays consistent (e.g., a €0.00 residual with the full amount attributed correctly).",
+          "for": "Owners, Artists",
+          "why": "Prevents commission math from breaking on prepaid jobs. *(Niche.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": true
+        },
+        {
+          "id": 40,
+          "title": "Finance print report (bilingual EN/DE)",
+          "status": [
+            "live"
+          ],
+          "what": "A printable finance report; labels are provided in **English and German**.",
+          "for": "Owners, Admins",
+          "why": "A real document to hand to an accountant or keep on file; the EN/DE labels hint at a growing EU audience.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 41,
+          "title": "Perspective-aware finance display",
+          "status": [
+            "live"
+          ],
+          "what": "The same ledger can be viewed from the artist's perspective or the shop's perspective.",
+          "for": "Artists, Owners",
+          "why": "Each role sees the split from the side that matters to them.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 42,
+          "title": "Stripe payment integration (deposits / full payment at booking)",
+          "status": [
+            "planned"
+          ],
+          "what": "Take deposits or full payments at booking time via Stripe.",
+          "for": "Studios, Clients",
+          "why": "Reduce no-shows and capture revenue in-flow. *(Planned / roadmap.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 5,
+      "title": "Multi-location & Multi-tenant",
+      "id": "multi-location-and-multi-tenant",
+      "features": [
+        {
+          "id": 43,
+          "title": "Multi-location (full)",
+          "status": [
+            "live"
+          ],
+          "what": "Locations with full admin CRUD, each carrying a **timezone**, a **currency**, and a default setting.",
+          "for": "Owners, Admins",
+          "why": "Run several sites from one app with correct time/currency per site.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 44,
+          "title": "Multi-tenant architecture (strict isolation)",
+          "status": [
+            "pending"
+          ],
+          "what": "Businesses/tenants with slugs + memberships; one user account can belong to multiple studios; Firestore rules enforce strict per-tenant isolation.",
+          "for": "Owners, Operators running several studios",
+          "why": "\"One account, many studios\" without any cross-studio data leakage.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "Implemented + tested; **deployment pending** as of 2026-08-29. *(Differentiator.)*"
+            }
+          ],
+          "differentiator": true,
+          "niche": false
+        },
+        {
+          "id": 45,
+          "title": "Tenant selection / switching UI",
+          "status": [
+            "pending"
+          ],
+          "what": "A `/select-tenant` route, a `TenantContextSwitcher`, and an `/access-denied` screen.",
+          "for": "Users with multiple studios",
+          "why": "Switch the active studio in-app; clean fallback when a user lacks access to the requested tenant.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 46,
+          "title": "Business / tenant onboarding",
+          "status": [
+            "pending"
+          ],
+          "what": "`createBusinessOwnerMembership` Cloud Function performs 7-document atomic provisioning, including a composite owner client profile; an ops CLI script (`create_tenant.py`) also exists.",
+          "for": "Operators, DevOps",
+          "why": "A studio can be stood up atomically and consistently.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "Part of the multi-tenant wave (deploy pending)."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 47,
+          "title": "Business bootstrap script (`create_business.py`)",
+          "status": [
+            "planned"
+          ],
+          "what": "A proposed one-step business bootstrap script.",
+          "for": "DevOps, Owners",
+          "why": "Faster, scriptable studio creation. *(Documented as \"Proposed — not yet implemented\".)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 48,
+          "title": "Branded public booking URL (`/{slug}/booking`) + public studio discovery",
+          "status": [
+            "planned"
+          ],
+          "what": "Each studio gets its own public slug URL that clients hit directly, plus public discovery of studios.",
+          "for": "Studios, Clients",
+          "why": "\"yourstudio.app/booking\" instead of \"DM us to book.\" *(Deferred — task 10.3; not yet built.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 49,
+          "title": "Client onboarding wave (composite client model)",
+          "status": [
+            "planned"
+          ],
+          "what": "Studio picker at signup, multi-studio switching for pure clients, and public studio discovery.",
+          "for": "Clients, Studios",
+          "why": "Until this ships, **pure-client self-booking is degraded** relative to the multi-tenant design.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "Requirements authored (Kiro spec `client-onboarding`); implementation pending (gates G1–G5)."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 50,
+          "title": "Business branding fields (`primaryColor`, `secondaryColor`, `logoUrl`)",
+          "status": [
+            "planned"
+          ],
+          "what": "Branding fields on the Business document.",
+          "for": "Owners",
+          "why": "Studio theming / white-labeling.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "Fields exist but **no UI applies them yet**; today the only live branding touch is the **default location name shown as the app title** in the header. Tied to the \"customizable themes\" roadmap item."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 6,
+      "title": "Notifications & Reminders",
+      "id": "notifications-and-reminders",
+      "features": [
+        {
+          "id": 51,
+          "title": "Push notifications (booking created)",
+          "status": [
+            "live"
+          ],
+          "what": "`sendNewAppointmentNotification` fires on a new booking (push + in-app + email queue).",
+          "for": "Artists, Clients",
+          "why": "Everyone knows a new appointment landed, immediately.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 52,
+          "title": "Push notifications (cancel / reschedule)",
+          "status": [
+            "live"
+          ],
+          "what": "`sendAppointmentModifiedNotification` fires when an appointment is cancelled or rescheduled.",
+          "for": "Artists, Clients",
+          "why": "Cancellation / change is surfaced in real time, not discovered later.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 53,
+          "title": "Stats notifications",
+          "status": [
+            "live"
+          ],
+          "what": "Team / client stats updates emit notifications via `updateClientStats` / `updateTeamMemberStats`.",
+          "for": "Admins, Owners",
+          "why": "Activity signal without opening the dashboard.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 54,
+          "title": "App-icon badge count",
+          "status": [
+            "live"
+          ],
+          "what": "`syncBadgeCount` keeps the PWA icon's unread badge in sync.",
+          "for": "Everyone",
+          "why": "At-a-glance \"something needs attention\" on the home screen.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 55,
+          "title": "In-app notification center",
+          "status": [
+            "live"
+          ],
+          "what": "A centralized in-app inbox for all notifications.",
+          "for": "Everyone",
+          "why": "History and retrieval of every event in one place.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 56,
+          "title": "Notification tiers for staff",
+          "status": [
+            "live"
+          ],
+          "what": "Staff can set a tier / level of push noise.",
+          "for": "Artists",
+          "why": "Control how much the app pings you — a quality-of-life differentiator for busy chairs. *(Differentiator.)*",
+          "notes": [],
+          "differentiator": true,
+          "niche": false
+        },
+        {
+          "id": 57,
+          "title": "Automated 24h / 1h reminders (scheduled Cloud Function)",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Scheduled reminders sent 24h and 1h before an appointment.",
+          "for": "Artists, Clients",
+          "why": "The single biggest no-show reducer.",
+          "notes": [
+            {
+              "key": "Verify (status conflict):",
+              "text": "`PROJECT_PROGRESS` lists this as **WORKING**, but **no scheduled-reminder function was found in the current repo** and the design spec lists reminders as future work. **Confirm before claiming.**"
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 58,
+          "title": "Client-facing notifications",
+          "status": [
+            "planned"
+          ],
+          "what": "Notification delivery to clients (beyond current triggers).",
+          "for": "Clients",
+          "why": "Close the loop on the client side. *(Planned.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 7,
+      "title": "Forms & Paperwork",
+      "id": "forms-and-paperwork",
+      "features": [
+        {
+          "id": 59,
+          "title": "Admin form builder",
+          "status": [
+            "progress"
+          ],
+          "what": "A `FormBuilder` for creating studio forms, plus `ClientForm` rendering; storage and Firestore rules exist.",
+          "for": "Admins",
+          "why": "Define any form (intake, consent) without hard-coding.",
+          "notes": [
+            {
+              "key": "Note:",
+              "text": "Currently a single-form setup (\"in a real app you'd have a list of forms\"); a multi-form manager is on the roadmap."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 60,
+          "title": "Client-facing intake / consent forms",
+          "status": [
+            "progress",
+            "planned"
+          ],
+          "what": "Clients complete intake/consent forms (medical/health context for tattooing) before or at the appointment.",
+          "for": "Clients, Artists",
+          "why": "Paperwork done before the chair, not during it.",
+          "notes": [
+            {
+              "key": "Status:",
+              "text": "Builder + storage + rules are in place; the **client-facing wired flow is the next roadmap step** (\"NEXT\")."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 61,
+          "title": "Email delivery infra (mail queue)",
+          "status": [
+            "progress"
+          ],
+          "what": "A mail queue exists to stage outgoing email.",
+          "for": "Studio (outbound comms)",
+          "why": "Asynchronous, reliable email.",
+          "notes": [
+            {
+              "key": "Note:",
+              "text": "Actual **delivery is handled externally** — the repo stores/queues; sending is a separate concern."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 62,
+          "title": "Forms authorization model / email tenant scoping",
+          "status": [
+            "planned"
+          ],
+          "what": "Scoping forms and email to tenants + an authorization model for forms.",
+          "for": "Owners, Admins",
+          "why": "Keep forms/email correct in a multi-tenant world. *(Roadmap.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 8,
+      "title": "Reviews & Reputation",
+      "id": "reviews-and-reputation",
+      "features": [
+        {
+          "id": 63,
+          "title": "In-app post-visit reviews",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Clients leave a review straight from the app after an appointment; the UI is complete and Firestore rules allow client creation of reviews.",
+          "for": "Clients, Studios",
+          "why": "No chasing people down for a Google review.",
+          "notes": [
+            {
+              "key": "Verify:",
+              "text": "The `submitReview` callable is **not found** in the current repo. Confirm before claiming end-to-end review submission."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 64,
+          "title": "Review stats / triggers",
+          "status": [
+            "live"
+          ],
+          "what": "Stats around reviews are maintained by live Cloud Functions.",
+          "for": "Owners, Admins",
+          "why": "Reputation signal aggregated, not manual.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 65,
+          "title": "Next-visit incentive code (10% off)",
+          "status": [
+            "live"
+          ],
+          "what": "After a review, the client is offered a 10%-off code for their next visit (currently **hardcoded in the UI**).",
+          "for": "Clients, Studios",
+          "why": "Turns a review into a repeat-visit; a loop most booking tools stop short of. *(Niche + Differentiator.)*",
+          "notes": [],
+          "differentiator": true,
+          "niche": true
+        },
+        {
+          "id": 66,
+          "title": "Social engagement funnel (Instagram follow + Google review)",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "The review flow can route to an Instagram follow and a Google review, with engagement tracking.",
+          "for": "Studios",
+          "why": "One action grows both the studio's socials and its Google rating.",
+          "notes": [
+            {
+              "key": "Verify / Note:",
+              "text": "The `trackSocialEngagement` callable is **not found** in the repo, and the Instagram/Google links are currently **placeholders (\"yourcompany\")** — not wired to a real studio."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 9,
+      "title": "Waitlist",
+      "id": "waitlist",
+      "features": [
+        {
+          "id": 67,
+          "title": "Client waitlist UI (join / leave) + rules",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Clients can join/leave a waitlist; the UI and Firestore rules exist.",
+          "for": "Clients, Studios",
+          "why": "When the slot they want is gone, they land in a waitlist tied to that request — not a text you'll forget to follow up on.",
+          "notes": [
+            {
+              "key": "Verify:",
+              "text": "The `joinWaitlist` callable is **not found** in the current repo. Confirm before claiming."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 68,
+          "title": "Waitlist tied to artist + time + workstation (with status lifecycle)",
+          "status": [
+            "verify"
+          ],
+          "what": "Waitlist entries are keyed to a **specific artist, time, and workstation**, with a status lifecycle.",
+          "for": "Studios, Artists",
+          "why": "A waitlist that knows *which chair / which artist* frees up — a plus over generic \"I'm interested\" lists.",
+          "notes": [
+            {
+              "key": "Verify / Note:",
+              "text": "A staff-list rule exists, but **no dedicated staff UI was found** yet; treat as partially surfaced. *(Differentiator.)*"
+            }
+          ],
+          "differentiator": true,
+          "niche": false
+        }
+      ],
+      "plannedNote": null
+    },
+    {
+      "num": 10,
+      "title": "Admin & Settings",
+      "id": "admin-and-settings",
+      "features": [
+        {
+          "id": 69,
+          "title": "Performance dashboard (metrics + alerts)",
+          "status": [
+            "live"
+          ],
+          "what": "An admin performance dashboard with key metrics and alerts.",
+          "for": "Owners, Admins",
+          "why": "A single pane for how the studio is doing.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 70,
+          "title": "Admin appointment list (search, edit, delete)",
+          "status": [
+            "live"
+          ],
+          "what": "A searchable admin list of all appointments with edit/delete.",
+          "for": "Admins",
+          "why": "Bulk oversight and correction outside the calendar.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 71,
+          "title": "Admin settings suite",
+          "status": [
+            "live"
+          ],
+          "what": "One area to manage locations, workstations, service types, roles, working hours, forms, reschedule policy, and ledgers.",
+          "for": "Admins, Owners",
+          "why": "The studio's configuration is all in one place.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 72,
+          "title": "Admin CRUD: business hours, roles, services, workstations, locations",
+          "status": [
+            "live"
+          ],
+          "what": "Full create/read/update/delete for the core reference data.",
+          "for": "Admins",
+          "why": "Studio can model itself accurately (hours, staff, services, chairs, sites).",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 73,
+          "title": "Debug tools (admin-only diagnostics)",
+          "status": [
+            "live"
+          ],
+          "what": "An admin-only debug/diagnostics tab.",
+          "for": "Operators, Devs",
+          "why": "Faster triage.",
+          "notes": [
+            {
+              "key": "Note:",
+              "text": "Internal tooling — **excluded from marketing / copywriting.**"
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": {
+        "area": "Admin / Finance",
+        "text": "Advanced reporting & analytics dashboard"
+      }
+    },
+    {
+      "num": 11,
+      "title": "Platform & App Experience",
+      "id": "platform-and-app-experience",
+      "features": [
+        {
+          "id": 74,
+          "title": "Installable PWA",
+          "status": [
+            "live"
+          ],
+          "what": "A full PWA — `manifest.json`, service worker, install prompt, and iOS install instructions.",
+          "for": "Everyone",
+          "why": "Installs to the home screen like a native app.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 75,
+          "title": "Offline mode + connection indicator + real-time sync",
+          "status": [
+            "live"
+          ],
+          "what": "Service-worker caching, an offline indicator (shows offline / cache state), and IndexedDB persistence; data syncs on reconnect.",
+          "for": "Artists (bad signal in the chair), Everyone",
+          "why": "The app keeps working in the studio even when the Wi-Fi doesn't.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 76,
+          "title": "Real-time everything",
+          "status": [
+            "live"
+          ],
+          "what": "Calendar, waitlist, ledger, and notifications update live via Firestore `onSnapshot` listeners.",
+          "for": "Everyone",
+          "why": "No refresh; the whole team sees changes as they happen.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 77,
+          "title": "Passwordless magic-link sign-in",
+          "status": [
+            "live"
+          ],
+          "what": "Email magic-link login in addition to email/password.",
+          "for": "Clients + staff",
+          "why": "Lower-friction, secure sign-in.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 78,
+          "title": "Role-aware navigation + pending-activation home state",
+          "status": [
+            "live"
+          ],
+          "what": "The shell adapts to the user's role and their activation state (booking-enabled / pending / staff).",
+          "for": "Everyone",
+          "why": "Each person lands on the screen that's actually theirs.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 79,
+          "title": "Mobile-first finance UI",
+          "status": [
+            "live"
+          ],
+          "what": "The finance area is designed mobile-first.",
+          "for": "Owners, Admins (on the go)",
+          "why": "Check the books from a phone at the end of the day.",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 80,
+          "title": "Multi-language support",
+          "status": [
+            "planned"
+          ],
+          "what": "i18n across the app.",
+          "for": "Studios with multilingual clients/staff",
+          "why": "Reach a broader market.",
+          "notes": [
+            {
+              "key": "Note:",
+              "text": "**Partial today** — finance print is already EN/DE, and a `useRescheduleTranslation` hook exists on the reschedule page; full i18n is roadmap."
+            }
+          ],
+          "differentiator": false,
+          "niche": false
+        },
+        {
+          "id": 81,
+          "title": "Customizable themes / branding application",
+          "status": [
+            "planned"
+          ],
+          "what": "Apply business branding (colors, logo) across the app.",
+          "for": "Owners",
+          "why": "White-label / studio-branded experience. *(Tied to #50; roadmap.)*",
+          "notes": [],
+          "differentiator": false,
+          "niche": false
+        }
+      ],
+      "plannedNote": {
+        "area": "Platform",
+        "text": "Public API"
+      }
+    }
+  ],
+  "differentiators": [
+    {
+      "title": "Studio commission accounting built into the scheduler",
+      "refs": "#34–#39",
+      "line": "Per-transaction artist-vs-shop split with checkout, finalize, month-close, carry-forward, locked months, and a \"paid upfront\" integrity rule. No mainstream booking tool does studio revenue accounting. This is the \"napkin math\" killer — the single pain line that lands hardest with real shop owners."
+    },
+    {
+      "title": "Chairs / workstations as bookable resources with conflict detection",
+      "refs": "#16, #3",
+      "line": "Most tools book *people*; this books the physical station (capacity + buffer), preventing two artists from landing in the same chair."
+    },
+    {
+      "title": "Design-reference workflow per appointment",
+      "refs": "#10",
+      "line": "Reference / before-after images attached to the appointment, so the artist sees exactly what to draw before the client walks in. A genuine creative-industry workflow."
+    },
+    {
+      "title": "Secure one-time client reschedule link with studio-configurable policy",
+      "refs": "#11, #12",
+      "line": "Tokenized, expiring, constrained to the artist's real windows; the admin dials the search window. Rare in booking tools."
+    },
+    {
+      "title": "In-app post-visit review with a discount-code funnel + social proof loop",
+      "refs": "#63, #65, #66",
+      "line": "Closes the loop the others stop at: review → 10%-off code → Instagram follow → Google review, all tracked."
+    },
+    {
+      "title": "Per-artist waitlist tied to artist + time + workstation",
+      "refs": "#67, #68",
+      "line": "Not just \"I'm interested,\" but a specific slot/chair request with a status lifecycle."
+    },
+    {
+      "title": "Artist-first mobile PWA with notification tiers",
+      "refs": "#74, #75, #56",
+      "line": "Staff get an installable app with controllable push noise and offline mode."
+    },
+    {
+      "title": "True multi-tenant isolation",
+      "refs": "#44",
+      "line": "One account across multiple studios, rule-enforced."
+    },
+    {
+      "title": "Instagram handle on the client record",
+      "refs": "#18",
+      "line": "A social-first client base for creative studios."
+    },
+    {
+      "title": "Per-location timezone + currency",
+      "refs": "#17, #43",
+      "line": "Multi-region studios without manual conversion."
+    }
+  ],
+  "niche": [
+    "Commission split / studio finance (artist vs shop cut)",
+    "Chair / workstation (tattoo chair) scheduling",
+    "Design-reference images (refs / before-after)",
+    "Instagram handle on client profile + social funnel",
+    "10%-off review incentive",
+    "\"Paid upfront\" €0.00 commission-integrity rule",
+    "Custom hourly rates for custom work",
+    "No-show tracking (high no-show cost in tattoo)",
+    "Consent / intake forms (health context)",
+    "Waitlist for popular artists"
+  ],
+  "general": [
+    "Scheduling core (day/week/month), availability, conflict detection",
+    "Client profiles + history + booking permission",
+    "Roles / permissions, multi-staff",
+    "Multi-location, multi-tenant",
+    "Notifications & reminders",
+    "Reviews & ratings",
+    "Waitlist",
+    "Ledger / invoicing basics",
+    "Form builder",
+    "PWA / offline",
+    "GDPR data export / deletion",
+    "Business hours management"
+  ],
+  "statusCounts": {
+    "live": 55,
+    "progress": 11,
+    "pending": 5,
+    "planned": 10,
+    "verify": 8
+  },
+  "totalFeatures": 81
+}
