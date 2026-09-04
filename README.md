@@ -53,6 +53,33 @@ The parser verifies feature ids 1..N, category counts and status totals — read
 before committing. Curated marketing copy lives separately in `src/data/tour.ts`
 (hero, story beats, pillar intros, differentiator punch lines, roadmap).
 
+## German version (i18n)
+
+The site has a hand-written German edition at `/team-calendar/de/` (EN/DE toggle in the frame nav).
+It is a dedicated static build — no runtime JS translation:
+
+| Locale | Entry | Copy | Features |
+|---|---|---|---|
+| EN | `src/pages/index.astro` → `<TourPage locale="en">` | `src/data/tour.ts` | `src/data/features.json` |
+| DE | `src/pages/de/index.astro` → `<TourPage locale="de">` | `src/data/tour.de.ts` | `src/data/features.de.json` |
+
+To update content in both languages:
+
+```bash
+node scripts/parse-inventory.mjs        # regenerate EN features.json from FEATURE_INVENTORY.md
+# translate/adjust the DE twins by hand: features.de.json + tour.de.ts
+node scripts/check-i18n.mjs             # verifies 81/81 ids, statuses, flags, categories aligned
+npm run build
+node scripts/verify-i18n-dist.mjs       # 33 post-build checks on dist/index.html + dist/de/index.html
+```
+
+Status and role labels are data-driven (`src/utils/text.ts`: `STATUS_LABELS` / `ROLE_LABELS`);
+inventory UI strings live in `tour.ui` (EN) and `tour.de.ts` → `ui` (DE), mockup copy is passed
+as a `copy` prop from `tour.mock` / `tour.de.mock`. Role filter keys stay language-agnostic
+tokens (Owner/Admin/Artist/Client) so both locales filter identically.
+
+The 404 page is shared and EN-only (accepted limitation — it can get a DE twin later).
+
 ## Screenshot capture spec (for real UI shots)
 
 The visuals in this repo are hand-built vector mockups. When you have the app running, capture

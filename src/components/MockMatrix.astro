@@ -1,49 +1,35 @@
-<figure class="mock matrix-mock" aria-label="What each role sees">
+---
+import type { MockCopy } from '../data/tour';
+
+interface Props {
+  copy: MockCopy['matrix'];
+}
+
+const { copy } = Astro.props;
+const cellClass = (c: string) => (c === '\u2713' ? 'yes' : c === '\u2014' ? 'no' : 'some');
+---
+
+<figure class="mock matrix-mock" aria-label={copy.aria}>
   <div class="mock__bar">
     <span class="mock__dot"></span>
     <span class="mock__dot"></span>
-    <span class="mock__title">Roles · who sees what</span>
+    <span class="mock__title">{copy.title}</span>
   </div>
   <div class="mock__body" style="padding:0.6rem 0.9rem">
     <table>
       <thead>
         <tr>
           <th></th>
-          <th>Calendar</th>
-          <th>Clients</th>
-          <th>Finance</th>
-          <th>Admin</th>
+          {copy.cols.map((c) => <th>{c}</th>)}
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><strong style="color:var(--paper)">Owner</strong></td>
-          <td class="yes">✓</td>
-          <td class="yes">✓</td>
-          <td class="yes">✓</td>
-          <td class="yes">✓</td>
-        </tr>
-        <tr>
-          <td><strong style="color:var(--paper)">Admin</strong></td>
-          <td class="yes">✓</td>
-          <td class="yes">✓</td>
-          <td class="some">read</td>
-          <td class="yes">✓</td>
-        </tr>
-        <tr>
-          <td><strong style="color:var(--paper)">Artist</strong></td>
-          <td class="some">mine</td>
-          <td class="some">own book</td>
-          <td class="some">own split</td>
-          <td class="no">—</td>
-        </tr>
-        <tr>
-          <td><strong style="color:var(--paper)">Client</strong></td>
-          <td class="some">own appts</td>
-          <td class="yes">own</td>
-          <td class="no">—</td>
-          <td class="no">—</td>
-        </tr>
+        {copy.rows.map((r) => (
+          <tr>
+            <td><strong style="color:var(--paper)">{r.role}</strong></td>
+            {r.cells.map((c) => <td class={cellClass(c)}>{c}</td>)}
+          </tr>
+        ))}
       </tbody>
     </table>
   </div>

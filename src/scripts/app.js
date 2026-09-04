@@ -160,7 +160,10 @@ class App {
         row.classList.toggle('is-hidden', !ok);
         if (ok) shown += 1;
       });
-      count.textContent = `Showing ${shown} of ${rows.length} features`;
+      const isDe = document.documentElement.lang === 'de';
+      count.textContent = isDe
+        ? `Zeige ${shown} von ${rows.length} Funktionen`
+        : `Showing ${shown} of ${rows.length} features`;
       empty.style.display = shown === 0 ? 'block' : 'none';
     };
 

@@ -1,8 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { meta, ui } from "../data/tour";
 ---
 
-<Layout>
+<Layout locale="en" meta={meta} ui={ui}>
   <section class="error">
     <div>
       <div class="error__code">404</div>

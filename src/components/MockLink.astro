@@ -1,9 +1,19 @@
-<figure class="mock link-mock" aria-label="One-time reschedule link" style="padding:0">
+---
+import type { MockCopy } from '../data/tour';
+
+interface Props {
+  copy: MockCopy['link'];
+}
+
+const { copy } = Astro.props;
+---
+
+<figure class="mock link-mock" aria-label={copy.aria} style="padding:0">
   <div class="mock__body" style="padding:1rem">
     <div class="link-mock__msg">
-      <div class="link-mock__from">Ink Haven Studio</div>
-      <div class="link-mock__text">Hi Alex — need to move your Sat 14:00 with Mara? Pick a new slot, no login needed. The link expires in 48h.</div>
-      <span class="link-mock__url">ink-haven.app/r/8f3a…&nbsp; <small>one-time · 48h</small></span>
+      <div class="link-mock__from">{copy.from}</div>
+      <div class="link-mock__text">{copy.text}</div>
+      <span class="link-mock__url">ink-haven.app/r/8f3a…&nbsp; <small>{copy.urlLabel}</small></span>
     </div>
   </div>
 </figure>

@@ -1,27 +1,30 @@
 ---
 import StatusBadge from './StatusBadge.astro';
-import { plain, rolesFor, shortWhy } from '../utils/text';
+import { plain, rolesFor, shortWhy, ROLE_LABELS } from '../utils/text';
+import type { Locale } from '../utils/text';
 import type { Feature } from '../types';
 
 interface Props {
   feature: Feature;
   showNum?: boolean;
+  locale?: Locale;
+  diffLabel?: string;
 }
 
-const { feature, showNum = true } = Astro.props;
-const roles = rolesFor(feature);
+const { feature, showNum = true, locale = 'en', diffLabel = 'differentiator' } = Astro.props;
+const roles = rolesFor(feature).map((r) => ROLE_LABELS[locale][r] ?? r);
 ---
 
 <article class="card" data-reveal>
   <div class="card__top">
     {showNum && <span class="card__num">#{feature.id.toString().padStart(2, '0')}</span>}
     {!showNum && <span></span>}
-    <StatusBadge status={feature.status} />
+    <StatusBadge status={feature.status} locale={locale} />
   </div>
   <h3 class="card__title">{feature.title}</h3>
   <p class="card__why">{shortWhy(feature)}</p>
   <div class="card__foot">
-    {feature.differentiator && <span class="diff-star">★ differentiator</span>}
+    {feature.differentiator && <span class="diff-star">★ {diffLabel}</span>}
     {roles.map((r) => <span class="role">{r}</span>)}
   </div>
 </article>

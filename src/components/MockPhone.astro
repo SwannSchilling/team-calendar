@@ -1,12 +1,15 @@
 ---
+import type { MockCopy } from '../data/tour';
+
 interface Props {
   compact?: boolean;
+  copy: MockCopy['phone'];
 }
 
-const { compact = false } = Astro.props;
+const { compact = false, copy } = Astro.props;
 ---
 
-<figure class={`mock phone-mock-wrap ${compact ? 'is-compact' : ''}`} aria-label="Installable PWA on a phone" style="padding:0">
+<figure class={`mock phone-mock-wrap ${compact ? 'is-compact' : ''}`} aria-label={copy.aria} style="padding:0">
   <div class="phone-mock">
     <div class="phone-mock__notch"></div>
     <div class="phone-mock__homescreen">
@@ -20,18 +23,18 @@ const { compact = false } = Astro.props;
           </svg>
         </span>
         <span class="phone-mock__badge">3</span>
-        <span class="phone-mock__appname">Team Calendar</span>
+        <span class="phone-mock__appname">{copy.app}</span>
       </div>
       {Array.from({ length: compact ? 3 : 7 }, () => <span class="phone-mock__app"><span class="phone-mock__icon phone-mock__icon--dim"></span><span class="phone-mock__appname">&nbsp;</span></span>)}
     </div>
     <div class="phone-mock__notif">
-      <div class="phone-mock__notiftitle"><span>New appointment</span><span>now</span></div>
-      <div class="phone-mock__notifbody">Alex M. · Sat 14:00 · Chair 1 — ref images attached</div>
+      <div class="phone-mock__notiftitle"><span>{copy.n1t}</span><span>{copy.now}</span></div>
+      <div class="phone-mock__notifbody">{copy.n1b}</div>
     </div>
     <div class="phone-mock__notif">
-      <div class="phone-mock__notiftitle"><span>Appointment changed</span><span>2h</span></div>
-      <div class="phone-mock__notifbody">Sami T. rescheduled to Sun 18:00</div>
+      <div class="phone-mock__notiftitle"><span>{copy.n2t}</span><span>{copy.ago}</span></div>
+      <div class="phone-mock__notifbody">{copy.n2b}</div>
     </div>
-    <div class="phone-mock__offline"><i></i>Offline — changes will sync when the connection returns</div>
+    <div class="phone-mock__offline"><i></i>{copy.offline}</div>
   </div>
 </figure>

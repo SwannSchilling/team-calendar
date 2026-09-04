@@ -24,6 +24,8 @@ export interface Pillar {
 export const hero = {
   kicker: "Studio management PWA",
   title: "One app retires the sheet, the chat, and the napkin.",
+  titleA: "One app retires",
+  titleB: "the sheet, the chat, and the napkin.",
   sub: "Team Calendar is the scheduler built for tattoo studios — guided client booking, a team calendar that books chairs as well as people, a commission ledger that answers “who owes what”, and an installable PWA that keeps working when the Wi-Fi doesn’t.",
   ctaPrimary: { label: "Walk through a day", href: "#story" },
   ctaSecondary: { label: "Full feature inventory", href: "#inventory" },
@@ -218,4 +220,199 @@ export const footer = {
   tagline: "The studio scheduler that retires the sheet, the chat, and the napkin.",
   github: "https://github.com/SwannSchilling/team-calendar",
 };
+
+/* ---------- i18n: shared shapes + EN strings (German twin in ./tour.de.ts) ---------- */
+
+export interface UiStrings {
+  showing: string;
+  empty: string;
+  allAreas: string;
+  searchPlaceholder: string;
+  searchAria: string;
+  catAria: string;
+  statusAria: string;
+  roleAria: string;
+  roles: { key: string; label: string }[];
+  whatLabel: string;
+  whoLabel: string;
+  beatBefore: string;
+  beatAfter: string;
+  soonHead: string;
+  laterHead: string;
+  sourceRepo: string;
+  inventoryMeta: string;
+  builtWith: string;
+  frameKind: string;
+  nav: { href: string; label: string }[];
+  github: string;
+  differentiator: string;
+}
+
+export interface MockCopy {
+  dayGrid: {
+    aria: string; title: string; live: string; chairs: string[];
+    clients: { alex: string; sam: string; lena: string };
+    buffer: string; timeoff: string; services: { custom: string; flash: string; coverup: string }; refTitle: string;
+  };
+  ledger: {
+    aria: string; title: string; view: string;
+    jobs: { job: string; meta: string }[];
+    splitA: string; splitB: string; ok: string; lock: string; print: string; amounts: string[];
+  };
+  phone: { aria: string; app: string; now: string; ago: string; n1t: string; n1b: string; n2t: string; n2b: string; offline: string };
+  flow: { aria: string; title: string; steps: { t: string; d: string }[]; foot: string };
+  tenant: { aria: string; title: string; user: string; userMeta: string; member: string; meta: string[][]; lock: string };
+  matrix: { aria: string; title: string; cols: string[]; rows: { role: string; cells: string[] }[] };
+  link: { aria: string; from: string; text: string; urlLabel: string };
+  refs: { aria: string; appt: string; pill: string; more: string; note: string };
+}
+
+export const meta = {
+  title: "Team Calendar — the studio scheduler that retires the sheet, the chat, and the napkin",
+  description: "A feature tour of Team Calendar, the tattoo-studio management PWA: guided booking, per-chair scheduling, a commission ledger, client reviews and an offline PWA. 81 features, 11 work areas, filterable inventory.",
+};
+
+export const ui: UiStrings = {
+  showing: "Showing {n} of {total} features",
+  empty: "No features match those filters — try widening the search.",
+  allAreas: "All work areas",
+  searchPlaceholder: "Search features… (e.g. \u201ccommission\u201d, \u201cwaitlist\u201d)",
+  searchAria: "Search features",
+  catAria: "Filter by work area",
+  statusAria: "Filter by status",
+  roleAria: "Filter by role",
+  roles: [
+    { key: "Owner", label: "Owner" },
+    { key: "Admin", label: "Admin" },
+    { key: "Artist", label: "Artist" },
+    { key: "Client", label: "Client" },
+  ],
+  whatLabel: "What it does",
+  whoLabel: "Who it’s for",
+  beatBefore: "Before",
+  beatAfter: "With Team Calendar",
+  soonHead: "Next up",
+  laterHead: "Further out",
+  sourceRepo: "Source repository",
+  inventoryMeta: "Feature inventory ·",
+  builtWith: "Built with Astro · noise load-in with three.js + GSAP",
+  frameKind: "studio management PWA",
+  nav: [
+    { href: "#story", label: "A day" },
+    { href: "#features", label: "Toolkit" },
+    { href: "#different", label: "Different" },
+    { href: "#inventory", label: "Inventory" },
+    { href: "#roadmap", label: "Roadmap" },
+  ],
+  github: "GitHub",
+  differentiator: "differentiator",
+};
+
+export const mock: MockCopy = {
+  dayGrid: {
+    aria: "Team calendar day view mockup",
+    title: "Team calendar · Today, day view",
+    live: "real-time",
+    chairs: ["Chair 1", "Chair 2", "Chair 3"],
+    clients: { alex: "Alex M.", sam: "Sami T.", lena: "Lena P." },
+    buffer: "buffer",
+    timeoff: "time off",
+    services: { custom: "custom", flash: "flash", coverup: "cover-up" },
+    refTitle: "Reference image attached",
+  },
+  ledger: {
+    aria: "Commission ledger mockup",
+    title: "Finance · July ledger",
+    view: "artist view",
+    jobs: [
+      { job: "Custom back piece", meta: "Alex M. · Chair 1 · 6h" },
+      { job: "Sleeve, session 3", meta: "Sami T. · Chair 2 · 5h" },
+      { job: "Small line work", meta: "Ines B. · paid upfront" },
+    ],
+    splitA: "artist",
+    splitB: "shop",
+    ok: "✓ checked out",
+    lock: "🔒 June closed · locked",
+    print: "Print report · EN/DE",
+    amounts: ["€1,200", "€950", "€240"],
+  },
+  phone: {
+    aria: "Installable PWA on a phone",
+    app: "Team Calendar",
+    now: "now",
+    ago: "2h",
+    n1t: "New appointment",
+    n1b: "Alex M. · Sat 14:00 · Chair 1 — ref images attached",
+    n2t: "Appointment changed",
+    n2b: "Sami T. rescheduled to Sun 18:00",
+    offline: "Offline — changes will sync when the connection returns",
+  },
+  flow: {
+    aria: "Client booking flow",
+    title: "Client journey · guided booking",
+    steps: [
+      { t: "Pick a service", d: "Pills for each studio service, with duration & price" },
+      { t: "Quick Book or browse", d: "Recommended slot with match score, or your own filters" },
+      { t: "Confirm", d: "Conflict-checked: artist, hours, time-off, chair" },
+      { t: "Everyone is notified", d: "Push + in-app + email queue fire on creation" },
+      { t: "Review → 10% off", d: "Post-visit review unlocks a next-visit code" },
+    ],
+    foot: "No login required for rescheduling — one-time secure link",
+  },
+  tenant: {
+    aria: "One account, two studios, strict isolation",
+    title: "Multi-tenant · one account, two studios",
+    user: "One sign-in",
+    userMeta: "owner@studio.example · magic link or password",
+    member: "member of 2",
+    meta: [
+      ["Berlin · EUR · 4 artists", "3 chairs · own working hours"],
+      ["Hamburg · EUR · 2 artists", "1 chair · own working hours"],
+    ],
+    lock: "Firestore rules enforce strict per-tenant isolation — no cross-studio data leakage, switching studio in-app.",
+  },
+  matrix: {
+    aria: "What each role sees",
+    title: "Roles · who sees what",
+    cols: ["Calendar", "Clients", "Finance", "Admin"],
+    rows: [
+      { role: "Owner", cells: ["✓", "✓", "✓", "✓"] },
+      { role: "Admin", cells: ["✓", "✓", "read", "✓"] },
+      { role: "Artist", cells: ["mine", "own book", "own split", "—"] },
+      { role: "Client", cells: ["own appts", "own", "—", "—"] },
+    ],
+  },
+  link: {
+    aria: "One-time reschedule link",
+    from: "Ink Haven Studio",
+    text: "Hi Alex — need to move your Sat 14:00 with Mara? Pick a new slot, no login needed. The link expires in 48h.",
+    urlLabel: "one-time · 48h",
+  },
+  refs: {
+    aria: "Appointment with reference images",
+    appt: "Alex M. · Custom back piece",
+    pill: "Sat 14:00 · Chair 1",
+    more: "+1 more",
+    note: "📌 3 reference images · auto-resized on upload · visible in artist schedule",
+  },
+};
+
+/* The full tour for one locale — EN here, DE in ./tour.de.ts. */
+export interface Tour {
+  hero: typeof hero;
+  storyIntro: typeof storyIntro;
+  storyBeats: StoryBeat[];
+  pillarsIntro: typeof pillarsIntro;
+  pillars: Pillar[];
+  differentIntro: typeof differentIntro;
+  differentPunch: Record<number, string>;
+  inventoryIntro: typeof inventoryIntro;
+  legend: typeof legend;
+  roadmap: typeof roadmap;
+  honestyNote: string;
+  footer: typeof footer;
+  meta: typeof meta;
+  ui: UiStrings;
+  mock: MockCopy;
+}
 
