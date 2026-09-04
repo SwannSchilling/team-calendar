@@ -8,15 +8,18 @@
       "features": [
         {
           "id": 1,
-          "title": "Smarte / geführte Buchung (zwei Modi)",
-          "status": ["progress", "verify"],
-          "what": "Eine geführte Kunden-Buchungsseite mit zwei Modi — **Quick Book** (empfohlener Termin mit Match-Score) und **Eigenes Zeitfenster wählen** (eigene Filter: Dienstleistung, Künstler:in, Datum, Uhrzeit, Standort).",
+          "title": "Geführte Online-Buchung",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Kund:innen buchen über eine geführte Buchungsstrecke mit zwei Wegen: einer Schnellbuchung mit passendem Terminvorschlag oder der freien Wahl von Dienstleistung, Künstler:in, Datum, Uhrzeit und Standort.",
           "for": "Kunden",
-          "why": "Ersetzt das \u201eSchreib uns eine DM\u201c-Hin-und-Her durch einen geführten Weg statt ein leeres Formular.",
+          "why": "Ersetzt das mühsame Hin und Her per Direktnachricht durch einen klaren, geführten Prozess statt eines leeren Formulars.",
           "notes": [
             {
               "key": "Verifizieren:",
-              "text": "Die UI ist live, aber **Verfügbarkeit und Buchungsbestätigung werden derzeit client-seitig simuliert (Mock-Termine / Mock-Buchungs-IDs)**; der `getSmartAvailability`-Callable ist auskommentiert / nicht im Repo. **\u201eEchtzeit-Online-Buchung\u201c nicht behaupten**, bis das Backend da ist."
+              "text": "Die Buchungsoberfläche ist fertig; Verfügbarkeitsprüfung und Buchungsbestätigung laufen aktuell noch mit Testdaten, da die Anbindung an die Live-Verfügbarkeit im Backend noch nicht abgeschlossen ist. Bitte vorerst nicht als vollständige Echtzeit-Buchung kommunizieren."
             }
           ],
           "differentiator": false,
@@ -24,114 +27,134 @@
         },
         {
           "id": 2,
-          "title": "Dienstleistungs-Katalog / -Auswahl",
-          "status": ["live"],
-          "what": "Von Admins definierte Dienstleistungstypen, jeweils mit Dauer, Preis (in Cent), optionalem Stundensatz, Farbe, Standard- und Aktiv-Flag; Kunden wählen über Pill-Buttons.",
+          "title": "Dienstleistungs-Katalog",
+          "status": [
+            "live"
+          ],
+          "what": "Admins legen Dienstleistungen mit Dauer, Preis, optionalem Stundensatz und eigener Farbe fest; Kund:innen wählen bequem per Klick.",
           "for": "Admins (definieren), Kunden (wählen)",
-          "why": "Sorgt für korrekte Dauern und Preise im gesamten Flow; Stundensätze passen zu Custom-Tätowierarbeiten.",
+          "why": "So stimmen Dauer und Preis im gesamten Buchungsprozess — auch bei individuell abgerechneten Tattoo-Arbeiten.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 3,
-          "title": "Echtzeit-Konfliktprüfung / Double-Booking-Verhinderung",
-          "status": ["live"],
-          "what": "`checkTimeSlotAvailability` prüft Arbeitsplatz-Konflikte, Abwesenheiten der Teammitglieder und Arbeitszeiten, bevor ein Termin angenommen wird.",
+          "title": "Automatische Konfliktprüfung",
+          "status": [
+            "live"
+          ],
+          "what": "Vor jeder Terminbestätigung prüft die App automatisch Auslastung, Abwesenheiten und Arbeitszeiten.",
           "for": "Künstler, Admins",
-          "why": "Niemand double-bucht einen Menschen oder einen Stuhl; falscher Raum / falsche:r Künstler:in wird erkannt, nicht erst um 14 Uhr entdeckt.",
+          "why": "So wird nie derselbe Stuhl oder dieselbe Person doppelt gebucht — ein Konflikt fällt sofort auf, nicht erst am Nachmittag.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 4,
-          "title": "Buchung durch das Team für Kunden",
-          "status": ["live"],
-          "what": "Vollständiges Termin-Formular für das Team, inkl. spontanem \u201eKunde hinzufügen\u201c inline — neue Kund:innen werden in einem Durchgang gebucht.",
+          "title": "Buchung durchs Team",
+          "status": [
+            "live"
+          ],
+          "what": "Das Team legt Termine direkt für Kund:innen an und kann bei Bedarf sofort ein neues Kundenprofil eröffnen — alles in einem Schritt.",
           "for": "Künstler, Admins",
-          "why": "Schnelle Telefon-/Theke-Buchung, ohne zwingend eine vollständige Kunden-Registrierung.",
+          "why": "Ideal für die schnelle Buchung am Telefon oder an der Theke, ganz ohne vorherige Registrierung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 5,
-          "title": "Terminverwaltung (CRUD)",
-          "status": ["live"],
-          "what": "Termine anlegen / ansehen / bearbeiten aus dem Kalender; jeder trägt eine Kunden-Notiz und eine Team-Notiz.",
+          "title": "Termine anlegen, ansehen, bearbeiten",
+          "status": [
+            "live"
+          ],
+          "what": "Termine lassen sich direkt im Kalender anlegen, einsehen und bearbeiten, jeweils mit separater Notiz für Kund:in und Team.",
           "for": "Künstler, Admins",
-          "why": "Ein Ort für das komplette Tagesbuch.",
+          "why": "Ein zentraler Ort für das komplette Tagesgeschäft.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 6,
-          "title": "Termin-Status-Workflow",
-          "status": ["live"],
-          "what": "Lebenszyklus-Status `booked / completed / cancelled / no_show / pending_reschedule / time_off`, mit Übergängen und zugehörigen Alerts.",
+          "title": "Klarer Terminstatus",
+          "status": [
+            "live"
+          ],
+          "what": "Jeder Termin durchläuft klar definierte Stationen — gebucht, abgeschlossen, storniert, nicht erschienen, Verschiebung angefragt oder Abwesenheit — samt automatischer Hinweise bei jedem Wechsel.",
           "for": "Künstler, Admins, Inhaber",
-          "why": "Liefert saubere Statistiken (No-Shows, abgeschlossene Termine), Finanzen und Erinnerungen.",
+          "why": "Das liefert saubere Auswertungen zu No-Shows und abgeschlossenen Terminen sowie eine verlässliche Grundlage für Finanzen und Erinnerungen.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 7,
-          "title": "Mehrfach-Ansichten im Teamkalender",
-          "status": ["live"],
-          "what": "**Tag** (Zeit-Raster pro Arbeitsplatz), **Woche** (Agenda), **Monat** (Übersicht).",
+          "title": "Kalender in Tages-, Wochen- und Monatsansicht",
+          "status": [
+            "live"
+          ],
+          "what": "Tagesansicht mit Zeitraster je Arbeitsplatz, Wochenansicht als Agenda und Monatsansicht für den Überblick.",
           "for": "Alle (rollenbezogen)",
-          "why": "Die Hauptfläche; verschiedene Ansichten für verschiedene Planungshorizonte.",
+          "why": "Die zentrale Arbeitsfläche der App — für jeden Planungshorizont die passende Ansicht.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 8,
-          "title": "\u201eNur mein Kalender\u201c-Filter",
-          "status": ["live"],
-          "what": "Teammitglieder filtern den Kalender auf ihre eigenen Termine.",
+          "title": "„Nur mein Kalender“-Filter",
+          "status": [
+            "live"
+          ],
+          "what": "Teammitglieder blenden den Kalender auf ihre eigenen Termine ein.",
           "for": "Künstler",
-          "why": "Kein Scrollen durch sechs Leute, um den eigenen Termin zu finden.",
+          "why": "Kein Scrollen durch die Termine des ganzen Teams, um den eigenen zu finden.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 9,
-          "title": "Termin-Detail-Modal (verknüpfter Kontext)",
-          "status": ["live"],
-          "what": "Eine Detailansicht mit Kunden-Kontaktdaten, zugewiesener:r Künstler:in, Arbeitsplatz, Notizen, Motivvorlagen und wer den Termin angelegt hat.",
+          "title": "Termin-Detailansicht",
+          "status": [
+            "live"
+          ],
+          "what": "Eine Detailansicht bündelt Kontaktdaten, zuständige:n Künstler:in, Arbeitsplatz, Notizen, Motivvorlagen und die Person, die den Termin angelegt hat.",
           "for": "Künstler, Admins",
-          "why": "Vollständiger Kontext in einem Klick, bevor der Kunde den Raum betritt.",
+          "why": "Der komplette Kontext auf einen Klick, bevor Kund:innen den Raum betreten.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 10,
-          "title": "Motiv- / Termin-Bilder pro Termin",
-          "status": ["live"],
-          "what": "Kunde oder Team lädt Motivvorlagen hoch (Design-Refs, Vorher/Nachher); automatisch verkleinert beim Hochladen, löschbar; sichtbar im anstehenden Kalender der Künstler:in und im Profil des Teammitglieds; eine Benachrichtigung an das zugewiesene Mitglied ist entworfen.",
+          "title": "Motivvorlagen direkt am Termin",
+          "status": [
+            "live"
+          ],
+          "what": "Kund:innen oder Team laden Motivvorlagen und Vorher-/Nachher-Bilder direkt beim Termin hoch; Bilder werden automatisch komprimiert und sind im Kalender sowie im Profil des Teammitglieds sichtbar.",
           "for": "Künstler, Kunden",
-          "why": "Ein Workflow für Kreativstudios — die:r Künstler:in sieht genau, was zu zeichnen ist, vor dem Termin. *(Unterscheidungsmerkmal.)*",
+          "why": "Ein echter Workflow für Kreativstudios: Die Künstlerin oder der Künstler weiß bereits vor dem Termin genau, was zu tätowieren ist.",
           "notes": [],
           "differentiator": true,
           "niche": false
         },
         {
           "id": 11,
-          "title": "Kunden-Verschieben über sicheren Einmal-Link",
-          "status": ["progress"],
-          "what": "Ein tokenisierter, ablaufender Link (48 h, admin-konfigurierbar), mit dem Kunden einen Alternativtermin aus den echten Arbeitszeiten + Abwesenheiten + Verschiebe-Fenstern der Künstler:in wählen können.",
+          "title": "Terminverschiebung per sicherem Link",
+          "status": [
+            "progress"
+          ],
+          "what": "Kund:innen erhalten einen zeitlich befristeten, individuellen Link, über den sie eigenständig einen neuen Termin aus den tatsächlich verfügbaren Zeiten der Künstlerin oder des Künstlers wählen.",
           "for": "Kunden, Admins (Richtlinie)",
-          "why": "Reduziert \u201eKann ich meinen Termin verschieben?\u201c, ohne den Kund:innen ein volles Login zu geben.",
+          "why": "Nimmt dem Team die Frage „Kann ich verschieben?“ ab, ohne dass Kund:innen dafür ein volles Kundenkonto brauchen.",
           "notes": [
             {
               "key": "Notiz (Status-Konflikt):",
-              "text": "Die Backend-Functions existieren, aber Feature-Dokument 008 markiert es als **\u201ein Arbeit / blockiert\u201c** (dokentierte Bugs in `initiateReschedule` — Datumsspanne / Arbeitszeiten), während `PROJECT_PROGRESS` es als **ERLEDIGT** auflistet. Als 🟡 mit ausstehender Verifizierung behandelt."
+              "text": "Die Backend-Funktionen sind vorhanden, interne Statusberichte widersprechen sich jedoch: Ein Dokument führt das Feature als in Arbeit mit offenen Fehlern bei Datumsspanne und Arbeitszeiten, ein anderes als abgeschlossen. Bis zur Klärung als in Entwicklung mit ausstehender Prüfung geführt."
             }
           ],
           "differentiator": false,
@@ -139,66 +162,78 @@
         },
         {
           "id": 12,
-          "title": "Verschiebe-Richtlinie + Verschiebe-Fenster pro Künstler:in",
-          "status": ["live"],
-          "what": "Admin-Richtlinien-Regler — `searchStartDaysBefore`, `maxSearchDays`, `maxSlotsPerSearch`, `tokenExpirationHours` — plus Verschiebe-Fenster pro Mitglied.",
+          "title": "Verschiebe-Richtlinien pro Künstler:in",
+          "status": [
+            "live"
+          ],
+          "what": "Admins legen fest, wie weit im Voraus und wie viele Termine zur Auswahl stehen — zusätzlich zu individuellen Verschiebe-Fenstern je Künstler:in.",
           "for": "Admins",
-          "why": "Studios steuern, wie weit / wie viele Termine ein:e Kund:in suchen darf; Künstler:innen legen eigene verschiebbare Fenster an.",
+          "why": "So behält jedes Studio die Kontrolle darüber, wie flexibel Kund:innen verschieben dürfen.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 13,
-          "title": "Arbeitszeiten pro Künstler:in und studio-weit",
-          "status": ["live"],
-          "what": "Arbeitszeit-Definitionen auf Studio-Ebene und pro Künstler:in.",
+          "title": "Arbeitszeiten studioweit und individuell",
+          "status": [
+            "live"
+          ],
+          "what": "Arbeitszeiten lassen sich sowohl studioweit als auch individuell je Künstler:in hinterlegen.",
           "for": "Admins, Künstler",
-          "why": "Steuert Verfügbarkeit, Konfliktprüfungen und die Suche nach Verschiebe-Terminen.",
+          "why": "Sie steuern Verfügbarkeit, Konfliktprüfung und die Suche nach Ausweichterminen.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 14,
-          "title": "Abwesenheitsplanung (mit Grund) + Team-Statusleiste",
-          "status": ["live"],
-          "what": "Künstler:innen buchen Abwesenheit mit Grund; eine Statusleiste zeigt sie dem gesamten Team.",
+          "title": "Abwesenheiten und Team-Statusleiste",
+          "status": [
+            "live"
+          ],
+          "what": "Künstler:innen tragen Abwesenheiten mit Grund ein; eine Statusleiste zeigt sie dem gesamten Team.",
           "for": "Künstler, Admins",
-          "why": "Verhindert Buchungen in bekannte Abwesenheiten; das Team sieht, wer nicht da ist.",
+          "why": "Termine in bekannten Abwesenheiten werden von vornherein verhindert, und alle sehen auf einen Blick, wer nicht da ist.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 15,
-          "title": "Pufferzeit (pro Künstler:in + pro Arbeitsplatz)",
-          "status": ["live"],
-          "what": "`bufferMinutes` bei Teammitgliedern und Arbeitsplätzen.",
+          "title": "Pufferzeiten zwischen Terminen",
+          "status": [
+            "live"
+          ],
+          "what": "Zwischen Terminen lässt sich je Künstler:in und Arbeitsplatz eine Pufferzeit hinterlegen.",
           "for": "Admins, Künstler",
-          "why": "Eingebaute Reinigungs-/Setup-Zeit, damit Termine nicht ineinanderlaufen.",
+          "why": "So bleibt automatisch Zeit für Reinigung und Vorbereitung, ohne dass Termine ineinanderlaufen.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 16,
-          "title": "Arbeitsplatz / Stuhl als buchbare Ressource",
-          "status": ["live"],
-          "what": "Termine sind an Standort + konkreten Arbeitsplatz gebunden; Arbeitsplätze haben **Kapazität** und **Puffer**, und die Konfliktprüfung läuft **pro Arbeitsplatz** (Tagesansicht zeigt ein Zeit-Raster pro Stuhl).",
+          "title": "Arbeitsplätze als eigene buchbare Ressource",
+          "status": [
+            "live"
+          ],
+          "what": "Termine sind nicht nur an eine Person, sondern an einen konkreten Arbeitsplatz mit eigener Kapazität und Pufferzeit gebunden; die Konfliktprüfung berücksichtigt jeden Stuhl einzeln.",
           "for": "Admins, Künstler",
-          "why": "Die meisten Buchungstools buchen *Menschen*; hier wird auch der **physische Stuhl** gebucht, damit zwei Künstler:innen nicht denselben Arbeitsplatz bekommen. *(Unterscheidungsmerkmal.)*",
+          "why": "Anders als die meisten Buchungstools, die nur Personen verwalten, wird hier auch der physische Arbeitsplatz gebucht — zwei Künstler:innen bekommen nie denselben Stuhl.",
           "notes": [],
           "differentiator": true,
           "niche": false
         },
         {
           "id": 17,
-          "title": "Multi-Location-Planung",
-          "status": ["live"],
-          "what": "Termine tragen eine `locationId`; jeder Standort hat eigene Zeitzone und Währung.",
+          "title": "Mehrere Standorte planen",
+          "status": [
+            "live"
+          ],
+          "what": "Jeder Termin ist einem Standort zugeordnet; jeder Standort hat eine eigene Zeitzone und Währung.",
           "for": "Inhaber mit mehreren Standorten",
-          "why": "Korrekte Zeit und Währung über Regionen hinweg, aus einer App.",
+          "why": "Mehrere Standorte lassen sich aus einer einzigen App heraus steuern — mit korrekter Zeit und Währung an jedem Ort.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -206,7 +241,7 @@
       ],
       "plannedNote": {
         "area": "Buchung",
-        "text": "Sperre von Zeitfenstern (kürzer als Abwesenheit)"
+        "text": "Sperre einzelner Zeitfenster (kürzer als eine ganze Abwesenheit)"
       }
     },
     {
@@ -216,11 +251,13 @@
       "features": [
         {
           "id": 18,
-          "title": "Kundenprofile / Datenbank",
-          "status": ["live"],
-          "what": "Eine Kundendatei mit Name, E-Mail, Telefon und **Instagram-Handle**, plus Kontaktdaten und Buchungshistorie.",
+          "title": "Zentrale Kundenprofile",
+          "status": [
+            "live"
+          ],
+          "what": "Eine zentrale Kundendatei mit Name, E-Mail, Telefonnummer, Instagram-Handle sowie vollständiger Buchungshistorie.",
           "for": "Künstler, Admins",
-          "why": "Alles über eine:n Kund:in an einem Ort, nicht verstreut in Notiz-Apps und Gruppen-Chats. Das Instagram-Feld ist der social-first-Touch für Kreativstudios. *(Nische.)*",
+          "why": "Alle Informationen zu einer Kundin oder einem Kunden an einem Ort — statt verstreut in Notiz-Apps und Gruppenchats. Das Instagram-Feld ist ein bewusst social-first ausgerichtetes Detail für Kreativstudios.",
           "notes": [],
           "differentiator": false,
           "niche": true
@@ -228,10 +265,12 @@
         {
           "id": 19,
           "title": "Live-Kundenstatistiken",
-          "status": ["live"],
-          "what": "Automatisch gepflegte Zähler — Gesamtbesuche, abgeschlossen, storniert, No-Shows — aktuell gehalten durch die `updateClientStats` Cloud Function.",
+          "status": [
+            "live"
+          ],
+          "what": "Besuche, abgeschlossene Termine, Stornierungen und No-Shows werden automatisch und in Echtzeit mitgezählt.",
           "for": "Admins, Inhaber",
-          "why": "Echtes Retention-/No-Show-Signal ohne manuelles Tracking.",
+          "why": "Ein verlässliches Signal für Kundenbindung und Ausfallquote, ganz ohne manuelles Nachtragen.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -239,47 +278,55 @@
         {
           "id": 20,
           "title": "Kundensuche",
-          "status": ["live"],
-          "what": "Kunden nach Name, E-Mail oder Telefonnummer suchen.",
+          "status": [
+            "live"
+          ],
+          "what": "Kund:innen lassen sich nach Name, E-Mail oder Telefonnummer finden.",
           "for": "Künstler, Admins",
-          "why": "Schnelle Suche an der Theke oder vor dem Termin.",
+          "why": "Schnelle Suche an der Theke oder kurz vor dem Termin.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 21,
-          "title": "Buchung pro Kunde aktivieren / deaktivieren (`canBook`)",
-          "status": ["live"],
-          "what": "Ein admin-geschütztes Aktivierungs-Flag, das steuert, ob ein:e Kund:in selbst buchen darf.",
+          "title": "Buchungsrecht pro Kunde steuern",
+          "status": [
+            "live"
+          ],
+          "what": "Ein von Admins gesteuertes Freischalt-Flag entscheidet, ob eine Kundin oder ein Kunde selbstständig online buchen darf.",
           "for": "Admins",
-          "why": "Studios steuern, wer online buchen darf (z. B. erst nach Telefon-Prüfung oder Erstanzahlung).",
+          "why": "So bestimmt jedes Studio selbst, wer buchen darf — etwa erst nach einem Telefonat oder einer Anzahlung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 22,
-          "title": "Kunden anlegen / bearbeiten / löschen (Admin)",
-          "status": ["live"],
-          "what": "Vollständiges Kunden-CRUD im Admin-Bereich, plus \u201eKunde hinzufügen\u201c inline im Buchungs-Formular.",
+          "title": "Kundenverwaltung im Admin-Bereich",
+          "status": [
+            "live"
+          ],
+          "what": "Admins legen Kundendaten an, bearbeiten und löschen sie — inklusive „Kunde hinzufügen“ direkt im Buchungsformular.",
           "for": "Admins",
-          "why": "Die Kundendatenbank sauber und aktuell halten.",
+          "why": "Die Kundendatenbank bleibt so sauber und aktuell.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 23,
-          "title": "Kunden-Selbstregistrierung (E-Mail/Passwort + Magic Link)",
-          "status": ["live"],
-          "what": "Kunden können ein Konto anlegen (E-Mail/Passwort oder Passwortlos per Magic Link); neue Kontos starten **aktivierungspending**, bis ein Admin `canBook` freischaltet.",
+          "title": "Kunden-Selbstregistrierung",
+          "status": [
+            "live"
+          ],
+          "what": "Kund:innen legen selbst ein Konto an, mit Passwort oder passwortlos per Magic Link; neue Konten werden erst nach Freigabe zur Buchung berechtigt.",
           "for": "Kunden",
-          "why": "Self-Service-Onboarding, weiterhin vom Studio kontrolliert.",
+          "why": "Self-Service-Onboarding, das dennoch vollständig unter Kontrolle des Studios bleibt.",
           "notes": [
             {
               "key": "Notiz:",
-              "text": "Nach dem Multi-Tenant-Deployment ändert sich der Onboarding-Flow mit der Kunden-Onboarding-Welle (siehe §49)."
+              "text": "Nach dem Rollout der Multi-Tenant-Architektur ändert sich der Registrierungsablauf im Rahmen der geplanten Kunden-Onboarding-Erweiterung."
             }
           ],
           "differentiator": false,
@@ -287,37 +334,44 @@
         },
         {
           "id": 24,
-          "title": "Komposit-Kundenprofil (Multi-Tenant)",
-          "status": ["pending"],
-          "what": "Kundendokumente als `clients/{businessId}_{authUid}` adressiert, damit eine Person in mehreren Studios Kunde sein kann.",
+          "title": "Ein Kundenkonto für mehrere Studios",
+          "status": [
+            "pending"
+          ],
+          "what": "Kundenprofile werden künftig so aufgebaut, dass eine Person gleichzeitig Kundin oder Kunde in mehreren Studios sein kann, ohne dass Daten zwischen den Studios vermischt werden.",
           "for": "Kunden in mehreren Studios; Inhaber",
-          "why": "Ein Konto über Studios hinweg, ohne Datenlecks dazwischen. Teil der Multi-Tenant-Welle (Deployment ausstehend).",
+          "why": "Ein Konto für alle Studios — ganz ohne Datenüberschneidung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 25,
-          "title": "Versionsierte Einverständniserklärung + erneute Zustimmung",
-          "status": ["live"],
-          "what": "Einverständniserklärungen sind versioniert; wenn sich die Datenschutzerklärung ändert, werden Kund:innen zur erneuten Zustimmung aufgefordert.",
+          "title": "Versionierte Einwilligung",
+          "status": [
+            "live"
+          ],
+          "what": "Einverständniserklärungen sind versioniert; ändert sich die Datenschutzerklärung, werden Kund:innen automatisch zur erneuten Zustimmung aufgefordert.",
           "for": "Kunden, Inhaber (Compliance)",
-          "why": "Eine DSGVO-taugliche Zustimmungs-Historie mit Nachvollziehbarkeit.",
+          "why": "Eine nachvollziehbare, DSGVO-konforme Zustimmungshistorie.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 26,
-          "title": "Self-Service Datenexport (JSON-Download)",
-          "status": ["progress", "verify"],
-          "what": "Kund:in lädt alle eigenen Daten als JSON herunter (Recht auf Datenportabilität).",
+          "title": "Eigenständiger Datenexport",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Kund:innen können alle eigenen Daten selbstständig als Datei herunterladen.",
           "for": "Kunden",
-          "why": "Ein DSGVO-Datenrecht, im Self-Service.",
+          "why": "Das Recht auf Datenportabilität, im Self-Service umgesetzt.",
           "notes": [
             {
               "key": "Verifizieren:",
-              "text": "Die UI existiert; der `requestDataExport`-Callable wurde **nicht** im aktuellen Repo gefunden. Vor Behauptung prüfen."
+              "text": "Die Oberfläche ist vorhanden; die zugehörige Backend-Funktion wurde im aktuellen Stand des Repositoriums nicht gefunden. Vor einer Kommunikation als fertiges Feature bitte prüfen."
             }
           ],
           "differentiator": false,
@@ -325,15 +379,18 @@
         },
         {
           "id": 27,
-          "title": "Self-Service Kontolöschung / Datenlöschung (mit Grund)",
-          "status": ["progress", "verify"],
-          "what": "Kund:in kann die Löschung des Kontos / der Daten anfordern und einen Grund angeben.",
+          "title": "Eigenständige Konto- und Datenlöschung",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Kund:innen können die Löschung ihres Kontos beziehungsweise ihrer Daten selbst beantragen und dabei einen Grund angeben.",
           "for": "Kunden",
-          "why": "Das \u201eRecht auf Vergessenwerden\u201c, im Self-Service und protokolliert.",
+          "why": "Das „Recht auf Vergessenwerden“, protokolliert und im Self-Service umgesetzt.",
           "notes": [
             {
               "key": "Verifizieren:",
-              "text": "Die UI existiert; der `requestDataDeletion`-Callable wurde **nicht** im aktuellen Repo gefunden. Vor Behauptung prüfen."
+              "text": "Die Oberfläche ist vorhanden; die zugehörige Backend-Funktion für die Löschung wurde im aktuellen Stand des Repositoriums nicht gefunden. Vor einer Kommunikation als fertiges Feature bitte prüfen."
             }
           ],
           "differentiator": false,
@@ -349,48 +406,56 @@
       "features": [
         {
           "id": 28,
-          "title": "Mehrfach-Künstler-Teamkalender mit Farbcodierung",
-          "status": ["live"],
-          "what": "Ein geteilter Teamkalender, in dem jede:r Künstler:in farbcodiert ist und deren Kalender klar abgrenzbar.",
+          "title": "Team-Kalender mit Farbcodierung",
+          "status": [
+            "live"
+          ],
+          "what": "Ein gemeinsamer Teamkalender, in dem jede Künstlerin und jeder Künstler eine eigene Farbe erhält.",
           "for": "Admins, Inhaber",
-          "why": "Admins sehen alle; die visuelle Trennung macht ein volles Studio lesbar.",
+          "why": "Admins behalten den Überblick über das ganze Team, auch wenn das Studio voll ausgebucht ist.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 29,
-          "title": "Drei Rollenstufen + eigene Rollendefinitionen",
-          "status": ["live"],
-          "what": "Inhaber / Admin / Mitglied (Künstler:in) Stufen, plus die Fähigkeit, eigene Rollen zu definieren.",
+          "title": "Rollenmodell mit individuellen Rollen",
+          "status": [
+            "live"
+          ],
+          "what": "Drei Basisrollen — Inhaber:in, Admin, Teammitglied — lassen sich um eigene, studiospezifische Rollen erweitern.",
           "for": "Inhaber, Admins",
-          "why": "Granulare, studio-spezifische Berechtigungsformen statt nur drei fester Kategorien.",
+          "why": "Feingranulare Berechtigungen statt starrer Drei-Kategorien-Logik.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 30,
-          "title": "Rollenbasierte UI-Zugriffe",
-          "status": ["live"],
-          "what": "UI wird pro Rolle freigeschaltet — Admin-Dashboard, Finanzen hinter einem `financeEnabled`-Flag, nur-Kund:innen-Navigation und rollenbewusstes Header-Nav.",
+          "title": "Rollenbasierte Oberfläche",
+          "status": [
+            "live"
+          ],
+          "what": "Die Oberfläche passt sich der jeweiligen Rolle an: Admin-Dashboard und Finanzbereich sind nur für berechtigte Personen sichtbar, Kund:innen sehen ausschließlich ihre eigene Navigation.",
           "for": "Alle",
-          "why": "Eine neue Person sieht nicht die komplette Studio-Finanz am ersten Tag; niemand wird von dem ausgesperrt, was er braucht.",
+          "why": "So sieht eine neue Kraft nicht am ersten Tag die komplette Studiobuchhaltung — und niemand wird von dem ausgesperrt, was er oder sie braucht.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 31,
-          "title": "Kund:in → Teammitglied Promotions-Flow",
-          "status": ["pending"],
-          "what": "Ein atomarer, auth-Konto-bewusster Flow, der eine:n Kund:in zum Teammitglied macht.",
+          "title": "Vom Kundenkonto zum Teammitglied",
+          "status": [
+            "pending"
+          ],
+          "what": "Ein bestehendes Kundenprofil lässt sich mit wenigen Schritten in ein vollwertiges Teammitglied umwandeln.",
           "for": "Inhaber, Admins",
-          "why": "Bestehende:r Kund:in einstellen, ohne manuelle Konto-Chirurgie.",
+          "why": "Neue Künstler:innen einstellen, ohne Konten manuell zusammenführen zu müssen.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Die **neue P6-Implementierung ist deployment-ausstehend** (Multi-Tenant-Welle); der **alte Flow ist in der Zwischenzeit live**."
+              "text": "Die neue Umsetzung ist fertig entwickelt, aber noch nicht ausgerollt (Teil der Multi-Tenant-Einführung); bis dahin bleibt der bisherige Ablauf aktiv."
             }
           ],
           "differentiator": false,
@@ -398,11 +463,13 @@
         },
         {
           "id": 32,
-          "title": "Teammitglied-Verwaltung (komplettes Setup)",
-          "status": ["live"],
-          "what": "Vollständige Teammitglied-Verwaltung, inkl. Arbeitszeiten, Farben, Verschiebe-Fenstern und Promotion.",
+          "title": "Vollständige Teammitglied-Verwaltung",
+          "status": [
+            "live"
+          ],
+          "what": "Die komplette Verwaltung eines Teammitglieds an einem Ort: Arbeitszeiten, Kalenderfarbe, Verschiebe-Fenster und Rollenwechsel.",
           "for": "Admins, Inhaber",
-          "why": "Ein Ort, an dem das Team gesteuert wird.",
+          "why": "Ein zentraler Ort, an dem das gesamte Team gesteuert wird.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -410,10 +477,12 @@
         {
           "id": 33,
           "title": "Statistiken pro Teammitglied",
-          "status": ["live"],
-          "what": "Statistiken pro Teammitglied, gepflegt durch die `updateTeamMemberStats` Cloud Function.",
+          "status": [
+            "live"
+          ],
+          "what": "Automatisch gepflegte Leistungskennzahlen je Künstler:in.",
           "for": "Admins, Inhaber",
-          "why": "Leistungs-/Aktivitäts-Ansicht pro Künstler:in.",
+          "why": "Ein klarer Blick auf Auslastung und Aktivität pro Person.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -431,99 +500,117 @@
       "features": [
         {
           "id": 34,
-          "title": "Finanz-Modul (komplett)",
-          "status": ["live"],
-          "what": "Ein vollständiger Finanz-Bereich: Bücher, Sync, Checkout, Honorare, Monatsabschluss, wiederkehrende Einträge und Druck.",
+          "title": "Vollständiger Finanzbereich",
+          "status": [
+            "live"
+          ],
+          "what": "Kassenbuch, Synchronisation, Checkout, Honorarabrechnung, Monatsabschluss, wiederkehrende Buchungen und Druckansicht — alles in einem Bereich.",
           "for": "Inhaber, Admins, Künstler",
-          "why": "Studio-Geld wird im Kalender mitverwaltet, nicht auf der Servie.",
+          "why": "Die Studiofinanzen werden direkt im Kalender mitverwaltet, statt auf einem separaten Zettel oder in einer eigenen Tabelle.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 35,
-          "title": "Künstler-Honorar / Split-Buch (pro Transaktion)",
-          "status": ["live"],
-          "what": "Künstler-Studio-Split pro Transaktion, an jedem Buchungs-Eintrag getrackt.",
+          "title": "Automatischer Honorar-Split",
+          "status": [
+            "live"
+          ],
+          "what": "Der Honoraranteil zwischen Studio und Künstler:in wird automatisch pro Transaktion berechnet und mitprotokolliert.",
           "for": "Inhaber, Künstler",
-          "why": "Die Antwort auf \u201eWer schuldet was?\u201c ist automatisch, pro Transaktion. *(Unterscheidungsmerkmal.)*",
+          "why": "Die Frage „Wer schuldet wem was?“ beantwortet sich von selbst — für jede einzelne Transaktion.",
           "notes": [],
           "differentiator": true,
           "niche": false
         },
         {
           "id": 36,
-          "title": "Buch-Checkout / Finalisieren",
-          "status": ["live"],
-          "what": "Ein Checkout- und Finalisieren-Schritt für Buch-Einträge; finalisierte Einträge werden festgesperrt.",
+          "title": "Checkout und Finalisierung im Kassenbuch",
+          "status": [
+            "live"
+          ],
+          "what": "Ein eigener Checkout-Schritt schließt Buchungseinträge endgültig ab und sperrt sie danach fest.",
           "for": "Admins, Inhaber",
-          "why": "Kein \u201eWart, haben wir das schon ausgezahlt?\u201c — bestätigte Einträge werden nicht doppelt gezählt.",
+          "why": "Kein „Haben wir das schon ausgezahlt?“ mehr — bestätigte Einträge werden nie doppelt gezählt.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 37,
-          "title": "Monatsabschluss + Saldo-Übertrag + gesperrte Monate",
-          "status": ["live"],
-          "what": "Monat abschließen, Saldo übertragen und abgeschlossene Monate gegen weitere Bearbeitung sperren.",
+          "title": "Monatsabschluss mit Saldo-Übertrag",
+          "status": [
+            "live"
+          ],
+          "what": "Monate lassen sich abschließen, Salden automatisch übertragen und abgeschlossene Monate gegen nachträgliche Änderungen sperren.",
           "for": "Inhaber",
-          "why": "Saubere Periodengrenzen mit Unveränderbarkeit für die Buchhaltung.",
+          "why": "Saubere, unveränderliche Periodengrenzen für die Buchhaltung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 38,
-          "title": "Wiederkehrende Termine / wiederkehrende Buch-Einträge",
-          "status": ["live"],
-          "what": "Unterstützung für wiederkehrende Termine / Buch-Positionen.",
+          "title": "Wiederkehrende Termine und Buchungen",
+          "status": [
+            "live"
+          ],
+          "what": "Wiederkehrende Termine und Buchungspositionen lassen sich einmal anlegen und automatisch fortführen.",
           "for": "Admins",
-          "why": "Stammkund:innen und Retainer-Arbeiten ohne erneutes Erfassen.",
+          "why": "Ideal für Stammkund:innen und wiederkehrende Aufträge, ganz ohne erneute Erfassung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 39,
-          "title": "\u201eVorbezahlt\u201c €0,00-Regel (Honorar-Integrität)",
-          "status": ["live"],
-          "what": "Eine Regel, die komplett vorbezahlte Jobs so behandelt, dass der Honorar-Split konsistent bleibt (z. B. €0,00 Restbetrag mit korrekt zugeordnetem Gesamtbetrag).",
+          "title": "Korrekte Abrechnung bei Vorauszahlung",
+          "status": [
+            "live"
+          ],
+          "what": "Bereits vollständig bezahlte Aufträge werden so behandelt, dass der Honorar-Split trotzdem korrekt aufgeht, statt bei einem Restbetrag von null Euro durcheinanderzugeraten.",
           "for": "Inhaber, Künstler",
-          "why": "Verhindet, dass die Honorar-Mathematik bei Vorbezahlen bricht. *(Nische.)*",
+          "why": "Ein kleines, aber entscheidendes Detail, damit die Honorarrechnung bei Vorauszahlungen stimmt.",
           "notes": [],
           "differentiator": false,
           "niche": true
         },
         {
           "id": 40,
-          "title": "Finanz-Druckbericht (zweisprachig EN/DE)",
-          "status": ["live"],
-          "what": "Ein druckbarer Finanz-Bericht; die Beschriftungen liegen auf **Englisch und Deutsch** vor.",
+          "title": "Zweisprachiger Finanzbericht",
+          "status": [
+            "live"
+          ],
+          "what": "Ein druckfertiger Finanzbericht, dessen Beschriftungen sowohl auf Deutsch als auch auf Englisch vorliegen.",
           "for": "Inhaber, Admins",
-          "why": "Ein echtes Dokument für die Buchhaltung oder zum Abliegen; die EN/DE-Beschriftungen deuten auf ein wachsendes EU-Publikum.",
+          "why": "Ein echtes Dokument für Steuerberatung oder Ablage — mit Blick auf ein wachsendes europäisches Publikum.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 41,
-          "title": "Perspektiven-bewusste Finanz-Ansicht",
-          "status": ["live"],
-          "what": "Dasselbe Buch aus der Perspektive der Künstler:in oder aus der Perspektive des Studios ansehen.",
+          "title": "Finanzansicht aus zwei Perspektiven",
+          "status": [
+            "live"
+          ],
+          "what": "Dasselbe Kassenbuch lässt sich wahlweise aus Sicht der Künstlerin oder des Künstlers oder aus Sicht des Studios betrachten.",
           "for": "Künstler, Inhaber",
-          "why": "Jede Rolle sieht den Split aus der Seite, die sie betrifft.",
+          "why": "Jede Rolle sieht genau den Teil der Abrechnung, der sie betrifft.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 42,
-          "title": "Stripe-Zahlungs-Integration (Anzahlungen / Vollzahlung bei Buchung)",
-          "status": ["planned"],
-          "what": "Anzahlungen oder Vollzahlungen beim Buchen über Stripe.",
+          "title": "Zahlungen über Stripe",
+          "status": [
+            "planned"
+          ],
+          "what": "Anzahlungen oder vollständige Zahlungen direkt bei der Buchung über Stripe.",
           "for": "Studios, Kunden",
-          "why": "No-Shows reduzieren und Umsatz im Flow einfangen. *(Geplant / Roadmap.)*",
+          "why": "Reduziert No-Shows und sichert Umsatz bereits im Buchungsprozess.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -538,26 +625,30 @@
       "features": [
         {
           "id": 43,
-          "title": "Multi-Location (komplett)",
-          "status": ["live"],
-          "what": "Standorte mit vollständigem Admin-CRUD, jeder mit **Zeitzone**, **Währung** und Standard-Einstellung.",
+          "title": "Standorte vollständig verwalten",
+          "status": [
+            "live"
+          ],
+          "what": "Standorte lassen sich vollständig verwalten, jeweils mit eigener Zeitzone, Währung und Standardeinstellung.",
           "for": "Inhaber, Admins",
-          "why": "Mehrere Standorte aus einer App betreiben, mit korrekter Zeit/Währung pro Standort.",
+          "why": "Mehrere Standorte aus einer einzigen App betreiben — mit korrekter Zeit und Währung an jedem Ort.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 44,
-          "title": "Multi-Tenant-Architektur (strikte Isolation)",
-          "status": ["pending"],
-          "what": "Geschäfte/Tenants mit Slugs + Memberships; ein Userkonto kann mehreren Studios angehören; Firestore-Regeln erzwingen strikte Tenant-Isolation.",
+          "title": "Strikt getrennte Studio-Umgebungen",
+          "status": [
+            "pending"
+          ],
+          "what": "Jedes Studio erhält eine technisch strikt von anderen Studios getrennte Umgebung; ein einzelnes Nutzerkonto kann dabei mehreren Studios angehören.",
           "for": "Inhaber, Betreiber mit mehreren Studios",
-          "why": "\u201eEin Konto, viele Studios\u201c ohne Datenlecks zwischen Studios.",
+          "why": "„Ein Konto, mehrere Studios“ — ganz ohne Datenaustausch zwischen den einzelnen Betrieben. Vollständig entwickelt und getestet, der Rollout steht kurz bevor.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Implementiert + getestet; **Deployment ausstehend** (Stand 29.08.2026). *(Unterscheidungsmerkmal.)*"
+              "text": "Vollständig entwickelt und getestet; der Rollout steht noch aus (Stand: 29.08.2026)."
             }
           ],
           "differentiator": true,
@@ -565,26 +656,30 @@
         },
         {
           "id": 45,
-          "title": "Tenant-Auswahl / -Wechsel UI",
-          "status": ["pending"],
-          "what": "Eine `/select-tenant`-Route, ein `TenantContextSwitcher` und eine `/access-denied`-Seite.",
+          "title": "Studio wechseln",
+          "status": [
+            "pending"
+          ],
+          "what": "Nutzer:innen mit Zugriff auf mehrere Studios wechseln bequem zwischen ihnen; eine klare Hinweisseite greift, falls kein Zugriff besteht.",
           "for": "Nutzer mit mehreren Studios",
-          "why": "Das aktive Studio in der App wechseln; saubere Fallback-Seite, wenn ein:e Nutzer:in keinen Zugriff auf den angeforderten Tenant hat.",
+          "why": "Das aktive Studio lässt sich jederzeit direkt in der App wechseln.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 46,
-          "title": "Geschäft / Tenant-Onboarding",
-          "status": ["pending"],
-          "what": "Die `createBusinessOwnerMembership` Cloud Function führt eine atomare 7-Dokumente-Provisionierung durch, inkl. kompositem Inhaber-Kundenprofil; ein Ops-CLI-Skript (`create_tenant.py`) existiert ebenfalls.",
+          "title": "Automatisiertes Studio-Onboarding",
+          "status": [
+            "pending"
+          ],
+          "what": "Ein neues Studio wird in einem einzigen, in sich konsistenten Schritt vollständig eingerichtet.",
           "for": "Betreiber, DevOps",
-          "why": "Ein Studio kann atomar und konsistent aufgesetzt werden.",
+          "why": "Zuverlässiges, automatisiertes Set-up statt manueller Einzelschritte.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Teil der Multi-Tenant-Welle (Deployment ausstehend)."
+              "text": "Teil der Multi-Tenant-Einführung, deren Rollout noch aussteht."
             }
           ],
           "differentiator": false,
@@ -592,37 +687,43 @@
         },
         {
           "id": 47,
-          "title": "Geschäft-Bootstrap-Skript (`create_business.py`)",
-          "status": ["planned"],
-          "what": "Ein vorgeschlagenes Ein-Schritt-Geschäft-Bootstrap-Skript.",
+          "title": "Schnelle Studio-Einrichtung per Skript",
+          "status": [
+            "planned"
+          ],
+          "what": "Ein Ein-Schritt-Werkzeug zur schnellen Anlage neuer Studios.",
           "for": "DevOps, Inhaber",
-          "why": "Schnellere, skriptbare Studio-Anlage. *(Dokumentiert als \u201eVorgeschlagen — noch nicht implementiert\u201c.)*",
+          "why": "Schnellere, wiederholbare Einrichtung für Betreiber:innen mit mehreren Standorten.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 48,
-          "title": "Branded öffentliche Buchungs-URL (`/{slug}/booking`) + öffentliche Studio-Entdeckung",
-          "status": ["planned"],
-          "what": "Jedes Studio bekommt eine eigene öffentliche Slug-URL, die Kund:innen direkt anvisieren, plus öffentliche Studio-Entdeckung.",
+          "title": "Eigene öffentliche Buchungs-Adresse",
+          "status": [
+            "planned"
+          ],
+          "what": "Jedes Studio erhält eine eigene, personalisierte Buchungs-Adresse plus Sichtbarkeit in einer öffentlichen Studio-Übersicht.",
           "for": "Studios, Kunden",
-          "why": "\u201edeinestudio.app/buchung\u201c statt \u201eSchreib uns eine DM\u201c. *(Aufgeschoben — Task 10.3; noch nicht gebaut.)*",
+          "why": "„meinstudio.app/buchung“ statt „Schreib uns eine Nachricht“.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 49,
-          "title": "Kunden-Onboarding-Welle (komposit-Kundenmodell)",
-          "status": ["planned"],
-          "what": "Studio-Auswahl bei der Registrierung, Multi-Studio-Wechsel für reine:r Kund:innen und öffentliche Studio-Entdeckung.",
+          "title": "Studio-Auswahl beim Kunden-Onboarding",
+          "status": [
+            "planned"
+          ],
+          "what": "Bei der Registrierung wählen Kund:innen ihr Studio aus und können bei Bedarf zwischen mehreren Studios wechseln, unterstützt durch eine öffentliche Studio-Übersicht.",
           "for": "Kunden, Studios",
-          "why": "Bis diese Welle live ist, ist **das Self-Buchen reiner:r Kund:innen eingeschränkt** gegenüber dem Multi-Tenant-Design.",
+          "why": "Bis dahin ist die eigenständige Buchung für Kund:innen, die mehrere Studios nutzen, noch eingeschränkt.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Anforderungen dokumentiert (Kiro-Spec `client-onboarding`); Implementierung ausstehend (Gates G1–G5)."
+              "text": "Die Anforderungen sind vollständig dokumentiert, die Umsetzung steht noch aus."
             }
           ],
           "differentiator": false,
@@ -630,15 +731,17 @@
         },
         {
           "id": 50,
-          "title": "Geschäfts-Branding-Felder (`primaryColor`, `secondaryColor`, `logoUrl`)",
-          "status": ["planned"],
-          "what": "Branding-Felder im Business-Dokument.",
+          "title": "Eigenes Studio-Branding",
+          "status": [
+            "planned"
+          ],
+          "what": "Studios hinterlegen eigene Markenfarben und ein Logo, die künftig durchgängig in der App angewendet werden.",
           "for": "Inhaber",
-          "why": "Studio-Theming / White-Labeling.",
+          "why": "Aktuell ist der Studioname bereits im App-Titel sichtbar; die vollständige Anwendung im Design folgt mit dem individuellen Theming.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Die Felder existieren, aber **keine UI wendet sie an**; aktuell ist der einzige Live-Branding-Touch der **Standard-Standortname als App-Titel** im Header. Verknüpft mit dem \u201eIndividuelle Themes\u201c-Roadmap-Eintrag."
+              "text": "Die Datenfelder sind bereits vorhanden, werden aktuell aber noch nicht in der Oberfläche angewendet; derzeit ist lediglich der Standortname im App-Titel sichtbar. Verknüpft mit dem geplanten individuellen Theming."
             }
           ],
           "differentiator": false,
@@ -654,22 +757,26 @@
       "features": [
         {
           "id": 51,
-          "title": "Push-Benachrichtigungen (Termin angelegt)",
-          "status": ["live"],
-          "what": "`sendNewAppointmentNotification` feuert bei neuem Termin (Push + In-App + E-Mail-Queue).",
+          "title": "Benachrichtigung bei neuem Termin",
+          "status": [
+            "live"
+          ],
+          "what": "Bei jedem neuen Termin gehen automatisch Push-, In-App- und E-Mail-Benachrichtigungen an alle Beteiligten.",
           "for": "Künstler, Kunden",
-          "why": "Alle wissen sofort, dass ein neuer Termin reingekommen ist.",
+          "why": "So erfährt jeder sofort von einem neuen Termin.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 52,
-          "title": "Push-Benachrichtigungen (Stornierung / Verschiebung)",
-          "status": ["live"],
-          "what": "`sendAppointmentModifiedNotification` feuert, wenn ein Termin storniert oder verschoben wird.",
+          "title": "Benachrichtigung bei Storno oder Verschiebung",
+          "status": [
+            "live"
+          ],
+          "what": "Wird ein Termin storniert oder verschoben, informiert die App alle Beteiligten in Echtzeit.",
           "for": "Künstler, Kunden",
-          "why": "Storno / Änderung wird in Echtzeit angezeigt, nicht erst später entdeckt.",
+          "why": "Änderungen werden sofort sichtbar, nicht erst später entdeckt.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -677,58 +784,69 @@
         {
           "id": 53,
           "title": "Statistik-Benachrichtigungen",
-          "status": ["live"],
-          "what": "Team-/Kund:innen-Statistik-Updates emitten Benachrichtigungen über `updateClientStats` / `updateTeamMemberStats`.",
+          "status": [
+            "live"
+          ],
+          "what": "Aktualisierte Team- und Kundenstatistiken lösen automatisch Benachrichtigungen aus.",
           "for": "Admins, Inhaber",
-          "why": "Aktivitäts-Signal, ohne das Dashboard zu öffnen.",
+          "why": "Aktivitätssignale, ohne extra das Dashboard öffnen zu müssen.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 54,
-          "title": "App-Icon-Badge (Zähler)",
-          "status": ["live"],
-          "what": "`syncBadgeCount` hält das Ungelesene-Badge am PWA-Icon aktuell.",
+          "title": "Badge-Zähler am App-Symbol",
+          "status": [
+            "live"
+          ],
+          "what": "Ein Zähler am App-Symbol zeigt jederzeit ungelesene Benachrichtigungen an.",
           "for": "Alle",
-          "why": "Auf einen Blick: \u201eEtwas bedarf Aufmerksamkeit\u201c auf dem Home-Bildschirm.",
+          "why": "Auf einen Blick erkennbar: Hier braucht es Aufmerksamkeit.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 55,
-          "title": "In-App-Benachrichtigungs-Zentrum",
-          "status": ["live"],
-          "what": "Eine zentrale In-App-Inbox für alle Benachrichtigungen.",
+          "title": "Zentrales Benachrichtigungs-Postfach",
+          "status": [
+            "live"
+          ],
+          "what": "Eine zentrale Übersicht sammelt alle Benachrichtigungen an einem Ort.",
           "for": "Alle",
-          "why": "Historie und Abruf aller Events an einem Ort.",
+          "why": "Vollständige Historie und schneller Zugriff auf alle Ereignisse.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 56,
-          "title": "Benachrichtigungs-Stufen für das Team",
-          "status": ["live"],
-          "what": "Teammitglieder legen eine Stufe / einen Level für den Push-Lärm fest.",
+          "title": "Individuelle Benachrichtigungsstufen",
+          "status": [
+            "live"
+          ],
+          "what": "Jedes Teammitglied stellt selbst ein, wie viele Push-Benachrichtigungen es erhalten möchte.",
           "for": "Künstler",
-          "why": "Kontrolle, wie viel die App piept — ein Komfort-Unterscheidungsmerkmal für volle Stühle. *(Unterscheidungsmerkmal.)*",
+          "why": "Volle Kontrolle über die Benachrichtigungsfrequenz — ein spürbarer Komfortgewinn im hektischen Studioalltag.",
           "notes": [],
           "differentiator": true,
           "niche": false
         },
         {
           "id": 57,
-          "title": "Automatisierte 24h / 1h-Erinnerungen (geplante Cloud Function)",
-          "status": ["progress", "verify"],
-          "what": "Geplante Erinnerungen 24 h und 1 h vor dem Termin.",
+          "title": "Automatische Termin-Erinnerungen",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Automatische Erinnerungen 24 Stunden und eine Stunde vor dem Termin.",
           "for": "Künstler, Kunden",
-          "why": "Der mit Abstand größte No-Show-Reduzierer.",
+          "why": "Der wirkungsvollste Hebel gegen No-Shows.",
           "notes": [
             {
               "key": "Verifizieren (Status-Konflikt):",
-              "text": "`PROJECT_PROGRESS` listet dies als **WIRKT**, aber **keine Reminder-Function wurde im aktuellen Repo gefunden**, und die Design-Spec listet Erinnerungen als zukünftige Arbeit. **Vor Behauptung prüfen.**"
+              "text": "Interne Statusberichte führen dieses Feature als aktiv, im aktuellen Stand des Repositoriums wurde jedoch keine entsprechende Funktion gefunden; laut Konzept ist es als künftige Erweiterung vorgesehen. Vor einer Kommunikation als fertiges Feature bitte prüfen."
             }
           ],
           "differentiator": false,
@@ -736,11 +854,13 @@
         },
         {
           "id": 58,
-          "title": "Kunden-Benachrichtigungen",
-          "status": ["planned"],
-          "what": "Benachrichtigungs-Zustellung an Kund:innen (über die aktuellen Trigger hinaus).",
+          "title": "Erweiterte Kunden-Benachrichtigungen",
+          "status": [
+            "planned"
+          ],
+          "what": "Zusätzliche Benachrichtigungswege direkt für Kund:innen, über die bestehenden Auslöser hinaus.",
           "for": "Kunden",
-          "why": "Den Loop auf der Kundenseite schließen. *(Geplant.)*",
+          "why": "Schließt den Informationskreislauf auch auf der Kundenseite.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -755,15 +875,17 @@
       "features": [
         {
           "id": 59,
-          "title": "Admin-Formular-Builder",
-          "status": ["progress"],
-          "what": "Ein `FormBuilder` für Studio-Formulare, plus `ClientForm`-Rendering; Storage und Firestore-Regeln existieren.",
+          "title": "Formular-Baukasten für Admins",
+          "status": [
+            "progress"
+          ],
+          "what": "Ein Formular-Baukasten für individuelle Studio-Formulare wie Anamnese- oder Einwilligungsbögen — ganz ohne Programmierkenntnisse.",
           "for": "Admins",
-          "why": "Jedes Formular (Anamnese, Consent) definieren, ohne Hardcoding.",
+          "why": "Aktuell für ein Formular ausgelegt; die Verwaltung mehrerer Formulare gleichzeitig folgt als Nächstes.",
           "notes": [
             {
               "key": "Notiz:",
-              "text": "Aktuell ein Ein-Formular-Setup (\u201ein einer echten App hätte man eine Liste von Formularen\u201c); ein Multi-Formular-Manager steht auf der Roadmap."
+              "text": "Aktuell für ein einzelnes Formular ausgelegt; die Verwaltung mehrerer Formulare gleichzeitig ist der nächste Schritt auf der Roadmap."
             }
           ],
           "differentiator": false,
@@ -771,15 +893,18 @@
         },
         {
           "id": 60,
-          "title": "Kunden-Anamnese / Consent-Formulare",
-          "status": ["progress", "planned"],
-          "what": "Kund:innen füllen Anamnese-/Consent-Formulare (medizinische/gesundheitliche Infos für Tätowierungen) vor oder beim Termin aus.",
+          "title": "Anamnese- und Einwilligungsformulare für Kund:innen",
+          "status": [
+            "progress",
+            "planned"
+          ],
+          "what": "Kund:innen füllen medizinische Anamnese- und Einwilligungsformulare vor oder direkt beim Termin aus.",
           "for": "Kunden, Künstler",
-          "why": "Papiere vor dem Stuhl erledigt, nicht während.",
+          "why": "Die Papierarbeit ist erledigt, bevor der Termin beginnt — nicht währenddessen.",
           "notes": [
             {
               "key": "Status:",
-              "text": "Builder + Storage + Regeln sind da; der **kundenseitig verdrahtete Flow ist der nächste Roadmap-Schritt** (\u201eNEXT\u201c)."
+              "text": "Formular-Baukasten, Speicherung und Berechtigungen stehen bereits; die vollständige Anbindung auf Kundenseite ist der nächste Schritt auf der Roadmap."
             }
           ],
           "differentiator": false,
@@ -787,15 +912,17 @@
         },
         {
           "id": 61,
-          "title": "E-Mail-Zustell-Infrastruktur (Mail-Queue)",
-          "status": ["progress"],
-          "what": "Ein Mail-Queue existiert, um ausgehende E-Mails zu stauen.",
+          "title": "Zuverlässiger E-Mail-Versand",
+          "status": [
+            "progress"
+          ],
+          "what": "Ausgehende E-Mails werden zuverlässig in einer Warteschlange verarbeitet.",
           "for": "Studio (ausgehende Kommunikation)",
-          "why": "Asynchrone, zuverlässige E-Mail.",
+          "why": "Eine asynchrone, robuste Zustellung statt punktueller Einzel-Mails.",
           "notes": [
             {
               "key": "Notiz:",
-              "text": "Die eigentliche **Zustellung läuft extern** — das Repo speichert/queued; das Senden ist eine eigene Sache."
+              "text": "Der eigentliche Versand läuft über einen externen Dienst; die App übernimmt Speicherung und Warteschlange."
             }
           ],
           "differentiator": false,
@@ -803,11 +930,13 @@
         },
         {
           "id": 62,
-          "title": "Formular-Berechtigungsmodell / E-Mail Tenant-Scoping",
-          "status": ["planned"],
-          "what": "Scoping von Formularen und E-Mails auf Tenants + Berechtigungsmodell für Formulare.",
+          "title": "Formulare sauber je Studio getrennt",
+          "status": [
+            "planned"
+          ],
+          "what": "Formulare und E-Mail-Versand werden künftig sauber je Studio abgegrenzt, mit einem eigenen Berechtigungsmodell für Formulare.",
           "for": "Inhaber, Admins",
-          "why": "Formulare/E-Mails in einer Multi-Tenant-Welt sauber halten. *(Roadmap.)*",
+          "why": "Hält Formulare und Kommunikation auch in einer Multi-Studio-Umgebung sauber getrennt.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -822,15 +951,18 @@
       "features": [
         {
           "id": 63,
-          "title": "In-App-Bewertungen nach dem Besuch",
-          "status": ["progress", "verify"],
-          "what": "Kund:innen bewerten direkt in der App nach dem Termin; die UI ist komplett und Firestore-Regeln erlauben das Anlegen von Bewertungen durch Kund:innen.",
+          "title": "Bewertung direkt in der App",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Kund:innen bewerten ihren Besuch direkt in der App, ganz ohne Umweg über externe Plattformen.",
           "for": "Kunden, Studios",
-          "why": "Kein Jagen von Leuten für eine Google-Bewertung.",
+          "why": "Kein Hinterherlaufen mehr für eine Google-Bewertung.",
           "notes": [
             {
               "key": "Verifizieren:",
-              "text": "Der `submitReview`-Callable wurde **nicht** im aktuellen Repo gefunden. End-to-End-Bewertungs-Submission vor Behauptung prüfen."
+              "text": "Die Oberfläche ist vollständig, und die Firestore-Regeln erlauben das Anlegen von Bewertungen durch Kund:innen; die zugehörige Backend-Funktion für die Übermittlung wurde im aktuellen Repository-Stand jedoch nicht gefunden. Den vollständigen Ablauf vor einer Kommunikation als fertig prüfen."
             }
           ],
           "differentiator": false,
@@ -838,37 +970,44 @@
         },
         {
           "id": 64,
-          "title": "Bewertungs-Statistiken / -Trigger",
-          "status": ["live"],
-          "what": "Bewertungs-Statistiken werden von Live-Cloud-Functions gepflegt.",
+          "title": "Automatische Bewertungs-Statistiken",
+          "status": [
+            "live"
+          ],
+          "what": "Bewertungskennzahlen werden automatisch aggregiert und aktuell gehalten.",
           "for": "Inhaber, Admins",
-          "why": "Reputations-Signal aggregiert, nicht manuell.",
+          "why": "Ein gebündeltes Reputationssignal, ganz ohne manuelle Auswertung.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 65,
-          "title": "Nächster-Besuch-Rabattcode (10 %)",
-          "status": ["live"],
-          "what": "Nach einer Bewertung bekommt der/die Kund:in einen 10%-Rabattcode für den nächsten Besuch (derzeit **in der UI hartkodiert**).",
+          "title": "Rabattcode nach Bewertung",
+          "status": [
+            "live"
+          ],
+          "what": "Nach einer Bewertung erhalten Kund:innen automatisch einen 10-%-Rabattcode für den nächsten Besuch.",
           "for": "Kunden, Studios",
-          "why": "Verwandelt eine Bewertung in einen Wiederholbesuch; ein Loop, den die meisten Buchungstools nicht schaffen. *(Nische + Unterscheidungsmerkmal.)*",
+          "why": "Aus einer Bewertung wird so ein Anreiz für den nächsten Termin — ein Kreislauf, den die wenigsten Buchungstools abbilden.",
           "notes": [],
           "differentiator": true,
           "niche": true
         },
         {
           "id": 66,
-          "title": "Social-Engagement-Funnel (Instagram-Follow + Google-Bewertung)",
-          "status": ["progress", "verify"],
-          "what": "Der Bewertungs-Flow kann zu einem Instagram-Follow und einer Google-Bewertung führen, mit Engagement-Tracking.",
+          "title": "Social-Media-Funnel nach der Bewertung",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Der Bewertungsprozess kann Kund:innen zusätzlich zu einem Instagram-Follow und einer Google-Bewertung führen, inklusive Engagement-Tracking.",
           "for": "Studios",
-          "why": "Eine Aktion stärkt gleichzeitig die Socials des Studios und die Google-Bewertung.",
+          "why": "Eine einzige Aktion stärkt gleichzeitig die Social-Media-Präsenz und die Google-Bewertungen des Studios.",
           "notes": [
             {
               "key": "Verifizieren / Notiz:",
-              "text": "Der `trackSocialEngagement`-Callable wurde **nicht** im Repo gefunden, und die Instagram/Google-Links sind derzeit **Platzhalter (\u201eyourcompany\u201c)** — nicht an ein echtes Studio angebunden."
+              "text": "Die zugehörige Backend-Funktion wurde im aktuellen Repository-Stand nicht gefunden, und die Links zu Instagram und Google sind aktuell Platzhalter, noch nicht mit einem echten Studio verknüpft."
             }
           ],
           "differentiator": false,
@@ -884,15 +1023,18 @@
       "features": [
         {
           "id": 67,
-          "title": "Kund:innen-Waitlist-UI (beitreten / verlassen) + Regeln",
-          "status": ["progress", "verify"],
-          "what": "Kund:innen können einer Waitlist beitreten/austraten; UI und Firestore-Regeln existieren.",
+          "title": "Warteliste beitreten und verlassen",
+          "status": [
+            "progress",
+            "verify"
+          ],
+          "what": "Kund:innen tragen sich für einen ausgebuchten Wunschtermin in eine Warteliste ein oder verlassen sie wieder.",
           "for": "Kunden, Studios",
-          "why": "Wenn der gewünschte Termin weg ist, landet man in einer Waitlist, die an diese Anfrage gebunden ist — nicht in einer SMS, an die man nie denkt.",
+          "why": "Ist der gewünschte Termin vergeben, landet die Anfrage in einer echten Warteliste — nicht in einer SMS, an die niemand mehr denkt.",
           "notes": [
             {
               "key": "Verifizieren:",
-              "text": "Der `joinWaitlist`-Callable wurde **nicht** im aktuellen Repo gefunden. Vor Behauptung prüfen."
+              "text": "Oberfläche und Firestore-Regeln sind vorhanden; die zugehörige Backend-Funktion zum Beitritt wurde im aktuellen Repository-Stand nicht gefunden. Vor einer Kommunikation als fertiges Feature bitte prüfen."
             }
           ],
           "differentiator": false,
@@ -900,15 +1042,17 @@
         },
         {
           "id": 68,
-          "title": "Waitlist gebunden an Künstler:in + Zeit + Arbeitsplatz (mit Status-Lebenszyklus)",
-          "status": ["verify"],
-          "what": "Waitlist-Einträge sind an **eine konkrete:r Künstler:in, eine Zeit und einen Arbeitsplatz** gebunden, mit Status-Lebenszyklus.",
+          "title": "Warteliste mit konkretem Wunsch",
+          "status": [
+            "verify"
+          ],
+          "what": "Wartelisten-Einträge sind konkret an eine Künstlerin oder einen Künstler, eine Uhrzeit und einen Arbeitsplatz gebunden und durchlaufen einen eigenen Status-Verlauf.",
           "for": "Studios, Künstler",
-          "why": "Eine Waitlist, die weiß, *welcher Stuhl / welche:r Künstler:in* frei wird — mehr als generische \u201eIch bin interessiert\u201c-Listen.",
+          "why": "Mehr als eine generische „Ich habe Interesse“-Liste: Das System weiß genau, welcher Stuhl oder welche Künstlerin frei wird.",
           "notes": [
             {
               "key": "Verifizieren / Notiz:",
-              "text": "Eine Staff-Liste-Regel existiert, aber **keine dedizierte Staff-UI wurde** bisher gefunden; als teilweise sichtbar behandeln. *(Unterscheidungsmerkmal.)*"
+              "text": "Eine Berechtigungsregel für die Team-Ansicht existiert, eine eigene Oberfläche für das Team wurde bisher jedoch nicht gefunden; aktuell als teilweise umgesetzt zu betrachten."
             }
           ],
           "differentiator": true,
@@ -924,59 +1068,69 @@
       "features": [
         {
           "id": 69,
-          "title": "Leistungs-Dashboard (Metriken + Alerts)",
-          "status": ["live"],
-          "what": "Ein Admin-Leistungs-Dashboard mit Kern-Metriken und Alerts.",
+          "title": "Leistungs-Dashboard",
+          "status": [
+            "live"
+          ],
+          "what": "Ein Admin-Dashboard bündelt die wichtigsten Kennzahlen und Warnhinweise.",
           "for": "Inhaber, Admins",
-          "why": "Eine einzige Fläche, wie es dem Studio geht.",
+          "why": "Eine einzige Fläche für den Zustand des gesamten Studios.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 70,
-          "title": "Admin-Terminliste (Suche, Bearbeiten, Löschen)",
-          "status": ["live"],
-          "what": "Eine durchsuchbare Admin-Liste aller Termine mit Bearbeiten/Löschen.",
+          "title": "Durchsuchbare Terminliste",
+          "status": [
+            "live"
+          ],
+          "what": "Eine durchsuchbare Liste aller Termine mit Bearbeitungs- und Löschfunktion.",
           "for": "Admins",
-          "why": "Überwachung und Korrekturen außerhalb des Kalenders.",
+          "why": "Kontrolle und Korrekturen auch außerhalb der Kalenderansicht.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 71,
-          "title": "Admin-Einstellungen-Suite",
-          "status": ["live"],
-          "what": "Ein Bereich, um Standorte, Arbeitsplätze, Dienstleistungstypen, Rollen, Arbeitszeiten, Formulare, Verschiebe-Richtlinie und Bücher zu verwalten.",
+          "title": "Zentrale Einstellungen-Suite",
+          "status": [
+            "live"
+          ],
+          "what": "Ein zentraler Bereich verwaltet Standorte, Arbeitsplätze, Dienstleistungen, Rollen, Arbeitszeiten, Formulare, Verschiebe-Richtlinie und Kassenbuch.",
           "for": "Admins, Inhaber",
-          "why": "Die Studio-Konfiguration ist an einem Ort.",
+          "why": "Die gesamte Studiokonfiguration an einem Ort.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 72,
-          "title": "Admin-CRUD: Geschäftszeiten, Rollen, Dienstleistungen, Arbeitsplätze, Standorte",
-          "status": ["live"],
-          "what": "Vollständiges Anlegen/Lesen/Ändern/Löschen der Kern-Referenzdaten.",
+          "title": "Vollständige Stammdatenverwaltung",
+          "status": [
+            "live"
+          ],
+          "what": "Geschäftszeiten, Rollen, Dienstleistungen, Arbeitsplätze und Standorte lassen sich vollständig anlegen, bearbeiten und löschen.",
           "for": "Admins",
-          "why": "Das Studio kann sich selbst korrekt abbilden (Zeiten, Team, Dienstleistungen, Stühle, Standorte).",
+          "why": "Das Studio bildet sich selbst korrekt in der App ab.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 73,
-          "title": "Debug-Tools (nur-Admin-Diagnose)",
-          "status": ["live"],
-          "what": "Ein nur-Admin-Debug-/Diagnose-Tab.",
+          "title": "Diagnose-Tools für Admins",
+          "status": [
+            "live"
+          ],
+          "what": "Ein ausschließlich für Admins zugängliches Diagnose- und Debug-Werkzeug.",
           "for": "Betreiber, Devs",
-          "why": "Schnellere Triage.",
+          "why": "Schnellere Fehlersuche und Triage bei technischen Problemen.",
           "notes": [
             {
               "key": "Notiz:",
-              "text": "Interne Tooling — **aus Marketing / Copywriting ausgeschlossen**."
+              "text": "Internes Werkzeug für den Betrieb — nicht für Marketing- oder Kundenkommunikation vorgesehen."
             }
           ],
           "differentiator": false,
@@ -985,7 +1139,7 @@
       ],
       "plannedNote": {
         "area": "Admin / Finanzen",
-        "text": "Erweiterte Reports & Analytics-Dashboard"
+        "text": "Erweiterte Reports und Analytics-Dashboard"
       }
     },
     {
@@ -995,66 +1149,78 @@
       "features": [
         {
           "id": 74,
-          "title": "Installierbare PWA",
-          "status": ["live"],
-          "what": "Eine vollständige PWA — `manifest.json`, Service Worker, Install-Prompt und iOS-Install-Anleitung.",
+          "title": "Installierbare App",
+          "status": [
+            "live"
+          ],
+          "what": "Die App lässt sich wie eine native App auf dem Homescreen installieren, inklusive Installationsanleitung für iOS.",
           "for": "Alle",
-          "why": "Wird wie eine Native-App auf den Home-Bildschirm installiert.",
+          "why": "Kein Umweg über den App Store — installiert wie eine echte App.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 75,
-          "title": "Offline-Modus + Verbindungs-Anzeige + Echtzeit-Sync",
-          "status": ["live"],
-          "what": "Service-Worker-Caching, eine Offline-Anzeige (zeigt offline / Cache-Zustand) und IndexedDB-Persistenz; Daten synchronisieren bei Wiederverbindung.",
+          "title": "Offline-Modus mit automatischer Synchronisation",
+          "status": [
+            "live"
+          ],
+          "what": "Die App speichert Daten lokal und synchronisiert automatisch, sobald die Verbindung zurück ist; eine Anzeige informiert über den Verbindungsstatus.",
           "for": "Künstler (schwaches Signal am Stuhl), Alle",
-          "why": "Die App läuft im Studio weiter, auch wenn das Wi-Fi nicht mitmacht.",
+          "why": "Die App funktioniert im Studio weiter, selbst wenn das WLAN einmal aussetzt.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 76,
-          "title": "Alles in Echtzeit",
-          "status": ["live"],
-          "what": "Kalender, Waitlist, Buch und Benachrichtigungen aktualisieren live über Firestore-`onSnapshot`-Listener.",
+          "title": "Durchgängige Echtzeit-Aktualisierung",
+          "status": [
+            "live"
+          ],
+          "what": "Kalender, Warteliste, Kassenbuch und Benachrichtigungen aktualisieren sich live, ganz ohne manuelles Neuladen.",
           "for": "Alle",
-          "why": "Kein Refresh; das ganze Team sieht Änderungen, während sie passieren.",
+          "why": "Das gesamte Team sieht Änderungen in dem Moment, in dem sie passieren.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 77,
-          "title": "Passwortlose Magic-Link-Anmeldung",
-          "status": ["live"],
-          "what": "E-Mail-Magic-Link-Login zusätzlich zu E-Mail/Passwort.",
+          "title": "Passwortlose Anmeldung per Magic Link",
+          "status": [
+            "live"
+          ],
+          "what": "Anmeldung per E-Mail-Link, alternativ weiterhin mit Passwort.",
           "for": "Kunden und Mitarbeiter:innen",
-          "why": "Weniger Reibung, sicheres Anmelden.",
+          "why": "Weniger Reibung beim Einloggen, ohne Abstriche bei der Sicherheit.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 78,
-          "title": "Rollenbewusste Navigation + Aktivierungspending-Home-Zustand",
-          "status": ["live"],
-          "what": "Die Shell passt sich der Rolle und dem Aktivierungszustand der Nutzer:innen an (buchungsfähig / pending / Team).",
+          "title": "Rollenbewusste Navigation",
+          "status": [
+            "live"
+          ],
+          "what": "Die App passt sich Rolle und Aktivierungsstatus jeder Person automatisch an.",
           "for": "Alle",
-          "why": "Jede Person landet auf der Fläche, die wirklich ihre ist.",
+          "why": "Jede und jeder landet direkt auf der für sie relevanten Startseite.",
           "notes": [],
           "differentiator": false,
           "niche": false
         },
         {
           "id": 79,
-          "title": "Mobile-first-Finanz-UI",
-          "status": ["live"],
-          "what": "Der Finanz-Bereich ist mobile-first designed.",
+          "title": "Finanzbereich für unterwegs",
+          "status": [
+            "live"
+          ],
+          "what": "Der Finanzbereich ist von Grund auf für die mobile Nutzung gestaltet.",
           "for": "Inhaber, Admins (unterwegs)",
-          "why": "Die Bücher am Handy am Ende des Tages prüfen.",
+          "why": "Die Bücher lassen sich bequem vom Smartphone aus prüfen — auch am Ende eines langen Tages.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -1062,14 +1228,16 @@
         {
           "id": 80,
           "title": "Mehrsprachigkeit",
-          "status": ["planned"],
-          "what": "i18n über die gesamte App.",
+          "status": [
+            "planned"
+          ],
+          "what": "Durchgängige Mehrsprachigkeit für die gesamte App, um international und mehrsprachig arbeitende Studios zu erreichen.",
           "for": "Studios mit mehrsprachigen Kunden/Teams",
-          "why": "Ein breiteres Marktsegment erreichen.",
+          "why": "Erste Bausteine — etwa der zweisprachige Finanzbericht — sind bereits vorhanden, die vollständige Umsetzung folgt.",
           "notes": [
             {
               "key": "Notiz:",
-              "text": "**Teilweise heute** — der Finanz-Druckbericht ist bereits EN/DE, und auf der Verschiebe-Seite existiert ein `useRescheduleTranslation`-Hook; volle i18n ist Roadmap."
+              "text": "Teilweise bereits vorhanden — etwa der zweisprachige Finanzbericht und ein Übersetzungs-Baustein auf der Verschiebe-Seite; die vollständige Mehrsprachigkeit der App ist als Roadmap-Punkt vorgesehen."
             }
           ],
           "differentiator": false,
@@ -1077,11 +1245,13 @@
         },
         {
           "id": 81,
-          "title": "Individuelle Themes / Branding-Anwendung",
-          "status": ["planned"],
-          "what": "Geschäfts-Branding (Farben, Logo) über die ganze App anwenden.",
+          "title": "Individuelles Studio-Theming",
+          "status": [
+            "planned"
+          ],
+          "what": "Eigene Markenfarben und Logo lassen sich künftig durchgängig in der gesamten App anwenden.",
           "for": "Inhaber",
-          "why": "White-Label / Studio-Branding-Experience. *(Verknüpft mit #50; Roadmap.)*",
+          "why": "Für ein echtes White-Label-Erlebnis mit eigener Studio-Identität.",
           "notes": [],
           "differentiator": false,
           "niche": false
@@ -1095,81 +1265,81 @@
   ],
   "differentiators": [
     {
-      "title": "Studio-Honorar-Buchhaltung im Kalender integriert",
+      "title": "Honorarabrechnung direkt im Kalender integriert",
       "refs": "#34–#39",
-      "line": "Künstler-Studio-Split pro Transaktion mit Checkout, Finalisieren, Monatsabschluss, Saldo-Übertrag, gesperrten Monaten und einer \u201eVorbezahlt\u201c-Integritäts-Regel. Kein etabliertes Buchungstool macht Studio-Umsatz-Buchhaltung. Das ist der \u201eServien-Math\u201c-Killer — die schmerzendste Zeile für echte Studio-Inhaber:innen."
+      "line": "Der Künstler-Studio-Split wird pro Transaktion automatisch berechnet — inklusive Checkout, Monatsabschluss, Saldo-Übertrag, gesperrten Monaten und einer eigenen Regel für vollständig vorausbezahlte Aufträge. Kein etabliertes Buchungstool bildet die Umsatzverteilung eines Studios auf diese Weise ab — für Studio-Inhaber:innen oft der schmerzhafteste Posten in der Buchhaltung."
     },
     {
-      "title": "Stühle / Arbeitsplätze als buchbare Ressourcen mit Konfliktprüfung",
+      "title": "Arbeitsplätze als eigene buchbare Ressource",
       "refs": "#16, #3",
-      "line": "Die meisten Tools buchen *Menschen*; hier wird der physische Arbeitsplatz (Kapazität + Puffer) gebucht, damit zwei Künstler:innen nicht denselben Stuhl bekommen."
+      "line": "Die meisten Tools buchen ausschließlich Personen. Hier wird zusätzlich der physische Arbeitsplatz mit eigener Kapazität und Pufferzeit gebucht, damit zwei Künstler:innen nie denselben Stuhl erhalten."
     },
     {
-      "title": "Motivvorlagen-Workflow pro Termin",
+      "title": "Motivvorlagen direkt am Termin",
       "refs": "#10",
-      "line": "Vor-/Nachher-Bilder am Termin angehängt, damit die:r Künstler:in genau sieht, was zu zeichnen ist, bevor der/die Kund:in den Raum betritt. Ein echter Kreativ-Industrie-Workflow."
+      "line": "Vorher-/Nachher-Bilder sind fest an den jeweiligen Termin angehängt, sodass die Künstlerin oder der Künstler genau weiß, was zu tätowieren ist, bevor die Kundin oder der Kunde den Raum betritt — ein echter Kreativbranchen-Workflow."
     },
     {
-      "title": "Sicherer Einmal-Link fürs Kund:innen-Verschieben mit Studio-Richtlinie",
+      "title": "Sichere Terminverschiebung per Einmal-Link",
       "refs": "#11, #12",
-      "line": "Tokenisiert, ablaufend, an die echten Fenster der Künstler:in gebunden; die Admins steuern das Suchfenster. Selten in Buchungstools."
+      "line": "Ein zeitlich befristeter, individueller Link, gebunden an die tatsächlichen Zeitfenster der Künstlerin oder des Künstlers; die Suchreichweite legt das Studio selbst fest. In Buchungstools bislang selten zu finden."
     },
     {
-      "title": "In-App-Bewertung nach dem Besuch mit Rabattcode-Funnel + Social-Proof-Loop",
+      "title": "Bewertungs-Funnel mit Rabatt und Social Proof",
       "refs": "#63, #65, #66",
-      "line": "Schließt den Loop, bei dem die anderen aufhören: Bewertung \u2192 10%-Code \u2192 Instagram-Follow \u2192 Google-Bewertung, alles getrackt."
+      "line": "Ein durchgehender Kreislauf, an dem die meisten Studios sonst scheitern: Bewertung, Rabattcode, Instagram-Follow und Google-Bewertung — alles nachverfolgt."
     },
     {
-      "title": "Künstler-spezifische Waitlist (Künstler:in + Zeit + Arbeitsplatz)",
+      "title": "Warteliste mit konkretem Künstler:in-, Zeit- und Platzbezug",
       "refs": "#67, #68",
-      "line": "Nicht nur \u201eIch bin interessiert\u201c, sondern ein konkretes Termin-/Stuhl-Request mit Status-Lebenszyklus."
+      "line": "Kein pauschales „Ich habe Interesse“, sondern eine konkrete Anfrage für Termin und Arbeitsplatz mit eigenem Status-Verlauf."
     },
     {
-      "title": "Künstler-first mobile PWA mit Benachrichtigungs-Stufen",
+      "title": "Künstler-first mobile App mit steuerbaren Benachrichtigungen",
       "refs": "#74, #75, #56",
-      "line": "Das Team bekommt eine installierbare App mit steuerbarem Push-Lärm und Offline-Modus."
+      "line": "Das Team erhält eine installierbare App mit selbst wählbarer Benachrichtigungsintensität und vollem Offline-Modus."
     },
     {
-      "title": "Echte Multi-Tenant-Isolation",
+      "title": "Echte Trennung mehrerer Studios",
       "refs": "#44",
-      "line": "Ein Konto über mehrere Studios, regel-basiert erzwungen."
+      "line": "Ein Konto für mehrere Studios, technisch strikt regelbasiert voneinander isoliert."
     },
     {
       "title": "Instagram-Handle im Kundenprofil",
       "refs": "#18",
-      "line": "Eine social-first-Kundenbasis für Kreativstudios."
+      "line": "Eine social-first ausgerichtete Kundenverwaltung, passend zur Kreativbranche."
     },
     {
-      "title": "Zeitzone + Währung pro Standort",
+      "title": "Zeitzone und Währung je Standort",
       "refs": "#17, #43",
-      "line": "Mehrfach-Regionen-Studio ohne manuelles Umrechnen."
+      "line": "Studios mit mehreren Regionen arbeiten ohne manuelles Umrechnen."
     }
   ],
   "niche": [
-    "Split-Honorare / Studio-Finanzen (Künstler- vs. Studio-Anteil)",
-    "Stuhl- / Arbeitsplatz-Planung (Tattoo-Stuhl)",
-    "Motivvorlagen-Bilder (Refs / Vorher-Nachher)",
-    "Instagram-Handle im Kundenprofil + Social-Funnel",
-    "10%-Bewertungs-Rabatt",
-    "\u201eVorbezahlt\u201c €0,00-Honorar-Integritäts-Regel",
-    "Eigene Stundensätze für Custom-Arbeiten",
-    "No-Show-Tracking (hohe No-Show-Kosten in der Tattoo-Branche)",
-    "Consent / Anamnese-Formulare (Gesundheits-Kontext)",
-    "Waitlist für gefragte:r Künstler:innen"
+    "Honorar-Split zwischen Künstler:in und Studio",
+    "Planung von Stühlen und Arbeitsplätzen speziell fürs Tattoo-Studio",
+    "Motivvorlagen mit Vorher-/Nachher-Bildern",
+    "Instagram-Handle im Kundenprofil mit Social-Funnel",
+    "10 % Rabatt nach Bewertung",
+    "Korrekte Honorarrechnung auch bei vollständiger Vorauszahlung",
+    "Individuelle Stundensätze für Custom-Arbeiten",
+    "No-Show-Tracking — gerade in der Tattoo-Branche ein spürbarer Kostenfaktor",
+    "Digitale Einwilligungs- und Anamneseformulare für den Gesundheitskontext",
+    "Warteliste für stark nachgefragte Künstler:innen"
   ],
   "general": [
-    "Planungs-Kern (Tag/Woche/Monat), Verfügbarkeit, Konfliktprüfung",
-    "Kundenprofile + Historie + Buchungs-Berechtigung",
-    "Rollen / Berechtigungen, Multi-Team",
-    "Multi-Location, Multi-Tenant",
-    "Benachrichtigungen & Erinnerungen",
-    "Bewertungen & Ratings",
-    "Waitlist",
-    "Buch / Rechnungs-Grundlagen",
-    "Formular-Builder",
-    "PWA / Offline",
-    "DSGVO Datenexport / Löschung",
-    "Geschäftszeiten-Verwaltung"
+    "Planungskern mit Tages-, Wochen- und Monatsansicht, Verfügbarkeit und Konfliktprüfung",
+    "Kundenprofile mit Historie und Buchungsberechtigung",
+    "Rollen und Berechtigungen für mehrere Teams",
+    "Mehrere Standorte und mehrere Studios",
+    "Benachrichtigungen und Erinnerungen",
+    "Bewertungen",
+    "Warteliste",
+    "Grundlegende Kassenbuch- und Rechnungsfunktionen",
+    "Formular-Baukasten",
+    "Installierbare App mit Offline-Modus",
+    "DSGVO-konformer Datenexport und Datenlöschung",
+    "Verwaltung der Geschäftszeiten"
   ],
   "statusCounts": {
     "live": 55,
