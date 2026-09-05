@@ -61,7 +61,7 @@ export const storyBeats: StoryBeat[] = [
   {
     time: "22:15",
     title: "Totes Wi-Fi, lautes Studio.",
-    pain: "Die Studio-Verbindung bricht ab. Der Kalender lebt auf dem Laptop an der Theke. Das Handy, das gerade klingelt, ist genau das, das die App nicht erreicht.",
+    pain: "Die Studio-Verbindung bricht ab. Der Kalender lebt auf dem Laptop an der Theke. Ausgerechnet das Handy, das jetzt klingelt, erreicht die App nicht.",
     fix: "Es ist eine PWA: auf den Home-Bildschirm installiert, offline lauffähig, synchronisiert bei zurückkehrender Verbindung — und die App-Icon-Badge zeigt, was zu erledigen ist. Push-Stufen lassen jede:r Künstler:in entscheiden, wie oft das Handy piepen darf.",
     featureIds: [74, 75, 54, 56],
     visual: "phone",
