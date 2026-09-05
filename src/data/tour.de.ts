@@ -21,8 +21,8 @@ export const hero = {
 
 export const storyIntro = {
   kicker: "Ein Tag im Studio",
-  title: "Fünf Momente, die bisher auf Hoffnung liefen.",
-  sub: "Jeder dieser Punkte ist eine Stelle, an der Studios heute Zeit, Geld oder Kund:innen verlieren. So löst Team Calendar jeden davon — und welche Features dahinterstecken.",
+  title: "Fünf Momente, die bisher Glückssache waren.",
+  sub: "Jeder dieser Punkte ist eine Stelle, an der Studios heute Zeit, Geld oder Kund:innen verlieren. Für jeden Punkt hat Team Calendar eine Lösung. Im Detail zeigen wir dir, welche Funktion dahintersteckt.",
 };
 
 export const storyBeats: StoryBeat[] = [
@@ -71,7 +71,7 @@ export const storyBeats: StoryBeat[] = [
 export const pillarsIntro = {
   kicker: "Die Werkzeugkiste",
   title: "Elf Arbeitsbereiche. Sieben, die du täglich nutzt.",
-  sub: "Alles unten steht in der vollständigen Liste — filterbar nach Bereich, Status oder Rolle. Das sind die Säulen, die ein Studio täglich berührt.",
+  sub: "Die vollständige Liste unten lässt sich nach Bereich, Status oder Rolle filtern. Das sind die Werkzeuge, die ein Studio jeden Tag braucht.",
 };
 
 export const pillars: Pillar[] = [
@@ -80,7 +80,7 @@ export const pillars: Pillar[] = [
     id: "booking",
     kicker: "Buchung",
     title: "Buchen ohne Hin-und-Her.",
-    intro: "Der Kunde bekommt einen geführten Weg — ein empfohlener Termin mit Match-Score oder die volle Kontrolle über Dienstleistung, Künstler:in, Datum und Uhrzeit. Die Theke bucht in einem Durchgang, auch für brandneue Kund:innen.",
+    intro: "Der Kunde bekommt einen geführten Weg — ein empfohlener Termin mit Match-Score oder die volle Kontrolle über Dienstleistung, Künstler:in, Datum und Uhrzeit. Am Empfang ist die Buchung in einem Schritt erledigt — auch für brandneue Kund:innen.",
     featureIds: [1, 2, 3, 4, 10],
     visual: "flow",
   },
@@ -88,8 +88,8 @@ export const pillars: Pillar[] = [
     num: "02",
     id: "calendar",
     kicker: "Teamkalender",
-    title: "Die Hauptfläche.",
-    intro: "Tages-, Wochen- und Monatsansichten, rollenbezogen gefiltert. Nur dein eigener Kalender, Abwesenheiten mit Grund und Pufferzeiten pro Stuhl als Dämpfer.",
+    title: "Der Kalender.",
+    intro: "Tages-, Wochen- und Monatsansicht — gefiltert nach deiner Rolle. Du siehst nur deine eigene Ansicht, Abwesenheiten inklusive Grund, und Pufferzeiten pro Stuhl, damit nichts sich überschneidet.",
     featureIds: [7, 8, 14, 15, 16, 6],
     visual: "grid",
   },
@@ -97,8 +97,8 @@ export const pillars: Pillar[] = [
     num: "03",
     id: "finance",
     kicker: "Studio-Finanzen",
-    title: "Der Servien-Math-Killer.",
-    intro: "Das Modul, das die meisten Buchungstools komplett überspringen: Das Geld des Studios wird im Kalender mitverwaltet — pro Transaktion, pro Perspektive, bis zum gesperrten, druckbaren Monat.",
+    title: "Schluss mit Zettel-Abrechnung.",
+    intro: "Das Modul, das die meisten Buchungstools komplett überspringen: Team Calendar verwaltet das Geld des Studios direkt im Kalender. Kommissionen werden automatisch zwischen Shop und Artist aufgeteilt, jede Abrechnung ist einzeln einsehbar — pro Artist oder fürs ganze Studio — bis hin zum gesperrten, druckbaren Monatsabschluss.",
     featureIds: [35, 36, 37, 40, 41],
     visual: "ledger",
   },
@@ -115,7 +115,7 @@ export const pillars: Pillar[] = [
     id: "pwa",
     kicker: "Benachrichtigungen & PWA",
     title: "Gebaut für den Stuhl, nicht fürs Büro.",
-    intro: "Push-, In-App- und E-Mail-Trigger für jedes Event, das zählt — mit Stufen für das Team, damit kein Handy sich hoarsch piept, und Offline-Modus, falls das Studio die Verbindung verliert.",
+    intro: "Push-, In-App- und E-Mail-Trigger für jedes Event, das zählt — mit Stufen für das Team, damit nicht jedes Handy ununterbrochen piept, und ein Offline-Modus, falls das Studio die Verbindung verliert.",
     featureIds: [55, 56, 54, 74, 75],
     visual: "phone",
   },
@@ -133,16 +133,16 @@ export const pillars: Pillar[] = [
     id: "admin",
     kicker: "Admin & Papiere",
     title: "Alles an einem Ort eingestellt.",
-    intro: "Zeiten, Rollen, Dienstleistungen, Stühle, Locations, Formulare und Bücher — eine einzige Einstellungen-Suite. Papiere (Anamnese, Consent) passieren vor dem Stuhl, nicht während.",
+    intro: "Zeiten, Rollen, Dienstleistungen, Stühle, Standorte, Formulare und Vorlagen — eine einzige Einstellungen-Suite. Anamnese und Einverständniserklärungen werden erledigt, bevor der Kunde auf dem Stuhl sitzt, nicht währenddessen.",
     featureIds: [71, 59, 60, 69],
     visual: "matrix",
   },
 ];
 
 export const differentIntro = {
-  kicker: "Beweis des Unterschieds",
+  kicker: "Der Unterschied, schwarz auf weiß.",
   title: "Was die anderen Tools nicht haben.",
-  sub: "Booksy, Phorest, Square, Vagaro, Zenoti — keine dieser Tools bietet die nächsten zehn. Das sind die Features, die Team Calendar zu einem anderen Tier machen, nicht zu einem weiteren Kalender.",
+  sub: "Booksy, Phorest, Square, Vagaro, Zenoti — keines dieser Tools bietet die nächsten zehn Funktionen. Das sind die Features, die Team Calendar in eine andere Liga heben, nicht zu einem weiteren Kalender machen.",
 };
 
 // Einzeiler für die 10 Differentiator-Karten; der Volltext stammt aus features.de.json.
@@ -162,7 +162,7 @@ export const differentPunch: Record<number, string> = {
 export const inventoryIntro = {
   kicker: "Das komplette Inventar",
   title: "Alle 81 Features, filterbar.",
-  sub: "Die vollständige Liste — was jede Funktion kann, für wen sie ist und wie weit sie steht. Filter nach Bereich, Status oder Rolle, oder suche eine bestimmte Funktion.",
+  sub: "Die vollständige Liste — was jede Funktion kann, für wen sie ist und wie weit sie schon umgesetzt ist. Filter nach Bereich, Status oder Rolle, oder suche eine bestimmte Funktion.",
 };
 
 export const legend = [
