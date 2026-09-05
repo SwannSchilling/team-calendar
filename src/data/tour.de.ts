@@ -5,10 +5,10 @@ import type { StoryBeat, Pillar, UiStrings, MockCopy } from "./tour";
 
 export const hero = {
   kicker: "Studio-Verwaltung · PWA",
-  title: "Eine App, die Zettel, Chat und Serviette ablöst.",
-  titleA: "Eine App, die",
-  titleB: "Zettel, Chat und Serviette ablöst.",
-  sub: "Team Calendar ist der Kalender, der für Tattoo-Studios gebaut wurde — geführte Kundenbuchung, ein Teamkalender, der Stühle genauso bucht wie Menschen, ein Honorarbuch, das auf \u201eWer schuldet was?\u201c antwortet, und eine installierbare PWA, die weiterläuft, wenn das Wi-Fi nicht mehr mitmacht.",
+  title: "Schluss mit Zetteln und guten Vorsätzen.",
+  titleA: "Schluss mit",
+  titleB: "Zetteln und guten Vorsätzen.",
+  sub: "Team Calendar ist der Kalender für Tattoo-Studios — er ersetzt Chat-Nachrichten und Zettel, die zwischen zwei Terminen verloren gehen. Mit geführter Kundenbuchung, einem Teamkalender für Stühle und Kunden, einer Abrechnung, die nie den Überblick verliert, und einer App, die auch ohne WLAN weiterläuft.",
   ctaPrimary: { label: "Einen Tag miterleben", href: "#story" },
   ctaSecondary: { label: "Alle 81 Funktionen", href: "#inventory" },
   stats: [
