@@ -76,7 +76,7 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr auto auto;
   align-items: center;
   gap: 1rem;
   pointer-events: none;
@@ -1619,6 +1619,40 @@ a.chip:hover {
   .frame__kind { display: none; }
   .frame__nav { gap: 0; }
   .frame__link { padding: 0.35rem 0.5rem; font-size: 0.72rem; }
+}
+
+@media screen and (max-width: 740px) {
+  .frame {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "brand lang"
+      "nav nav";
+    row-gap: 0.45rem;
+  }
+  .frame__brand {
+    grid-area: brand;
+    min-width: 0;
+  }
+  .frame__lang {
+    grid-area: lang;
+    justify-self: end;
+    margin-left: 0;
+  }
+  .frame__nav {
+    grid-area: nav;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    pointer-events: auto;
+    margin: 0 calc(-1 * var(--frame-pad));
+    padding: 0 var(--frame-pad);
+  }
+  .frame__nav::-webkit-scrollbar { display: none; }
+  .frame__link { flex: none; scroll-snap-align: start; }
+  .page { padding-top: 6.9rem; }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

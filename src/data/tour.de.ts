@@ -204,7 +204,7 @@ export const footer = {
 };
 
 export const meta = {
-  title: "Team Calendar — der Studio-Kalender, der Zettel, Chat und Serviette ablöst",
+  title: "Team Calendar — Schluss mit Zetteln und guten Vorsätzen",
   description: "Ein Feature-Tour durch Team Calendar, die Tattoo-Studio-Verwaltungs-PWA: geführte Buchung, Stuhl-Planung, Honorarbuch, Kunden-Bewertungen und Offline-PWA. 81 Funktionen, 11 Arbeitsbereiche, filterbares Inventar.",
 };
 

@@ -27,10 +27,10 @@ const hrefDe = `${base}de/`;
   <nav class="frame__nav" aria-label="Sections">
     {ui.nav.map((l) => <a class="frame__link" data-spy={l.href.slice(1)} href={l.href}>{l.label}</a>)}
     <a class="frame__link frame__link--gh" href="https://github.com/SwannSchilling/team-calendar" target="blank" rel="noreferrer">{ui.github}</a>
-    <div class="frame__lang" role="group" aria-label="Sprache / Language">
-      <a class="frame__lang-btn" href={hrefEn} aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
-      <span class="frame__lang-sep" aria-hidden="true">/</span>
-      <a class="frame__lang-btn" href={hrefDe} aria-current={locale === 'de' ? 'page' : undefined}>DE</a>
-    </div>
   </nav>
+  <div class="frame__lang" role="group" aria-label="Sprache / Language">
+    <a class="frame__lang-btn" href={hrefEn} aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
+    <span class="frame__lang-sep" aria-hidden="true">/</span>
+    <a class="frame__lang-btn" href={hrefDe} aria-current={locale === 'de' ? 'page' : undefined}>DE</a>
+  </div>
 </header>
