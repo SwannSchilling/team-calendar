@@ -53,7 +53,7 @@ export const STATUS_LABELS: Record<Locale, Record<string, string>> = {
   de: {
     live: 'Live',
     progress: 'In Arbeit',
-    pending: 'Deployment ausstehend',
+    pending: 'Bereitstellung ausstehend',
     planned: 'Roadmap',
     verify: 'Verifizieren',
   },

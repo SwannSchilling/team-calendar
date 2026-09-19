@@ -190,7 +190,7 @@ const countInit = ui.showing.replace('{n}', String(total)).replace('{total}', St
               </div>
               <div>
                 <div class="inv-detail__label">{ui.whoLabel}</div>
-                <p class="inv-detail__text">{f.for}{f.notes.length ? <br /> : null}{f.notes.map((n) => <span style="display:block">{n.key}: {plain(n.text)}</span>)}</p>
+                <p class="inv-detail__text">{f.for}{f.notes.length ? <br /> : null}{f.notes.map((n) => <span style="display:block">{n.key} {plain(n.text)}</span>)}</p>
               </div>
             </div>
           </div>

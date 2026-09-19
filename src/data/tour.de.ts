@@ -5,11 +5,11 @@ import type { StoryBeat, Pillar, UiStrings, MockCopy } from "./tour";
 
 export const hero = {
   kicker: "Studio-Verwaltung · PWA",
-  title: "Schluss mit Zetteln und guten Vorsätzen.",
-  titleA: "Schluss mit",
-  titleB: "Zetteln und guten Vorsätzen.",
-  sub: "Team Calendar ist der Kalender für Tattoo-Studios — er ersetzt Chat-Nachrichten und Zettel, die zwischen zwei Terminen verloren gehen. Mit geführter Kundenbuchung, einem Teamkalender für Stühle und Kunden, einer Abrechnung, die nie den Überblick verliert, und einer App, die auch ohne WLAN weiterläuft.",
-  ctaPrimary: { label: "Einen Tag miterleben", href: "#story" },
+  title: "Weniger Admin. Mehr Zeit am Stuhl.",
+  titleA: "Weniger Admin.",
+  titleB: "Mehr Zeit am Stuhl.",
+  sub: "Team Calendar organisiert Buchungen, Stühle, Künstler:innen, Kund:innen, Motive und Abrechnung in einem System. Schluss mit Zettelwirtschaft, endlosen DMs und der Suche nach der richtigen Information.",
+  ctaPrimary: { label: "Einen Studio-Tag miterleben", href: "#story" },
   ctaSecondary: { label: "Alle 81 Funktionen", href: "#inventory" },
   stats: [
     { value: "81", label: "Funktionen erfasst" },
@@ -29,16 +29,16 @@ export const storyBeats: StoryBeat[] = [
   {
     time: "09:41",
     title: "\u201eKann ich meinen Termin verschieben?\u201d",
-    pain: "Er kommt als DM, Anruf oder Zettel. Iemand jongliert mit zwei Handys und einem Papierkalender, findet einen \u201efreien\u201c Termin, der es nicht ist — und der Stuhl wird nie aktualisiert.",
-    fix: "Dein Kunde tippt auf einen sicheren Einmal-Link zum Verschieben — ohne Login, ohne App-Installation. Termine werden aus den echten Arbeitszeiten, Abwesenheiten und Verschiebe-Fenstern der Künstler:in berechnet. Das Studio legt die Regeln fest: Wie weit wird gesucht, wie viele Termine, wie lange der Link lebt.",
+    pain: "Er kommt als DM, Anruf oder Zettel. Zwei Handys, Papierkalender, DMs ohne Ende — und trotzdem ist der vermeintlich freie Termin schon vergeben. Der Stuhl wird dabei nicht aktualisiert.",
+    fix: "Dein Kunde tippt auf einen sicheren Einmal-Link zum Verschieben — ohne Login, ohne App-Installation. Termine werden aus den echten Arbeitszeiten, Abwesenheiten und Verschiebe-Fenstern der Künstler:in berechnet. Das Studio legt die Regeln fest: wie weit im Voraus gesucht wird, wie viele Termine angezeigt werden und wie lange der Link gültig bleibt.",
     featureIds: [11, 12, 13],
     visual: "link",
   },
   {
     time: "11:05",
     title: "Zwei Künstler:innen, ein Stuhl.",
-    pain: "Die meisten Buchungstools buchen Menschen. Niemand prüft, ob der Stuhl frei ist — also landen zwei Künstler:innen am Stuhl 2, und eine:r wird kurzfristig verschoben.",
-    fix: "Arbeitsplätze sind buchbare Ressourcen mit eigener Kapazität und Puffer. Die Konfliktprüfung läuft pro Stuhl — Künstler:in, Abwesenheit und Arbeitszeiten werden geprüft — bevor ein Termin angenommen wird. Die Tagesansicht zeigt ein Raster pro Stuhl, damit Kollisionen sichtbar sind, nicht erst im Nachhinein.",
+    pain: "Viele Buchungstools planen Personen, aber nicht den konkreten Stuhl. Ob ein Platz wirklich frei ist, wird dabei nicht erkannt — so landen zwei Künstler:innen an Stuhl 2, und eine:r wird kurzfristig verschoben.",
+    fix: "Jeder Stuhl wird als eigener buchbarer Platz mit Kapazität und Pufferzeit geführt. Die Konfliktprüfung läuft pro Stuhl: Künstler:in, Abwesenheiten und Arbeitszeiten werden geprüft, bevor ein Termin angenommen wird. Die Tagesansicht zeigt ein Raster pro Stuhl, damit Kollisionen früh sichtbar werden.",
     featureIds: [16, 3, 15],
     visual: "grid",
   },
@@ -46,23 +46,23 @@ export const storyBeats: StoryBeat[] = [
     time: "14:30",
     title: "\u201eIch hab dir die Vorlage geschickt.\u201d",
     pain: "Vergraben unter 400 DMs, manchmal in schlechter Auflösung, manchmal die falsche — und weg ist sie, wenn der Kunde auf dem Stuhl sitzt.",
-    fix: "Motiv- und Vorher/Nachher-Bilder hängen direkt am Termin. Automatisch verkleinert beim Hochladen, löschbar und im anstehenden Kalender der Künstler:innen und im Profil sichtbar — genau das, was gezeichnet wird, noch bevor der Kunde den Raum betritt.",
+    fix: "Motiv- und Vorher-/Nachher-Bilder gehören direkt zum Termin. Sie werden beim Hochladen automatisch verkleinert, lassen sich löschen und sind im anstehenden Kalender der Künstler:innen sowie im Profil sichtbar — genau das, was gezeichnet wird, noch bevor die Kundin oder der Kunde den Raum betritt.",
     featureIds: [10, 9],
     visual: "refs",
   },
   {
     time: "20:00",
     title: "Die Abrechnung am Tagesende.",
-    pain: "Wer hat was bekommen? Splits auf der Servie ausgerechnet, Anzahlen diskutiert, doppelt in die Tabelle eingegeben — und zum Monatsende traut niemand mehr den Zahlen.",
-    fix: "Jeder Buchungsposten trägt die pro Transaktion kalkulierte Künstler-/Studio-Verteilung. Checkout sperrt die Einträge; der Monatsabschluss überträgt den Saldo und sperrt den Monat. Wenn die Buchhaltung fragt, gibt es einen druckbaren Bericht — EN/DE.",
+    pain: "Wer hat was bekommen? Splits auf der Serviette ausgerechnet, Anzahlungen diskutiert, doppelt in der Tabelle eingegeben — und zum Monatsende traut niemand mehr den Zahlen.",
+    fix: "Honoraranteile werden pro Transaktion erfasst – für einen nachvollziehbaren Monatsabschluss. Checkout sperrt die Einträge; der Monatsabschluss überträgt den Saldo und sperrt den Monat. Wenn die Buchhaltung fragt, gibt es einen druckbaren Bericht — EN/DE.",
     featureIds: [35, 36, 37, 40],
     visual: "ledger",
   },
   {
     time: "22:15",
-    title: "Totes Wi-Fi, lautes Studio.",
+    title: "Totes WLAN, lautes Studio.",
     pain: "Die Studio-Verbindung bricht ab. Der Kalender lebt auf dem Laptop an der Theke. Ausgerechnet das Handy, das jetzt klingelt, erreicht die App nicht.",
-    fix: "Es ist eine PWA: auf den Home-Bildschirm installiert, offline lauffähig, synchronisiert bei zurückkehrender Verbindung — und die App-Icon-Badge zeigt, was zu erledigen ist. Push-Stufen lassen jede:r Künstler:in entscheiden, wie oft das Handy piepen darf.",
+    fix: "Es ist eine PWA: auf dem Startbildschirm installiert, offline lauffähig und synchronisiert bei zurückkehrender Verbindung. Das App-Symbol zeigt an, was zu erledigen ist. Die Push-Stufen legt jede:r Künstler:in selbst fest.",
     featureIds: [74, 75, 54, 56],
     visual: "phone",
   },
@@ -89,7 +89,7 @@ export const pillars: Pillar[] = [
     id: "calendar",
     kicker: "Teamkalender",
     title: "Der Kalender.",
-    intro: "Tages-, Wochen- und Monatsansicht — gefiltert nach deiner Rolle. Du siehst nur deine eigene Ansicht, Abwesenheiten inklusive Grund, und Pufferzeiten pro Stuhl, damit nichts sich überschneidet.",
+    intro: "Tages-, Wochen- und Monatsansicht — gefiltert nach deiner Rolle. Du siehst nur deine eigene Ansicht, Abwesenheiten inklusive Grund, und Pufferzeiten pro Stuhl, damit sich nichts überschneidet.",
     featureIds: [7, 8, 14, 15, 16, 6],
     visual: "grid",
   },
@@ -98,7 +98,7 @@ export const pillars: Pillar[] = [
     id: "finance",
     kicker: "Studio-Finanzen",
     title: "Schluss mit Zettel-Abrechnung.",
-    intro: "Das Modul, das die meisten Buchungstools komplett überspringen: Team Calendar verwaltet das Geld des Studios direkt im Kalender. Kommissionen werden automatisch zwischen Shop und Artist aufgeteilt, jede Abrechnung ist einzeln einsehbar — pro Artist oder fürs ganze Studio — bis hin zum gesperrten, druckbaren Monatsabschluss.",
+    intro: "Das Modul, das die meisten Buchungstools komplett überspringen: Team Calendar verwaltet das Geld des Studios direkt im Kalender. Honoraranteile werden automatisch zwischen Studio und Künstler:in aufgeteilt, jede Abrechnung ist einzeln einsehbar — pro Künstler:in oder fürs ganze Studio — bis hin zum gesperrten, druckbaren Monatsabschluss.",
     featureIds: [35, 36, 37, 40, 41],
     visual: "ledger",
   },
@@ -106,8 +106,8 @@ export const pillars: Pillar[] = [
     num: "04",
     id: "clients",
     kicker: "Kunden & Reputation",
-    title: "Jeden Kunden kennen. Den nächsten Besuch verdienen.",
-    intro: "Profile mit Buchungshistorie und Instagram-Handles, Live-Statistiken zu No-Shows und Bindung, und ein Bewertungs-Loop, der ein Danke nach dem Besuch in eine Wiederholungsbuchung verwandelt.",
+    title: "Kund:innen kennen. Den nächsten Besuch verdienen.",
+    intro: "Profile mit Buchungshistorie und Instagram-Handles, Kennzahlen zu No-Shows und wiederkehrenden Kund:innen sowie ein Bewertungs-Loop, der ein Danke nach dem Besuch in eine Folgebuchung verwandelt.",
     featureIds: [18, 19, 65, 67, 63],
   },
   {
@@ -133,7 +133,7 @@ export const pillars: Pillar[] = [
     id: "admin",
     kicker: "Admin & Papiere",
     title: "Alles an einem Ort eingestellt.",
-    intro: "Zeiten, Rollen, Dienstleistungen, Stühle, Standorte, Formulare und Vorlagen — eine einzige Einstellungen-Suite. Anamnese und Einverständniserklärungen werden erledigt, bevor der Kunde auf dem Stuhl sitzt, nicht währenddessen.",
+    intro: "Zeiten, Rollen, Dienstleistungen, Stühle, Standorte, Formulare und Vorlagen — eine einzige Einstellungen-Suite. Anamnese und Einverständnis sind vor dem Termin erledigt, nicht erst am Stuhl.",
     featureIds: [71, 59, 60, 69],
     visual: "matrix",
   },
@@ -148,14 +148,14 @@ export const differentIntro = {
 // Einzeiler für die 10 Differentiator-Karten; der Volltext stammt aus features.de.json.
 export const differentPunch: Record<number, string> = {
   1: "Die Antwort auf \u201eWer schuldet was?\u201c — automatisch, pro Transaktion.",
-  2: "Bucht den Stuhl, nicht nur den Menschen.",
-  3: "Die Künstler:in sieht genau, was zu zeichnen ist, bevor der Kunde sitzt.",
+  2: "Bucht den Stuhl, nicht nur die Person.",
+  3: "Die Künstler:in sieht genau, was zu zeichnen ist, bevor die Kundin oder der Kunde sitzt.",
   4: "Kein Login, kein Hin-und-Her — und das Studio legt die Regeln fest.",
   5: "Bewertung \u2192 10 % Rabatt \u2192 Instagram \u2192 Google, ein getrackter Loop.",
-  6: "Weiß, welche:r Künstler:in, zu welcher Zeit, an welchem Stuhl frei wird.",
-  7: "Eine installierbare App, die offline läuft — und die Pieper-Einstellung in der Hand hat.",
-  8: "Ein Konto quer durch Studios, getrennt per Regel.",
-  9: "Eine social-first-Kundenbasis, direkt im Datenbestand.",
+  6: "Weiß, welche:r Künstler:in wann an welchem Stuhl frei wird.",
+  7: "Eine installierbare App, die offline läuft — mit selbst steuerbaren Benachrichtigungen.",
+  8: "Ein Konto für mehrere Studios, sauber getrennt pro Standort.",
+  9: "Eine Kundenbasis mit Instagram-Bezug, direkt im Datenbestand.",
   10: "Mehrfach-Regionen, ohne manuelles Umrechnen.",
 };
 
@@ -168,7 +168,7 @@ export const inventoryIntro = {
 export const legend = [
   { key: "live", mark: "✅", label: "Live", desc: "Gebaut und in Produktion." },
   { key: "progress", mark: "🟡", label: "In Arbeit", desc: "Code vorhanden; bekannte Issues oder teilweises Backend." },
-  { key: "pending", mark: "🔶", label: "Deployment ausstehend", desc: "Implementiert + getestet, wartet auf Deployment." },
+  { key: "pending", mark: "🔶", label: "Bereitstellung ausstehend", desc: "Implementiert + getestet, wartet auf Bereitstellung." },
   { key: "planned", mark: "⏳", label: "Geplant", desc: "Roadmap / Spezifikation, noch nicht gebaut." },
   { key: "verify", mark: "⚠️", label: "Verifizieren", desc: "UI im Repo; passende Cloud Function unbestätigt." },
 ];
@@ -196,16 +196,16 @@ export const roadmap = {
 };
 
 export const honestyNote =
-  "Die Status-Flags spiegeln den Zustand des Repos vom 29.08.2026 (Commit edbc187). Features mit \u201eIn Arbeit\u201c oder \u201eVerifizieren\u201c sind echte UI, aber ihr Backend steht noch aus — das Inventar oben behält das ehrlich."
+  "Die Status-Flags spiegeln den Zustand des Repos vom 29.08.2026 (Commit edbc187). Features mit \u201eIn Arbeit\u201c oder \u201eVerifizieren\u201c sind echte UI, aber ihr Backend steht noch aus — das Inventar oben bleibt ehrlich."
 
 export const footer = {
-  tagline: "Der Studio-Kalender, der Zettel, Chat und Serviette ablöst.",
+  tagline: "Der Studio-Kalender, der Zettel, Tabellen und Chat-Chaos ersetzt.",
   github: "https://github.com/SwannSchilling/team-calendar",
 };
 
 export const meta = {
-  title: "Team Calendar — Schluss mit Zetteln und guten Vorsätzen",
-  description: "Ein Feature-Tour durch Team Calendar, die Tattoo-Studio-Verwaltungs-PWA: geführte Buchung, Stuhl-Planung, Honorarbuch, Kunden-Bewertungen und Offline-PWA. 81 Funktionen, 11 Arbeitsbereiche, filterbares Inventar.",
+  title: "Team Calendar — Weniger Admin. Mehr Zeit am Stuhl.",
+  description: "Ein Feature-Rundgang durch Team Calendar, die Tattoo-Studio-Verwaltungs-PWA: geführte Buchung, Stuhl-Planung, Honorarbuch, Kunden-Bewertungen und Offline-PWA. 81 Funktionen, 11 Arbeitsbereiche, filterbares Inventar.",
 };
 
 export const ui: UiStrings = {
@@ -220,8 +220,8 @@ export const ui: UiStrings = {
   roles: [
     { key: "Owner", label: "Inhaber" },
     { key: "Admin", label: "Admin" },
-    { key: "Artist", label: "Künstler" },
-    { key: "Client", label: "Kunde" },
+    { key: "Artist", label: "Künstler:in" },
+    { key: "Client", label: "Kund:in" },
   ],
   whatLabel: "Was sie kann",
   whoLabel: "Für wen",
@@ -314,8 +314,8 @@ export const mock: MockCopy = {
     rows: [
       { role: "Inhaber", cells: ["✓", "✓", "✓", "✓"] },
       { role: "Admin", cells: ["✓", "✓", "lesen", "✓"] },
-      { role: "Künstler", cells: ["meine", "eigenes Buch", "eigener Split", "—"] },
-      { role: "Kunde", cells: ["eigene Termine", "eigene", "—", "—"] },
+      { role: "Künstler:in", cells: ["meine", "eigenes Buch", "eigener Split", "—"] },
+      { role: "Kund:in", cells: ["eigene Termine", "eigene", "—", "—"] },
     ],
   },
   link: {

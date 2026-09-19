@@ -214,7 +214,7 @@
         },
         {
           "id": 16,
-          "title": "Arbeitsplätze als eigene buchbare Ressource",
+          "title": "Eigene buchbare Arbeitsplätze",
           "status": [
             "live"
           ],
@@ -257,7 +257,7 @@
           ],
           "what": "Eine zentrale Kundendatei mit Name, E-Mail, Telefonnummer, Instagram-Handle sowie vollständiger Buchungshistorie.",
           "for": "Künstler, Admins",
-          "why": "Alle Informationen zu einer Kundin oder einem Kunden an einem Ort — statt verstreut in Notiz-Apps und Gruppenchats. Das Instagram-Feld ist ein bewusst social-first ausgerichtetes Detail für Kreativstudios.",
+          "why": "Alle Informationen zu einer Kundin oder einem Kunden an einem Ort — statt verstreut in Notiz-Apps und Gruppenchats. Das Instagram-Feld ist ein bewusst auf Social-Media ausgerichtetes Detail für Kreativstudios.",
           "notes": [],
           "differentiator": false,
           "niche": true
@@ -842,7 +842,7 @@
           ],
           "what": "Automatische Erinnerungen 24 Stunden und eine Stunde vor dem Termin.",
           "for": "Künstler, Kunden",
-          "why": "Der wirkungsvollste Hebel gegen No-Shows.",
+          "why": "Ein wichtiger Baustein gegen No-Shows.",
           "notes": [
             {
               "key": "Verifizieren (Status-Konflikt):",
@@ -1270,7 +1270,7 @@
       "line": "Der Künstler-Studio-Split wird pro Transaktion automatisch berechnet — inklusive Checkout, Monatsabschluss, Saldo-Übertrag, gesperrten Monaten und einer eigenen Regel für vollständig vorausbezahlte Aufträge. Kein etabliertes Buchungstool bildet die Umsatzverteilung eines Studios auf diese Weise ab — für Studio-Inhaber:innen oft der schmerzhafteste Posten in der Buchhaltung."
     },
     {
-      "title": "Arbeitsplätze als eigene buchbare Ressource",
+      "title": "Eigene buchbare Arbeitsplätze",
       "refs": "#16, #3",
       "line": "Die meisten Tools buchen ausschließlich Personen. Hier wird zusätzlich der physische Arbeitsplatz mit eigener Kapazität und Pufferzeit gebucht, damit zwei Künstler:innen nie denselben Stuhl erhalten."
     },
@@ -1295,7 +1295,7 @@
       "line": "Kein pauschales „Ich habe Interesse“, sondern eine konkrete Anfrage für Termin und Arbeitsplatz mit eigenem Status-Verlauf."
     },
     {
-      "title": "Künstler-first mobile App mit steuerbaren Benachrichtigungen",
+      "title": "Mobile App für Künstler:innen mit steuerbaren Benachrichtigungen",
       "refs": "#74, #75, #56",
       "line": "Das Team erhält eine installierbare App mit selbst wählbarer Benachrichtigungsintensität und vollem Offline-Modus."
     },
@@ -1307,7 +1307,7 @@
     {
       "title": "Instagram-Handle im Kundenprofil",
       "refs": "#18",
-      "line": "Eine social-first ausgerichtete Kundenverwaltung, passend zur Kreativbranche."
+      "line": "Eine auf Social-Media ausgerichtete Kundenverwaltung, passend zur Kreativbranche."
     },
     {
       "title": "Zeitzone und Währung je Standort",
