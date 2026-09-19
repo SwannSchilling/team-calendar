@@ -1,0 +1,38 @@
+SOURCE-URL: https://inkschedule.app/product
+ACCESSED: 2026-09-19
+CHARS: 3523
+
+IS
+IS
+InkSchedule Home Get Started
+What's Inside
+Product Features
+InkSchedule is a complete studio management platform built from the ground up for tattoo professionals. Every feature is designed around real tattoo workflows — not adapted from generic booking software.
+Online Booking
+Let clients book 24/7. They pick their artist, choose a service, grab an open slot, fill out intake forms with reference images, and lock it in with a deposit. No phone calls, no DMs, no back-and-forth.
+Deposit Collection
+Collect deposits at the time of booking through Stripe. Configure deposit amounts per service - flat fee or percentage. Protect your time against no-shows and last-minute cancellations. Deposits are automatically applied to the final session cost.
+Smart Calendar
+A calendar built for tattoo workflows. Day, week, and month views. Block off time for walk-ins, breaks, or personal days. Two-way sync with Google Calendar so you never double-book. Color-coded by artist, with drag-and-drop rescheduling.
+Artist Profiles & Portfolios
+Each artist gets a dedicated profile page with their bio, specialties (blackwork, realism, traditional, etc.), and an AtSign-grid style portfolio gallery. Clients can browse work and book directly with the artist whose style matches their vision.
+Automated Reminders
+Reduce no-shows with automated email reminders via Resend and SMS reminders via Twilio. Configurable timing - send reminders 48 hours, 24 hours, or 1 hour before the appointment. Aftercare instructions are automatically sent post-session.
+Waitlist Management
+When your calendar is full, clients can join the waitlist for specific artists or services. When a slot opens up, waitlisted clients are automatically notified and can book the available time. First come, first served - no manual juggling.
+Consent & Waiver Forms
+Digital consent forms with e-signature support. Collect health information, allergy disclosures, age verification, and informed consent - all before the client walks through the door. Forms are stored securely and linked to the booking record.
+Client Self-Service Portal
+Clients can look up their bookings using their email and a verification code. View upcoming appointments, cancel or reschedule within your policies, sign consent forms, and review aftercare instructions. No account creation required.
+Embeddable Widget
+Drop a booking widget onto your existing website with a single script tag. Perfect for studios that already have a site and want to add booking without a redesign. Also works as an AtSign link-in-bio destination for direct booking from social media.
+Team Management
+Invite artists and staff to your studio account with role-based permissions. Owners manage billing and settings. Artists manage their own calendar, services, and portfolio. Staff can view bookings and handle front-desk operations.
+Analytics Dashboard
+Track what matters. Revenue by artist and service, booking volume trends, no-show rates, deposit collection rates, average session value, and client retention. Export reports for your accountant or use the data to optimize your schedule.
+Multi-Session Support
+Large pieces require multiple sessions. Create multi-session bookings that track progress across appointments. Link sessions together, add notes per session, and keep clients informed about remaining sessions and total project timeline.
+Stop Juggling. Start Tattooing.
+14 days free. No card. Takes about 5 minutes to set up.
+Start Free Trial View Pricing →
+© 2026 InkSchedule. All rights reserved.

@@ -1,0 +1,108 @@
+SOURCE-URL: https://inkschedule.app
+ACCESSED: 2026-09-19
+CHARS: 3629
+
+IS
+Marketing Mode ON
+IS
+InkSchedule Built for Tattoo Studios Simple, Honest Pricing
+Sign In Start 30-Day Free Trial
+EN DE ES FR
+T a t t o o i n g i s y o u r j o b . N o t a n s w e r i n g D M s .
+InkSchedule handles bookings, deposits, and reminders. Clients book themselves. You tattoo.
+Start 30-Day Free Trial
+See how it works ↓
+Sound familiar?
+These are the exact problems InkSchedule was built to solve. If any hit home, it is worth a try.
+Free Trial
+Why a Free Trial?
+Try every InkSchedule feature free for 30 days, no credit card, no commitment. We are new, so we would love your honest feedback to make this the best booking tool for your workflow.
+Start Free Trial
+App Launch
+Native App, bald verfügbar
+iOS und Android. Trag deine Email ein, wir informieren dich beim Launch.
+Eintragen
+Everything your studio needs
+Built for Tattoo Studios
+Online Booking
+Clients pick their service, date, and artist online. They pay a deposit to confirm. You get notified instantly.
+Deposit Collection
+Set a deposit amount and collect it automatically at booking via Stripe. No deposit means no appointment.
+Artist Portfolios
+A dedicated portfolio page for every artist. Clients browse styles and book directly from the page.
+Smart Calendar
+Day and week views built for long sessions. Block time off, drag to reschedule, view all artists at once.
+Automatic Reminders
+Clients get reminders 24h and 1h before their appointment. Aftercare instructions go out automatically after.
+Waitlist
+When you are fully booked, clients join a waitlist. They get notified the moment a slot opens.
+AI Assistant
+Ask the AI to plan your week, find gaps, or summarize revenue. Plain English, instant answers.
+Digital Consent Forms
+Clients sign waivers on their phone before arriving. No paper, no borrowed pens, no lost forms.
+Revenue Analytics
+Track revenue by artist, by service, and by month. Spot your busiest days and most profitable work.
+Embeddable Widget
+Paste one script tag on any website or link-in-bio. A full booking flow appears instantly.
+Google Calendar Sync
+Your personal calendar and studio calendar stay in sync. Personal blocks automatically close client slots.
+Team Management
+Invite artists with their own logins. Each artist manages their calendar, portfolio, and bookings independently.
+Client Self-Service
+Clients look up their booking with their email, reschedule, or sign forms. No account needed.
+Multi-Session Bookings
+For large pieces spanning multiple visits. Link sessions together and track progress across appointments.
+Every plan includes a 14-day free trial. No credit card needed. No contracts.
+Simple, Honest Pricing
+Solo Artist
+For independent tattoo artists
+$29 /MO
+1 Artist
+Unlimited Bookings
+Deposit Collection
+Email & SMS Reminders
+Start 14-Day Free Trial
+Most Popular
+Studio
+For studios running a team
+$79 /MO
+Up to 5 Artists
+Unlimited Bookings
+Deposit Collection
+Email & SMS Reminders
+Waitlist Management
+Revenue Analytics
+Start 14-Day Free Trial
+Enterprise
+For multi-location studios
+$149 /MO
+Unlimited Artists
+Unlimited Bookings
+Deposit Collection
+Email & SMS Reminders
+Custom Branding
+API Access
+Custom Domain
+Priority Support
+Contact Sales
+30-day free trial, no credit card required
+The booking tool that actually understands tattoo
+Free 30-day trial. No credit card. Set up in under 5 minutes.
+Start 30-Day Free Trial Free 30-day trial No credit card 5 min setup
+IS
+InkSchedule
+The booking platform built for ink.
+Product
+Online Booking
+Deposit Collection
+Smart Calendar
+Waitlist
+My Bookings
+All Features
+Company
+About
+Careers
+Legal
+Privacy Policy
+Terms of Service
+© 2026 InkSchedule. All rights reserved.

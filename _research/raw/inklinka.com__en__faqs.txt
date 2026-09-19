@@ -1,0 +1,147 @@
+### FINAL-URL: https://inklinka.com/en/faqs
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+InkLinka
+Features
+Features
+Guest Planner for Studios Payments & Payouts SMS & Email Automation Forms, Widgets & AI Chat Aftercare & Merch Sales
+Tools
+AI Business Analyst Universal Stencil Maker Studio Efficiency Check
+Guides
+Stencil Maker Guide Personal Link Guide
+Solutions
+Solutions
+For Artists For Studio Owners Tattoo Studio Essentials Calendar Context
+Why InkLinka Pricing Contact English EN
+Login Get Started
+General FAQs
+How do I sign in to InkLinka? How do I reset my password? Why am I redirected to onboarding? How do I switch between studios or workspaces? How do roles and permissions work? How does the trial period work? How do I change or cancel my subscription? How do I invite a team member? How do I update my studio profile details?
+InkLinka
+Frequently Asked Questions
+Find quick answers about access, account setup, billing, and basic navigation. For studio-specific issues, please log in and send a new support request so we can review your workspace context.
+Not logged in?
+Please log in and send a fresh support request so we can check your account and studio details.
+Log in
+How do I sign in to InkLinka?
+Use the login page with your verified email to access the CRM.
+InkLinka uses email + password authentication. If your session is already active, the app should redirect you to the dashboard automatically.
+Steps
+- Open the login page.
+- Enter your verified email and password.
+- If you are redirected back to login, refresh once and check that your session is still active.
+If still not solved
+- Provide the email address you used.
+- Share the exact error message or screenshot.
+- Tell us the browser and device you are using.
+How do I reset my password?
+Request a reset email and follow the secure link.
+Use the “Forgot password” flow to receive a reset email. The reset link opens a secure page where you can set a new password.
+Steps:
+- Open the “Forgot password” page.
+- Enter your account email and submit.
+- Follow the email link and set a new password.
+If still not solved:
+- Check spam and promotions folders.
+- Share the timestamp when you requested the reset.
+- Confirm the email address you entered.
+Why am I redirected to onboarding?
+Onboarding appears when required studio fields are missing.
+Onboarding is shown when the studio profile or required setup fields are incomplete. Completing onboarding unlocks the main workspace.
+Steps:
+- Fill all required studio fields marked with an asterisk.
+- Save changes and wait for the confirmation.
+- Return to the dashboard to verify access.
+If still not solved:
+- Provide the studio name you entered.
+- Share which required fields are missing or failing.
+- Include the last save time and any errors.
+How do I switch between studios or workspaces?
+Use the studio switcher when you belong to multiple tenants.
+If your account belongs to multiple studios, use the studio selector to switch context. Each workspace has its own data and settings.
+Steps:
+- Open the studio selector in the header.
+- Pick the studio you want to work in.
+- Confirm the switch and reload the view.
+If still not solved:
+- List the studios visible to you.
+- Share which one you cannot access.
+- Note if you are an invited artist or owner.
+How do roles and permissions work?
+Roles control feature access based on weight and permissions.
+Roles define which features a user can access. Higher-weight roles usually have more permissions, and access is enforced per tenant.
+Steps:
+- Open Team and select a member.
+- Choose a role with the needed permissions.
+- Save changes and ask the user to refresh.
+If still not solved:
+- Share the member email and role name.
+- Include which feature remains locked.
+- Mention if the user is an invited artist.
+How does the trial period work?
+Trials unlock features until the trial end date.
+Trials are active for a limited time and unlock plan features. The end date is shown in the subscription banner.
+Steps:
+- Open Subscription to view trial status.
+- Check the trial end date.
+- Upgrade to continue without interruption.
+If still not solved:
+- Share the trial end date shown.
+- Provide your tenant name.
+- Include a screenshot of the subscription banner.
+How do I change or cancel my subscription?
+Plans are managed in the Subscription section.
+Subscription changes are made through the Subscription page or Stripe portal. Your plan updates after successful checkout.
+Steps:
+- Open Subscription and select a plan.
+- Complete checkout in Stripe.
+- Return to InkLinka to confirm the plan.
+If still not solved:
+- Share the plan ID you selected.
+- Include the Stripe session ID if available.
+- Mention whether webhook events were received.
+How do I invite a team member?
+Send invitations from the Team page with the correct role.
+Team invitations are managed on the Team page. You choose a role and send an invite to the user’s email.
+Steps:
+- Open the Team page.
+- Click invite and enter the email.
+- Assign a role and send the invitation.
+If still not solved:
+- Provide the invitee email and role.
+- Check if the invite is pending or rejected.
+- Share the time the invite was sent.
+How do I update my studio profile details?
+Use the Profile or Settings pages to change studio data.
+Studio profile data is edited in the Profile or Settings sections. Changes apply to your tenant and update branding across the app.
+Steps:
+- Open Profile or Settings from the main menu.
+- Update studio name, logo, timezone, or contact details.
+- Press Save and wait for the confirmation.
+If still not solved:
+- Share which field refuses to save.
+- Provide your tenant name and user email.
+- Attach a screenshot of the error state.
+InkLinka
+Professional Studio Management
+Tattoo studio CRM and management software for bookings, projects, clients and payments.
+Owned and operated by Inklinka Technologies OÜ
+Product
+Pricing
+Solutions
+Tattoo Studio CRM
+Tattoo Booking Software
+Tattoo Artist CRM
+Guest Artist Software
+Tattoo Studio Management Software
+Tattoo Studio Calendar Software
+Tattoo Calendar Context
+Tattoo Deposit Management
+Inklinka Magazine
+Blog
+Tattoo Artist Interviews
+Support
+FAQs
+© 2026 Inklinka Technologies OÜ. All rights reserved.
+Terms • Privacy
+We love Ukraine and stand with Ukraine.
+Chat

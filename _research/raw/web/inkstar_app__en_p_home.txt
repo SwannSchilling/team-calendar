@@ -1,0 +1,265 @@
+SOURCE-URL: https://www.inkstar.app/en/p/home
+ACCESSED: 2026-09-19
+CHARS: 15193
+
+Home
+Features
+Industries
+Pricing
+Blog
+Login Get Started
+Appointment planner app for tattoo, PMU, piercing, and barber studios.
+Manage booking, deposits, consent forms, client records, payments, reminders, reports, and offline access in one appointment planner app built around real studio workflows.
+Explore features , compare pricing , or find the right workflow for your studio type .
+Join Now See Features
+Now available on
+Today's Schedule Appointments
+Deposits Before Sessions No-show protection
+Payments and Reports Studio operations
+You Didn't Build This Dream to Burn Out
+You became an artist to create. Not to spend your nights chasing payments, juggling schedules, and drowning in paperwork.
+Sunday
+11:47 PM
+01 Clients who ghost
+You blocked multiple hours, pushed other clients further into the future, prepped everything and they never showed up. No call. No text. Just an empty chair and lost income.
+02 Chasing payments
+That awkward conversation. Again. Meanwhile, rent is due, supplies are running low, and you're the one feeling unprofessional.
+03 The midnight grind
+You tattooed for 10 hours. Now it's 11pm and you're still answering DMs, updating your calendar, sorting paperwork. When does it stop?
+04 You can never switch off
+Day off? Your phone is still blowing up. Vacation? The business falls apart. You're trapped inside of your dream and it turns into a nightmare.
+05 Consent forms on paper
+Your client signs a piece of paper, you file it somewhere. Months later you need it and can't find it. Or worse: the signature is illegible, the date is missing, and you can't prove when or what was actually agreed on.
+The hard truth? Most talented artists aren't struggling because of their craft. They're struggling because running a business alone is relentless. And without the right systems, the chaos only grows.
+What InkStar replaces in your studio.
+A focused appointment planner app should remove the scattered tools that make studio work harder to track.
+Instagram DMs
+Move from buried requests to a booking flow with appointment details, deposits, and client records.
+Manual WhatsApp reminders
+Send appointment reminders and follow-ups automatically instead of remembering every client by hand.
+Paper consent forms
+Collect digital waivers, intake forms, allergies, medical history, image consent, and signatures.
+Separate payment links
+Keep deposits, payment requests, receipts, and balances connected to the appointment.
+Spreadsheets
+Track clients, sessions, payments, commissions, and reports in a shared studio system.
+Generic appointment calendars
+Use scheduling software that understands deposits, consent forms, multi-session work, and studio teams.
+Every Problem You Just Read? Solved .
+inkStar is not another generic calendar. It is an appointment planner app for studio work: booking, deposits, intake forms, waivers, client history, payments, reminders, and daily operations.
+01 No-shows are easier to control.
+Require deposits at booking and send automated appointment reminders before the session, so clients confirm with more than a message.
+02 Payments stay connected to appointments.
+Send payment links, collect deposits, record balances, and keep payment history with the client and booking.
+03 Admin moves into one workflow.
+Appointment requests, availability, client records, consent forms, reminders, and reports live together instead of across DMs, notes, and spreadsheets.
+Try inkStar Free
+Turn inquiries into paid appointments.
+inkStar helps studios turn Instagram messages, website visitors, and repeat clients into confirmed bookings with a public booking page, booking links, deposits, reminders, and review request automation.
+Explore Scheduling View Pricing
+01 Booking links for Instagram and your website
+Send clients to one booking flow from your bio, posts, DMs, website, or Google profile instead of manually sorting every request.
+02 Public booking page for your studio
+Let clients request tattoo, PMU, piercing, barber, or beauty appointments online while your calendar rules keep the schedule under control.
+03 Automated review requests
+After the session, send the right follow-up message and ask happy clients for a Google review without adding another admin task.
+04 Deposits before the chair is blocked
+Collect deposits and payment links as part of the appointment workflow, so high-intent clients are confirmed before you reserve studio time.
+From Booking to Payday. On Autopilot.
+See how inkStar handles the entire appointment lifecycle so you can focus on your craft.
+Customer Books, Everything Starts
+Your customer books through your booking page or you create the appointment in the app. Smart scheduling suggests the next free slots based on employee availability. Downpayment and contract are handled automatically before they walk in.
+— Online booking page or in-app creation
+— Smart slot suggestions based on availability
+— Automatic downpayment collection & contract delivery
+Appointment Day. Everything's Ready.
+When your customer arrives, their profile has everything: consent forms, medical history, past sessions, and notes. Contracts are signed digitally right on your device. No paper, no scrambling. Works fully offline too.
+— Complete customer profile at your fingertips
+— GDPR-compliant consent & contract management
+— Full functionality even without internet
+Session Done. Get Paid, Get Reviews.
+Payment is processed through card, PayPal, or Klarna installments. Commissions are tracked automatically. Automated follow-ups handle care reminders, review requests, and rebooking nudges while you rest.
+— Flexible payments with Klarna, card & PayPal
+— Automatic commission tracking per employee
+— Automated care reminders & review requests
+Ready to put your studio on autopilot?
+Try inkStar Free Watch Demo
+Appointment planner app features for studio operations.
+Purpose-built for tattoo, PMU, piercing, barber, and beauty workflows where generic appointment calendars fall short.
+Deposit-first booking
+Deposit-Based No-Show Protection
+Every booking requires a deposit upfront. Automated appointment reminders go out via SMS and email at 24h and 2h before the session. If the client still doesn't show, you keep the deposit. Your tattoo studio schedule stays full, your income stays protected.
+See how it works
+Smart scheduling
+AI-Powered Appointment Scheduling
+Intelligent scheduling software that fills gaps in your calendar automatically. Clients book appointments online, reschedule on their own, and your waitlist fills cancelled slots without you lifting a finger. Built for multi-artist tattoo studios, solo PMU practitioners, and busy barbershops alike.
+See how it works
+Digital intake forms
+Intake Forms and Digital Waivers
+Industry-specific intake form templates with photo consent, medical history questionnaires, allergy fields, digital waivers, and legally binding e-signatures. Clients sign on their own phone via QR code before sitting in the chair. Every record is timestamped and stored securely for GDPR compliance.
+See how it works
+Integrated payments
+Integrated Payment Processing
+Accept card payments, PayPal, and instant bank transfers directly through the app. Offer Klarna installment plans for large tattoo pieces. Deposits are collected automatically at booking, remaining balances charged after sessions. Payment reminders sent via text so you never chase money.
+See how it works
+Client records
+Complete Client Management System
+Every client gets a detailed profile with session history, photo galleries, preferences, allergy records, and medical notes. See exactly what you did last time, what ink or pigment you used, and what to watch out for. The built-in strike system flags unreliable clients before they waste your time again.
+See how it works
+Business reports
+Real-Time Business Analytics Dashboard
+Track revenue per artist, no-show rates, peak booking hours, and client retention in one dashboard. Identify which services generate the most profit and which clients bring the highest lifetime value. Export reports for your accountant or tax advisor with one click.
+See how it works
+Automated reminders
+Automated Customer Notifications
+Appointment reminders, payment confirmations, thank-you messages, and review requests sent automatically by email, SMS, or WhatsApp. Configure the timing and channel once, and every customer touchpoint from booking to aftercare handles itself.
+See how it works
+Run booking, deposits, consent forms, client records, payments, reminders, and reports from one studio management app.
+Get Started Free No credit card required. Free for 7 days. Cancel anytime.
+Why Choose inkStar?
+Built from the ground up for tattoo studios, PMU artists, and beauty professionals — not retrofitted generic software.
+Instant Sync Across All Devices
+Appointments, client notes, and schedules update in real time — whether you're at the front desk or on the studio floor.
+Designed for Creative Professionals
+Purpose-built workflows for consultations, consent forms, deposit collection, and session tracking — not generic business tools.
+Industry-Standard Data Protection
+Strong encryption, automatic backups, and GDPR-ready practices keep your client data and business records secure.
+Actionable Business Insights
+Track revenue per artist, no-show rates, peak booking hours, and client retention — all from a single dashboard.
+Connects to Your Existing Tools
+Integrates with Google Calendar, payment processors, and marketing platforms so nothing falls through the cracks.
+Get Started Free
+Built by tattoo studio owners.
+InkStar exists because Piotr Morawski and Lea Zerle know the daily reality behind the chair: clients book through social channels, forms need to be signed, deposits need to be collected, and the studio still has to run when the internet is unreliable.
+Piotr Morawski · Lea Zerle
+Real studio ownership
+The product is shaped by people who understand booking pressure, client documentation, repeat sessions, deposits, and the difference between a simple calendar and studio operations.
+Workflows before features
+Tattoo, PMU, piercing, and barber workflows need consent forms, health screening, payments, notes, reminders, and client history in the same place.
+Built to reduce owner overload
+InkStar is designed to help small studios look professional online, protect appointment time, and keep admin from taking over evenings.
+Read Our Story
+What Our Users Say
+Real feedback from artists who run their studios with inkStar.
+“ Since we switched to inkStar, scheduling finally feels calm and predictable.
+We used to juggle bookings from Instagram, WhatsApp, and phone calls, and things slipped through all the time. Now everything runs through one flow, deposits are handled up front, and I spend far less time on admin in the evenings. It just feels more stable day to day.
+— Lea Schneider  ·  Tattoo Artist
+“ What I value most is that work doesn't stop when the internet drops.
+Our connection in the studio is not always reliable. With inkStar we can still check bookings, open client records, and keep sessions moving as normal. Everything syncs properly once we're back online, so the day runs smoothly instead of becoming stressful.
+— Mehmet Yilmaz  ·  Studio Manager
+“ Digital consent forms save us a surprising amount of time every week.
+We used to keep paper forms in folders and waste time searching for them. Now every document is attached to the client profile with signatures and timestamps. It's not flashy, but it makes daily operations much easier.
+— Katharina Vogel  ·  Tattoo Artist
+Start your free trial
+Plans That Scale
+With Your Business
+All plans include a 7-day free trial. No credit card required. Switch plans anytime.
+Monthly Quarterly Save ~19% Annual Save ~44%
+Starter
+Your calendar on steroids
+€ 8.99 /month
+Get Started 1 user
+1 location
+Support: Email only
+Appointment calendar with suggestions
+Booking page for clients
+Customer profiles & strike system
+Payment tracking & deposits
+Google & Apple calendar sync
+Offline mode
+Plus
+Most Popular
+Everything a solo artist needs
+€ 29 /month
+Get Started 1 user
+1 location
+Support: 72h
+Everything in Starter
+AI timeslot finder
+Digital contracts with E-Sign
+SMS notifications
+Report dashboards
+Customer tags & attachments
+Pro
+Built for studios with teams
+€ 99 /month
+Get Started 5 users
+1 location
+Support: 24h
+Everything in Plus
+Employee management & schedules
+Commission tracking
+Multi-location setup
+Custom branded pages
+Role-based permissions
+Enterprise
+Custom solutions for large organizations
+Custom
+Contact Sales Unlimited users
+Unlimited locations
+Support: Dedicated
+Everything in Pro
+Unlimited employees & locations
+Dedicated account manager
+Custom integrations
+SLA guarantees
+Priority onboarding
+View Full Feature Comparison
+Secure billing
+Cancel anytime
+Priority support
+Frequently Asked Questions
+Common questions about using InkStar as an appointment planner app for tattoo, PMU, piercing, barber, and studio management workflows.
+Is InkStar an appointment planner app or studio management software?
+Both. InkStar starts with appointment planning and scheduling, then connects bookings to deposits, consent forms, client profiles, payments, reminders, reports, and offline studio work.
+Who is this appointment planner app built for?
+InkStar is built for tattoo artists, PMU professionals, piercers, barbers, beauty studios, and small teams that need more than a generic calendar.
+Can clients book through Instagram, my website, or a public booking page?
+Yes. You can use booking links and a public booking page so clients can request appointments from your social profiles, website, or other online touchpoints.
+Does InkStar support deposits and no-show protection?
+Yes. InkStar can connect deposits and payment links to the appointment workflow, helping studios confirm serious bookings before reserving chair time.
+Can I use digital consent forms and intake forms?
+Yes. InkStar supports digital forms for consent, health screening fields, allergies, medical history, image consent, signatures, and appointment documentation.
+Does InkStar work without internet?
+InkStar is designed for offline access to essential appointment and client data. Updates sync when your device is back online.
+Still have questions? Chat with our team
+Ready to Transform Your Studio?
+Start your free trial today and see for yourself how inkStar simplifies your daily workflow.
+Try inkStar Free Schedule a Demo
+7-day free trial
+Cancel anytime
+GDPR compliant
+Encrypted data at rest & in transit
+Never Miss an Update
+Get studio workflow tips, booking updates, and appointment planner app improvements for tattoo, PMU, piercing, barber, and beauty teams.
+Subscribe
+Weekly insights
+Feature updates
+No spam, ever
+inkStar
+Studio management software and appointment planner app for tattoo artists, PMU professionals, barbers, piercers, and beauty teams.
+Follow Us
+hello@inkstar.app Made with in Germany
+Product
+All Features
+Smart Scheduling
+No-Show Protection
+Intake Forms
+Payments
+Client Profiles
+Business Insights
+Customer Notifications
+Company
+About Us
+Blog
+Press
+Contact
+Resources
+Documentation
+Legal
+Privacy Policy
+Terms of Service
+Cookie Policy
+Imprint
+2026 inkStar. All rights reserved.
+🇬🇧 EN

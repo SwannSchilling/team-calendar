@@ -1,0 +1,114 @@
+SOURCE-URL: https://inklinka.com/en/sms-email-automation
+ACCESSED: 2026-09-19
+CHARS: 5106
+
+InkLinka
+Features
+Features
+Guest Planner for Studios Payments & Payouts SMS & Email Automation Forms, Widgets & AI Chat Aftercare & Merch Sales
+Tools
+AI Business Analyst Universal Stencil Maker Studio Efficiency Check
+Guides
+Stencil Maker Guide Personal Link Guide
+Solutions
+Solutions
+For Artists For Studio Owners Tattoo Studio Essentials Calendar Context
+Why InkLinka Pricing Contact English EN
+Login Get Started
+SMS & email automation
+The right client message, sent at the right moment.
+InkLinka connects studio communication to real booking events—from confirmation and reminders to digital consent and tattoo-specific aftercare.
+Automate client messages
+Built around sessions, not generic campaigns.
+inklinka.com/automation
+Client communication flow
+Automation active
+SMS Email
+1 Booking created
+Confirmation sent
+Email
+2 Before the session
+Reminder scheduled
+SMS + Email
+3 Consent required
+Secure form link ready
+SMS or Email
+4 Session completed
+Aftercare delivered
+Email
+One connected journey
+Keep clients informed without rebuilding every message by hand.
+Communication follows the appointment lifecycle, so the studio can stay consistent even on its busiest days.
+1 Immediate confirmations
+Send clear booking details as soon as a session is created.
+2 Timely reminders
+Remind clients before the visit with the date, time, artist and studio context.
+3 Change notifications
+Share cancellations or rescheduled times without a chain of manual messages.
+4 Post-session follow-up
+Continue the relationship after the appointment with relevant next steps.
+Consent before the session
+Make informed consent part of the appointment workflow.
+Send a secure digital consent form by SMS or email before the visit. The client can review and sign it online, while the studio sees the received status alongside the appointment.
+Use the studio’s own consent wording and form template.
+Share one secure signing link through the client’s preferred channel.
+Keep the completed form connected to the session instead of a separate inbox.
+Client consent form
+inklinka.com/consent
+Signed and received
+Digital signature
+InkLinka advantage
+Care continues after the client leaves the studio.
+When a session is completed, InkLinka can automatically send clear aftercare guidance. Tattoo and piercing workflows can use different templates, customized to the studio’s standards.
+InkLinka
+Aftercare recommendations
+Tattoo-specific instructions
+Deliver structured guidance for the first hours, hygiene, moisturizing, water, clothing and sun exposure.
+Separate piercing care
+Use a dedicated piercing template instead of forcing every service into the same generic message.
+A consistent studio standard
+Give every client the same approved guidance while keeping the artist and studio details personal.
+Studio control
+Automate the routine without losing your voice.
+The studio decides which notifications are active, which channel is used and what every template says.
+Choose every trigger
+Enable confirmations, reminders, cancellations, reschedules, consent links and aftercare separately.
+Customize every template
+Use client, appointment, artist, service and studio variables while keeping the wording on-brand.
+Use connected senders
+Send email through the system or a connected studio account, and connect an SMS provider for text messages.
+Less chasing, better care
+Turn every appointment into a clear communication workflow.
+Let InkLinka handle the repeatable messages while your team focuses on the client and the work.
+Set up automation
+SMS & email automation FAQ
+Questions before you automate client communication.
+Clear answers about messages, consent forms, templates and aftercare workflows in InkLinka.
+What can InkLinka send automatically? InkLinka can send booking confirmations, reminders, cancellation or reschedule updates, secure consent form links and aftercare messages when the relevant appointment or session event occurs.
+Can the studio choose the channel and wording? Yes. The studio decides which notifications are active, whether SMS or email is used, what each template says and which connected sender delivers it.
+How do digital consent forms work? The studio sends a secure form link by SMS or email. The client reviews and signs it online, while the completed form and its status remain connected to the relevant session.
+Are tattoo and piercing aftercare messages different? Yes. Tattoo and piercing guidance can use separate templates, so the studio can approve instructions that match each service and its own care standards.
+InkLinka
+Professional Studio Management
+Tattoo studio CRM and management software for bookings, projects, clients and payments.
+Owned and operated by Inklinka Technologies OÜ
+Product
+Pricing
+Solutions
+Tattoo Studio CRM
+Tattoo Booking Software
+Tattoo Artist CRM
+Guest Artist Software
+Tattoo Studio Management Software
+Tattoo Studio Calendar Software
+Tattoo Calendar Context
+Tattoo Deposit Management
+Inklinka Magazine
+Blog
+Tattoo Artist Interviews
+Support
+FAQs
+© 2026 Inklinka Technologies OÜ. All rights reserved.
+Terms • Privacy
+We love Ukraine and stand with Ukraine.
+Chat

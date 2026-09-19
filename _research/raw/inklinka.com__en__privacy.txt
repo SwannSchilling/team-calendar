@@ -1,0 +1,111 @@
+### FINAL-URL: https://inklinka.com/privacy
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+InkLinka Terms of Service Privacy Policy
+Back to login
+Legal
+Privacy Policy
+This Privacy Policy explains how InkLinka collects, uses, discloses, stores, and otherwise processes personal data in connection with the InkLinka websites, applications, software, APIs, communication features, integrations, and related services (the “Services”).
+Last updated: April 14, 2026
+Legal documents provided by Inklinka Technologies OÜ , Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-202, 10120, Estonia
+These legal pages are designed to support the operational use of the Services and to define the allocation of responsibilities between InkLinka and customer organizations. InkLinka is owned and operated by Inklinka Technologies OÜ. References to "InkLinka," "we," "us," and "our" in this Policy refer to Inklinka Technologies OÜ acting as the service operator unless a different entity is expressly identified in writing. Registered office: Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-202, 10120, Estonia. Nothing in this Policy limits any non-waivable rights under applicable law.
+1. Scope
+This Policy applies to personal data processed in connection with the Services, including data relating to account holders, workspace members, studio administrators, artists, operators, support contacts, website visitors, and end customers whose data is entered into or made available through the Services.
+This Policy does not apply to third-party websites, services, payment environments, connected tools, or platforms that are not operated by InkLinka, even if they are linked to, embedded in, or integrated with the Services.
+2. Allocation of Roles
+For platform registration, account administration, subscription management, security, authentication, platform operations, support, service communications, and internal business administration, InkLinka generally acts as an independent controller or equivalent business operator for the data necessary to provide and protect the Services.
+For customer records, appointments, bookings, consent forms, uploaded files, notes, communications, payment-related metadata, artist workflows, and other content submitted to the Services by a studio, business, tenant, or workspace user, InkLinka generally acts only as a processor, service provider, or infrastructure provider acting on behalf of the relevant customer organization.
+The relevant customer organization, not InkLinka, is generally responsible for:
+determining whether personal data should be collected or uploaded;
+providing notices to customers, staff, artists, and end users;
+obtaining and maintaining any required consents, permissions, releases, or authorizations;
+determining the lawful basis for processing;
+responding to most data subject or consumer rights requests concerning workspace-controlled data;
+ensuring that uploaded data is lawful, accurate, appropriate, and permitted.
+InkLinka does not independently verify that customer organizations have obtained valid notices, permissions, parental permissions, releases, or other legal authorizations for the data they choose to process through the Services.
+3. Information We Collect
+We may collect the following categories of data:
+Account and identity data, such as name, email address, phone number, login credentials, profile details, workspace membership information, authentication records, and account preferences.
+Business and workspace data, such as studio name, business details, services, schedules, appointments, customer profiles, artist assignments, notes, forms, uploaded files, invoices, payout settings, payment-related records, and operational settings.
+Technical and usage data, such as IP address, browser type, device information, operating system, session identifiers, cookies, log data, security events, audit trails, access history, diagnostic records, and product usage information.
+Communications data, such as support requests, feedback, email communications, in-product messages, assistant interactions, and notification responses.
+Integration and transaction data, such as connected account identifiers, webhook events, billing references, subscription status, payment processor references, and related operational metadata.
+4. How We Use Information
+We may use personal data to:
+provide, host, maintain, and administer the Services;
+authenticate users and manage accounts;
+process subscriptions, billing events, invoices, and service-related transactions;
+support workspace operations and customer-requested functionality;
+secure the Services, detect misuse, prevent fraud, and investigate incidents;
+maintain logs, records, audit trails, and backup systems;
+communicate with users regarding service, security, support, billing, legal, and administrative matters;
+improve product performance, reliability, safety, and internal operations;
+enforce our agreements, policies, and legal rights;
+comply with legal obligations and lawful requests.
+Where permitted by law, InkLinka may also use de-identified, aggregated, or non-personal information for analytics, benchmarking, operational improvement, product development, security analysis, and business reporting.
+5. Legal Bases
+Where applicable law requires a legal basis, InkLinka may process personal data on one or more of the following grounds:
+performance of a contract or steps taken at the request of the data subject;
+legitimate interests, including platform administration, support, fraud prevention, abuse detection, product security, service reliability, and business operations;
+compliance with legal obligations;
+consent, where consent is required or relied upon;
+another lawful basis available under applicable law.
+Where InkLinka processes workspace-controlled data solely on behalf of a customer organization, the customer organization is generally responsible for identifying and documenting the appropriate lawful basis for that processing.
+6. How We Share Information
+We may share personal data with:
+affiliates and service providers that support hosting, infrastructure, authentication, storage, analytics, customer support, email delivery, messaging, billing, security, and operations;
+payment processors, communications providers, and integration partners where necessary to provide the Services;
+professional advisers, auditors, insurers, and legal counsel where reasonably necessary;
+competent authorities, regulators, courts, law enforcement, or other third parties where required by law or where reasonably necessary to protect rights, investigate misconduct, or enforce our agreements;
+acquirers, investors, counterparties, or related participants in connection with a merger, financing, acquisition, reorganization, insolvency event, sale of assets, or similar transaction, subject where appropriate to confidentiality protections.
+InkLinka does not sell personal data in exchange for money. However, disclosures to vendors, processors, integrations, or service providers may occur as part of providing the Services.
+7. International Transfers
+Personal data may be processed in countries other than the country in which it was collected. Where required by applicable law, InkLinka uses transfer mechanisms and safeguards intended to support lawful international transfers, which may include contractual protections, organizational measures, and technical safeguards.
+Customer organizations remain responsible for assessing whether their own use of the Services, integrations, and uploaded data is appropriate for their legal and regulatory environment.
+8. Retention
+InkLinka retains personal data for as long as reasonably necessary for the purposes described in this Policy, including to:
+provide and maintain the Services;
+preserve security, logs, and system integrity;
+comply with legal, accounting, tax, and regulatory obligations;
+resolve disputes and investigate incidents;
+enforce agreements and protect legal interests;
+maintain backups, continuity measures, and business records.
+Retention periods vary depending on the type of data, the customer configuration, legal requirements, security needs, and operational context.
+InkLinka may delete, anonymize, aggregate, or restrict access to data at different times and in different ways based on system design, storage architecture, service settings, contractual terms, and legal requirements. InkLinka is not obliged to retain data for the benefit of any user or customer except to the extent required by applicable law or an express written agreement.
+9. Security
+InkLinka uses administrative, technical, and organizational measures intended to protect personal data and reduce the risk of unauthorized access, disclosure, misuse, alteration, and destruction.
+However, no platform, infrastructure, transmission method, storage environment, integration, or security program can guarantee absolute security, uninterrupted availability, complete resilience, or prevention of all incidents. Use of the Services involves inherent technical and operational risk.
+Except to the extent required by non-waivable law, InkLinka does not warrant that the Services will be error-free, immune from attack, continuously available, or suitable for storing any category of sensitive, regulated, mission-critical, or irreplaceable data.
+10. Sensitive, Regulated, and High-Risk Data
+Unless InkLinka expressly agrees otherwise in a separate written contract, the Services are not represented as a regulated medical records platform, emergency platform, insurance records platform, official government filing repository, or HIPAA-compliant environment.
+Users and customer organizations are solely responsible for deciding whether to upload, collect, store, transmit, or process health-related, consent-related, biometric, identification, tax, employment, payment, regulatory, or other sensitive or regulated data through the Services.
+InkLinka may, but is not required to, restrict, suspend, remove, quarantine, or refuse categories of data, content, files, or workflows that we believe create excessive legal, security, operational, or compliance risk.
+11. Cookies and Similar Technologies
+InkLinka may use cookies, local storage, pixels, SDKs, tokens, and similar technologies to operate the Services, maintain sessions, secure accounts, remember preferences, measure product usage, detect fraud, support communications, and improve performance.
+Some technologies are necessary for the Services to function. Others may depend on your configuration, browser settings, deployment environment, or enabled integrations.
+Disabling certain cookies or storage technologies may impair functionality, reduce security, or prevent parts of the Services from operating properly.
+12. Data Subject and Consumer Rights
+Depending on the jurisdiction, individuals may have rights to request access, correction, deletion, restriction, objection, portability, withdrawal of consent, or other protections relating to personal data.
+Where InkLinka processes data on behalf of a customer organization, requests relating to workspace-controlled customer data should generally be directed to the relevant studio, business, or workspace that controls that data.
+InkLinka may forward requests to the relevant customer organization, require verification, decline requests not legally required, limit requests that are excessive or abusive, and retain information where permitted or required by law, contract, security needs, fraud prevention, or dispute resolution.
+13. Children and Minors
+The Services are not directed to children and are not intended for use by persons who are not legally permitted to create accounts or provide data under applicable law.
+Customer organizations and users are solely responsible for ensuring that any information relating to minors is collected, uploaded, stored, and processed lawfully, including where parental notice, authorization, or additional protections are required.
+14. Third-Party Services and Integrations
+The Services may interoperate with or rely on third-party services, plugins, payment processors, communication tools, AI features, hosting providers, analytics providers, storage environments, or connected applications.
+InkLinka is not responsible for the privacy, security, legality, availability, or acts and omissions of third-party services that are not under InkLinka’s direct control. Use of third-party services may be subject to separate terms, privacy notices, and data handling practices.
+15. Google API Data and Gmail Integrations
+If a user or customer organization chooses to connect a Google account to InkLinka, InkLinka may access Google user data strictly to provide the email features requested by that user inside the InkLinka interface.
+For connected Gmail accounts, InkLinka may access the Gmail address associated with the mailbox, message metadata, message headers, thread identifiers, message bodies, and attachments, and may send outbound emails or replies from the connected mailbox when initiated by the authorized user through InkLinka.
+InkLinka uses this data to authenticate the mailbox connection, sync inbound emails into the workspace inbox, display messages and attachments in the application, match messages to conversation threads, send replies and connection test messages, maintain sync state, and secure or troubleshoot the integration.
+OAuth access tokens, refresh tokens, and related credentials for connected Google accounts are stored in encrypted form. Synced email content and related metadata may be stored in InkLinka systems so the customer organization can access the email workflow inside the product. Attachments may also be stored in secure cloud storage used by InkLinka when required to support the feature.
+InkLinka does not sell Google user data, does not use Google user data for advertising, and does not use data obtained from Google Workspace APIs to train generalized artificial intelligence or machine learning models. Google user data is shared only as necessary to operate the requested feature, for security purposes, to comply with law, or with service providers acting on InkLinka’s behalf under appropriate obligations.
+Users can disconnect or delete a connected Google account from InkLinka. When a Gmail connection is disconnected or deleted, InkLinka attempts to revoke the stored Google refresh token and removes stored OAuth credentials from the active connection record. Previously synced workspace records may remain until deleted by the customer organization, by InkLinka under applicable retention rules, or upon a valid deletion request where required by law or contract.
+The use of information received from Google Workspace APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+16. Changes to This Policy
+InkLinka may update this Privacy Policy at any time. Updated versions become effective when posted, unless a later effective date is stated.
+To the maximum extent permitted by law, continued access to or use of the Services after the effective date of an updated version constitutes acknowledgment of the revised Policy.
+17. Contact
+Service operator and controller for platform-level processing: Inklinka Technologies OÜ.
+Registered address: Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-202, 10120, Estonia
+Support email: main@inklinka.com

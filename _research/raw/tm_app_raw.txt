@@ -1,0 +1,40 @@
+### FINAL-URL: https://www.tattoomanager.online
+### CONTENT-TYPE: text/html
+### TEXT:
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <!-- Verhindert, dass Suchmaschinen diese Anwendung indexieren oder Links verfolgen. -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="TattooManager" />
+    <link
+      rel="manifest"
+      href="/assets/CBfKiyVQ.webmanifest"
+      crossorigin="use-credentials"
+    /> 
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="preconnect" href="https://tattoomanager.online" crossorigin />
+    <link rel="stylesheet" href="https://tattoomanager.online/fonts/inter.css">
+    <meta property="og:image" content="https://tattoomanager.online/images/og.jpg" />
+    <meta property="og:title" content="TattooManager • Mehr Termine. Weniger Chaos. Komplett papierlos." />
+    <title>TattooManager • Mehr Termine. Weniger Chaos. Komplett papierlos.</title>
+    <script type="module" crossorigin src="/assets/D_5n5ooe.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/DmAcbuSQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

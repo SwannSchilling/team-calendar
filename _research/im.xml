@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--generator='jetpack-16.2'-->
+<!--Jetpack_Sitemap_Buffer_Master_XMLWriter-->
+<?xml-stylesheet type="text/xsl" href="//inkedmag.com/sitemap-index.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <sitemap>
+  <loc>https://inkedmag.com/sitemap-index-1.xml</loc>
+  <lastmod>2026-09-16T17:32:13Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://inkedmag.com/image-sitemap-index-1.xml</loc>
+  <lastmod>2026-09-16T16:23:25Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://inkedmag.com/video-sitemap-1.xml</loc>
+  <lastmod>2026-08-27T18:42:42Z</lastmod>
+ </sitemap>
+</sitemapindex>

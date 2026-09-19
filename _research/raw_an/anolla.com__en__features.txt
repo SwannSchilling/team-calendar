@@ -1,0 +1,220 @@
+### FINAL-URL: https://anolla.com/en/features
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+menu Menu
+anolla
+Explore
+person Sign in
+headset_mic Ask for help
+en
+Official languages (26):
+Čeština
+Dansk
+Deutsch
+Eesti
+English
+Español
+Français
+Hrvatski
+Italiano
+Latviešu
+Lietuvių
+Magyar
+Nederlands
+Norsk
+Polski
+Português
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Ελληνικά
+Български
+Русский
+Українська
+Malti
+For service providers
+Features
+Activate paid features as needed. Some features may require other paid features. VAT will be added to the prices. The exact price and terms are shown in the detailed view of each feature.
+Core features
+Automate customer booking confirmations and create a foundation for using Anolla's paid add-ons. The core feature activates automatic email confirmations and enables reminders and other paid add-ons.
+View details
+Business features
+Coordinate teamwork, manage access, and monitor your business's operational status from one environment. The feature includes user and access rights management, administrator notifications, real-time operational statistics, and mobile management app notifications.
+View details
+Client booking
+Provide customers with seamless, mobile-first self-service on the web and mobile devices so they can find, book, and manage a suitable service and time themselves. The customer application provides a quick overview and simple actions, follows your booking rules, and works on the web, iOS, and Android.
+View details
+Customer invoices
+Automate the creation of payment documents for customers after online payments. Following supported payments, the system generates an invoice or payment document as a PDF, which the customer can download from the booking details and the service provider can manage in the customer invoices view.
+View details
+Memberships
+Create loyalty and membership programs to offer personalized prices and benefits to different customer groups. Memberships allow you to define customer statuses and membership levels and associate them with special prices, passes, and other membership-based benefits.
+View details
+Passes
+Sell and manage time-based access rights to make repeat visits easier for customers. Create punch cards, period passes, and other passes, sell or assign them to customers, and track their validity, uses, associated services, and supported automatic renewals.
+View details
+Mailchimp
+Automate customer-based email marketing with Mailchimp and use only contacts with appropriate marketing consent in your campaigns. The integration allows you to synchronize customer contacts and customer groups with Mailchimp to create newsletters, targeted campaigns, and automated marketing workflows.
+View details
+SMS notifications
+Reduce missed appointments by delivering time-sensitive booking information directly to customers' phones, even when they are not using email or the app. The paid SMS feature allows you to send booking confirmations and automatic reminders.
+View details
+Stripe payments
+Accept online card payments from customers and automate payment-related booking workflows. The Stripe integration allows you to collect advance payments for services, automatically confirm paid bookings, and use recurring card payments for supported passes.
+View details
+Special service pricing
+Optimize revenue and demand with automatically adjusted prices. Apply prices that differ from the standard price based on the date, time, day of the week, schedule, service, duration, or customer membership.
+View details
+Transactions
+Consolidate payments and cash register activity into one view to make cash flows easier to track and account for. The virtual point-of-sale system combines automatic and manually entered transactions and provides an overview of the cash balance, turnover, and payment methods.
+View details
+Products
+Keep product inventory and stock movements under control from one environment. Manage the product catalog, groups, prices, and units, and track sales, purchases, and stock movements by service location.
+View details
+Large-Screen View
+Display the schedule and bookings conveniently on a TV or external monitor. The large-screen view gives the calendar more screen space, hides management menus, and reduces the amount of customer data shown on a public display.
+View details
+IFTTT Switches API
+Automate smart devices based on booking start and end times. The IFTTT integration allows you to trigger external automation rules based on booking events, for example to control lighting, heating, or other connected devices.
+View details
+Help Center
+Quickly get guidance, provide feedback, and report issues from one place. The Help Center brings together a 24/7 AI chat agent and guides for general usage questions and allows you to submit development suggestions, account- or data-specific issues, and reproducible bugs.
+View details
+Business profile
+Manage your company's basic information and customer-facing business profile from one place. Set the brand name, primary business activity, country, time zone, and currency, and manage physical, region-based, and online service locations.
+View details
+Billing
+Manage your Anolla subscription, payments, and invoices from one view. Billing brings together your subscription, automatic payments, and billing details and allows you to top up SMS credit and download invoices.
+View details
+Schedules
+Manage the availability of employees, rooms, equipment, and other bookable resources from one place. Define regular working hours and date-specific exceptions so customers are always shown up-to-date bookable times.
+View details
+Calendar
+Manage all bookings and related actions from one central view. Create, view, edit, cancel, and search for individual and group bookings, and manage the calendar view, participants, statuses, notifications, and change history.
+View details
+Users
+Give team members exactly the access and notifications they need. Add users and assign their permissions for features, bookings, schedules, and service locations, and choose which bookings they receive notifications about.
+View details
+Clients
+Keep customer information organized in a single CRM view and use it for more personalized service and segmentation. The customer database is updated automatically from bookings and brings together contact details, notes, groups, and memberships.
+View details
+Client notifications
+Automate customer communication and keep customers informed about their bookings. Automatically send booking confirmations, reminders, and other supported booking-related email notifications.
+View details
+Real-time statistics
+Monitor key business metrics from a single operational overview and make confident decisions based on up-to-date data. The dashboard brings together statistics on bookings, turnover, transactions, services, and new customers for the selected period.
+View details
+Services
+Manage your entire service offering and booking logic from one place. Define the service name, type, price, duration, delivery method, and customer visibility, and link the service to one or more bookable schedules.
+View details
+Translations
+Offer customers a multilingual booking experience, reach customers in different languages more easily, and expand into international sales. The Anolla user interface is localized in supported languages, and you can add translations for the names of your services and service groups.
+View details
+Link Manager
+Direct customers to the right booking in as few steps as possible. Create customized booking links with a preselected language, service location, service group, service, schedule group, or schedule, and use them on your website, social media, and in campaigns.
+View details
+Minimum advance booking time
+Give sufficient notice for services that require more preparation, transportation, or setup time and prevent last-minute bookings. Set a service-specific minimum advance booking time that overrides the general minimum advance booking time for that service.
+View details
+Add-on Service Booking
+Allow customers to add suitable add-on services to the main service within a single booking. The system automatically calculates the total price and duration and only offers available times when the entire selection of services can be provided.
+View details
+Wordpress plugin
+Add Anolla booking directly to your WordPress website and let customers start their booking from your site. The integration allows you to display Anolla's customer booking view on an existing WordPress page.
+View details
+Wix integration
+Add Anolla booking directly to your Wix website and let customers start their booking from your site. The integration allows you to display Anolla's customer booking view on an existing Wix page.
+View details
+Join for free. Start receiving inquiries, orders, and bookings. Increase your visibility. Connect your tools. Manage everything conveniently from a single platform: Online booking software
+Create Free Account
+Download app
+Tap to leave a rating
+star
+star
+star
+star
+star
+4.8 ( 1708 ratings)
+Legal information
+Terms of Use
+Privacy Policy
+Customer support
+Ask for help
+Rate Anolla
+Customer support
+About us
+Information close
+Feedback close
+Do you like Anolla?
+thumb_down
+thumb_up
+Rate Anolla
+Let us know what you like or what we can improve. Your feedback is important to us.
+Write here
+Send
+How was your experience? close
+star_border
+star_border
+star_border
+star_border
+star_border
+Public review with private feedback
+Share your experience
+Post
+Later
+Done
+My contact details close
+First name
+Last name
+Email address
+Verify code
++1 +7 +20 +27 +30 +31 +32 +33 +34 +36 +39 +40 +41 +43 +44 +45 +46 +47 +48 +49 +51 +52 +53 +54 +55 +56 +57 +58 +60 +61 +62 +63 +64 +65 +66 +81 +82 +84 +86 +90 +91 +92 +93 +94 +95 +98 +211 +212 +213 +216 +218 +220 +221 +222 +223 +224 +225 +226 +227 +228 +229 +230 +231 +232 +233 +234 +235 +236 +237 +238 +239 +240 +241 +242 +243 +244 +245 +248 +249 +250 +251 +252 +253 +254 +255 +256 +257 +258 +260 +261 +262 +263 +264 +265 +266 +267 +268 +269 +290 +291 +297 +298 +299 +350 +351 +352 +353 +354 +355 +356 +357 +358 +359 +370 +371 +372 +373 +374 +375 +376 +377 +378 +380 +381 +382 +385 +386 +387 +389 +420 +421 +423 +500 +501 +502 +503 +504 +505 +506 +507 +508 +509 +590 +591 +592 +593 +594 +595 +596 +597 +598 +599 +670 +672 +673 +674 +675 +676 +677 +678 +679 +680 +681 +682 +685 +686 +687 +688 +689 +691 +692 +720 +850 +852 +853 +855 +856 +870 +880 +886 +960 +961 +962 +963 +964 +965 +966 +967 +968 +970 +971 +972 +973 +974 +975 +976 +977 +992 +993 +994 +995 +996 +998 +1242 +1246 +1264 +1268 +1284 +1340 +1345 +1441 +1473 +1599 +1649 +1664 +1670 +1671 +1684 +1758 +1767 +1784 +1809 +1868 +1869 +1876
+Prefix
+Phone
+Verify code
+Birthday
+Day
+Month
+Year
+1
+Done
+Anolla
+search Service search
+account_circle
+My account
+account_circle Greetings
+account_circle Sign up or join
+Sign up or join
+event_available My bookings
+folder_special My inquiries 0
+request_quote My offers
+forum My conversations 0
+search booklux
+search google
+camera
+search map
+search share test
+search feedback test
+person_pin For service providers
+Customer support
+support_agent Ask for help (24/7)
+thumbs_up_down Rate Anolla
+help Help Center
+help DEMO
+Sign up or join close
+Email address
+Keep me signed in
+Continue with a social media account
+Continue with Google
+Continue with Apple
+Continue with Facebook
+I have read and agree to the following:
+Terms of Use ,
+Privacy Policy
+Agree and continue
+Enter the verification code close
+Edit
+Confirm
+Resend code

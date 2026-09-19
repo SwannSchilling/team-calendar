@@ -1,0 +1,203 @@
+### FINAL-URL: https://www.linework.com/general-terms-of-service
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+Want a demo? Book one with our onboarding specialist — 30 minutes, no commitment.
+Linework 🇳🇴
+Features Studios Artists Pricing Magazine About us Contact Log in Create free account
+General Terms of Service
+Last updated October 26, 2023 .
+Effective date: June 1, 2023
+1 GENERAL
+Linework Inc. is a Delaware corporation (hereinafter “ Linework ”).
+Linework provides software solutions for CRM, onboarding, offboarding and administration to tattoo artists and studios, provided as Software-as-a- Service (collectively the “ SaaS ”).
+These general terms and conditions (the “ General Terms ”) apply to all access to and purchases of SaaS from Linework.
+When signing up for the SaaS, the Customer will be guided through the SaaS onboarding process. As part of the onboarding process, the Customer must provide payment information and confirm relevant details about the subscription. These selections are hereinafter referred to as the “ Order Form ”, which legally confirms the scope and relevant commercial terms for the SaaS. After completion of the onboarding process, the Order Form shall be deemed to represent a binding agreement between Linework and the physical or legal person to which the Order Form is submitted (the “ Customer ”). These General Terms shall be deemed being a part of the Order Form, and the Customer hence accepts that delivery of the SaaS is governed by these General Terms by completing the onboarding process. Accordingly, these General Terms shall be considered an integral part of the agreement governing Linework’s delivery of the SaaS to the Customer.
+Linework and the Customer are hereafter collectively referred to as the “ Parties ”.
+Whenever date and time is relevant for interpreting these General Terms, ET time shall be deemed the agreed time zone.
+In the event of a conflict between these General Terms and the Order Form or any other documents in agreed form specifying the scope of the SaaS and the terms thereof, such other agreement documents shall take precedence over these General Terms unless otherwise is specified. If relevant, Linework’s standard data processing agreement shall also take precedence over these General Terms.
+2 ABOUT THE SAAS
+2.1 LIMITED LICENCE
+Together with its licensors, Linework owns and retains ownership of all rights of whatever nature in and to the SaaS.
+The Customer is granted license to use the SaaS only for the Customer’s own internal business purposes, and otherwise in accordance with the Order Form.
+The Customer may only make the SaaS available for use by the Customer’s employees, hired consultants, customers, and other relevant stakeholders in accordance with these General Terms and the implied users of the SaaS.
+The SaaS shall not be made available by the Customer to third parties in a way that would make the Customer a de facto reseller of the SaaS as such. Hereunder, the Customer may not resell, sublicense, distribute, store, copy, modify, decompile or disassemble, reverse engineer, translate or transfer the SaaS on a stand-alone basis, in whole or in part.
+Exercising legal rights that cannot be limited by agreement is not precluded.
+2.2 DELIVERY AND QUALITY OF THE SAAS
+The SaaS is delivered and made available by Linework to the Customer “as is”.
+In considering the quality of the SaaS, it shall be taken into account that, unless otherwise expressly stated, and to the fullest extent permissible under applicable laws, Linework does not warrant or include any other term that the SaaS will be delivered free of any inaccuracies, interruptions, delays, omissions or errors.
+When entering the agreement with each other, neither Party has relied upon any statement or warranty of the other Party.
+2.3 ACCESS CONTROL
+Where relevant, all access control to the SaaS is based on user’s own passwords and login credentials. Linework shall have no liability for users’ own protection (or lack of protection) of passwords and other relevant access control information.
+2.4 UNAUTHORIZED TECHNOLOGY
+Unless previously authorized by Linework, the Customer must not run or install any computer software or hardware on or in relation to the SaaS, or use any technology not approved by Linework to automatically download, mine, scrape, index or otherwise process information stored by Linework as part of the SaaS.
+Neither of the Parties shall knowingly introduce any malicious software or technologies into any products, services or networks of the other Party.
+2.5 USAGE INFORMATION
+Linework may collect information related to use of the SaaS. Linework may use this information to:
+(i) test, develop and improve the SaaS;
+(ii) create derivative works based on such information; and
+(iii) to protect and enforce Linework’s rights under these General Terms, and Linework may pass this information to Linework’s third party providers for the same purposes.
+2.6 SERVICE UPDATES AND RELEASES
+Linework will continuously release updates of the SaaS, which will be made available for the Customer. Linework will only support the latest version of the SaaS, and previous versions of the SaaS will not be supported.
+Linework will also continuously seek to introduce add-ons to its service offering (i.e. by introduction of new functionality and new service offerings). Increased license fees or other fees may apply for access to such add-ons. Linework will in its sole discretion decide whether a change in the SaaS shall be deemed an update to be included in the Customer’s active subscription for the SaaS, or if an add-on which may be made available for added fees.
+Linework may in its sole discretion replace a part of the SaaS or render a part of the SaaS obsolete with the effect that Linework will no longer update or support the obsolete part of the SaaS.
+2.7 THIRD PARTY PROVIDERS
+The SaaS may include or depend on deliverables (such as technical infrastructure, software and data) from third parties. Some third-party providers require Linework to pass additional terms through to the Customer. The third-party providers change their terms occasionally and new third-party providers are added from time to time.
+To the extent that third-party deliverables are included in the SaaS, a copy of the terms for the Customer’s access to and use of third-party deliverables will be made available to the Customer upon request. The third-party supplier terms shall be binding on the Customer for the part of the SaaS being third-party deliverables without the need for further actions than the Customer’s accept of the Order Form.
+Linework shall have no liability to the Customer for any errors in third-party deliverables. This entails that the Customer may not invoke any non- fulfilment of agreed quality requirements upon Linework if this is due to an error in third-party deliverables. This also applies to the loss or destruction of data.
+In the case of errors in third-party deliverables, Linework will report the error to the third party and keep the Customer informed about the status of the error rectification.
+2.8 THIRD PARTY SUPPLEMENTAL SOFTWARE
+The Customer may be required to license third party software to operate parts of the SaaS. Additional terms may apply to such third-party software, and such terms shall not affect the relationship between the Customer and Linework.
+2.9 DISCLAIMER
+The Customer shall have the sole responsibility for the preparation, content, accuracy and review of any documents, data, or output prepared or resulting from the use of the SaaS and for any decisions made or actions taken based on the data made available in or generated by the SaaS.
+2.10 NO ADVICE
+Linework is not providing financial, tax, accounting, legal, compliance or any other advice by allowing access to the SaaS.
+Decisions made in reliance on the SaaS, shall be at the full and sole risk of the Customer, and in no event at the risk of Linework.
+Linework shall in no event have any liability or responsibility for any damages resulting from any decisions made by the Customer or anyone accessing the SaaS through the Customer, made in reliance on the SaaS, and even if the SaaS may provide guidance towards handling of tax, VAT and similar, the Customer shall have the sole responsibility for its own compliance towards tax and other public authorities.
+3 CUSTOMER’S OBLIGATIONS
+The Customer shall have the sole and full responsibility for:
+(i) ensuring proper use of the SaaS in accordance with all usage instructions and operating specifications;
+(ii) ensuring that no products or services that are prohibited by the payment vendor (as listed here: https://stripe.com/en- no/legal/restricted- businesses, hereinafter “Prohibited Business”) are paid for through the Saas;
+(iii) ensuring adherence to the minimum recommended technical requirements for using the SaaS;
+(iv) changes the Customer makes to the SaaS; and
+(v) the combination of SaaS or other parts of Linework’s property with any other products, services, data or other property.
+4 PAYMENT HANDLING
+4.1 GENERAL
+Linework may as part of the SaaS facilitate electronic payment handling between the Customer and the Customer’s customers, through third-party payment vendors, like e.g. Stripe.
+The Customer accepts that the role of the SaaS in terms of payment handling is limited to facilitating a seamless integration of payment services with the other parts of the SaaS, and that even though Linework will assist with money transfer, Linework shall have no liability whatsoever towards the Customer’s customers. The Customer understands that the Customer must enter into separate agreements directly with the relevant payment vendors, even though the process of setting up such agreements is facilitated and supported through the SaaS.
+The terms in any agreements between the Customer and third-party payment vendors (such as Stripe) shall not affect the Parties rights, responsibilities, and liabilities towards each other as set out in these General Terms.
+4.2 DISPUTED PAYMENTS ETC.
+The SaaS may include a service allowing for automatic distribution of payments from the Customer’s customers to the Customer and its business partners as defined in the SaaS.
+The Customer acknowledges and understands that Linework as part of payment handling by the SaaS may be deemed the recipient of payments from the Customer’s customers before such payments are disbursed forward to the Customer and its business partners as defined in the SaaS. The fact that Linework is the de facto recipient of such payments shall not in any way indicate that Linework assumes any liability towards the Customer’s customers for delivery of the Customer’s products or services.
+5 WARRANTIES
+THE CUSTOMER WARRANTS AND REPRESENTS THAT THE CUSTOMER SHALL BEAR THE SOLE AND FULL RESPONSIBILITY AND LIABILITY FOR ANY CLAIMS MADE, ND FOR DISPUTES ARISING AS A RESULT OF OR RELATING TO, THE CUSTOMER’S DELIVERY OF ITS OWN PRODUCTS AND SERVICES TO ITS OWN CUSTOMERS, AND THAT LINEWORK SHAL HAVE NO LIABILITY TOWARTDS THE CUSTOMER’S CUSTOMERS WHATSOEVER IN ANY RESPECT, EVEN IF PAYMENTS FROM SUCH PERSONS ARE HANDLED BY THE SAAS.
+THE CUSTOMER WARRANTS AND REPRESENTS THAT THE CUSTOMER WILL CLEARLY COMMUNICATE TO ITS OWN CUSTOMERS (A) THAT LINEWORK SHALL HAVE NO LIABILITY WHATSOEVER FOR DISPOUTES BETWEEN THE CUSTOMER AND ANY THIRD PARTY AND (B) THE TERMS AND CONDITIONS APPLICABLE BETWEEN THEM, INCLUDING THE FACT THAT DEPOSITS MADE THROUGH THE SAAS ARE NON-REFUNDABLE AND BINDING FOR THE END CUSTOMER ONCE IT HAS BEEN PAID.
+THE CUSTOMER FURHER WARRANTS AND REPRESENTS THAT THE CUSTOMER WILL NOT USE THE SAAS TO ASK ITS OWN CUSTOMERS FOR PAYMENTS FOR ANY SERVICES WHICH HAVE NOT, OR WHICH IS NOT INTENDED TO BE, DELIVERED TO THE END CUSTOMER AS PER AGREEMENT BETWEEN THE CUSTOMER AND ITS CUSTOMER, AND THAT THE CUSTOMER WILL TAKE ALL REASONABLE ACTIONS TO PREVENT DISPUTES FROM ARISING BETWEEN THE CUSTOMER AND ITS CUSTOMERS OR OTHER THIRD PARTIES.
+THE CUSTOMER FURTHER WARRANTS AND REPRESENTS THAT THE PRODUCTS AND SERVICES SOLD THROUGH THE SAAS BY THE CUSTOMER IS NOT A PROHIBITED BUSINESS AS DEFINED HEREIN.
+6 INDEMNIFICATION
+Linework shall have no liability whatsoever for any disputes or claims made between the Customer and its own customers, between the Customer and its business partners, or between the Customer and any other third party.
+The Customer shall indemnify and hold Linework harmless from any and all such claims made, regardless of whether they are made by the Customer itself, the Customer’s customers, third party payment vendors or any other third parties in relation to such disputes.. If Linework’s money is frozen or otherwise locked down by a third-party payment vendor for the purpose of securing claims between the Customer on the one side and its customers, the relevant third-party payment vendor or any other third party on the other side, the Customer shall immediately, upon Linework’s, request make a payment to Linework equal to the frozen or locked down amount. Such payment will be automatically handled by Linework if the Customer has registered a payment account, payment card, credit card or similar within the SaaS. Once the dispute is resolved, the locked down amount shall be released in accordance with instructions and terms applicable for the relevant third-party vendor, without any liability for Linework whatsoever.
+The Customer shall further indemnify and hold Linework harmless from any claims or consequences caused by the Customer’s sale of products or services deemed as Prohibited Services.
+7 FEES AND CONSIDERATION
+7.1 CONSIDERATION
+The consideration for the SaaS is in the Order Form or similar.
+Unless otherwise specified, all prices are stated excluding value added tax, customs duties etc.
+Linework reserves the right to conduct audits of the Customer’s use of the SaaS, in order to verify that the use is in accordance with the agreed consideration.
+7.2 TERMS OF PAYMENT
+Payments for subscription licenses for the SaaS are paid in advance on a monthly or yearly basis as stated in the Order Form or similar, starting on the day when first withdrawn from the Customer’s credit or debit card registered in the SaaS.
+Unless otherwise is expressly stated in the Order Form, the first subscription payment for new SaaS subscriptions will be withdrawn automatically of the Customer has not ended its SaaS subscription by the end of any relevant free trial periods.
+Payments to Linework for transaction-based fees are paid on an ongoing basis as part of the transaction handling.
+Payments which rely on the Customer’s credit or debit card registered in the SaaS, will be automatically handled by Linework as per the terms of the Order Form and these General Terms. By using Linework the Customer accepts and agrees that Linework performs such actions necessary to handle the Customer’s payment of relevant fees to Linework.
+Any other fees due and payable by the Customer to Linework will be invoiced with 14 days payment notice.
+Except in the event of a material breach of contract by Linework, Linework shall not in any event be liable to refund pre-paid amount, e.g., in the event of termination.
+7.3 LATE PAYMENT INTEREST
+If the Customer does not pay at the agreed time, Linework may claim interest on the amount which is past due for payment, in accordance with Act no. 100 of 17 December 1976 concerning interest on late payments, etc. (the Norwegian Late Payment Interest Act).
+7.4 PAYMENT DEFAULT
+If overdue, undisputed consideration, with the addition of interest on late payment, has not been paid within thirty (30) calendar days of the due date, Linework may give the Customer written notice that the agreement will be terminated. Linework may terminate the agreement without further notice if settlement has not been made within thirty (30) calendar days after such notice.
+Termination pursuant to this clause 7.4 may not take place if the Customer settles the overdue consideration, with the addition of late payment interest, prior to the expiry of the deadline.
+The effects of termination pursuant to this clause 7.4 shall be the same as set out in clause 11.3.
+7.5 PRICE ADJUSTMENTS
+The price for the SaaS may be adjusted by Linework at any time without cause. The Customer will be notified about such adjustments at least three (3) months before the price adjustment comes into effect.
+8.4 DEFECTS CAUSED BY THE CUSTOMER
+Linework shall have no responsibility or liability for lack of performance of the SaaS due to the Customer’s own use, third-party software, hardware malfunction, or other actions or inaction made by other parties than Linework. If Linework learns that a SaaS default was caused by such reasons not being caused by Linework or Linework’s sub-suppliers, Linework may charge the Customer a reasonable fee for the work in investigating the default.
+At the Customer’s request Linework may assist in resolving such defaults at a fee to be agreed upon. Such services shall be delivered subject to Linework’s Consultancy Terms.
+8.5 MATERIAL DEFECTS
+If there is a defect that leads to the SaaS being completely unavailable to the Customer for a period exceeding 5 consecutive working days after it was first notified to Linework, the Customer may terminate the agreement with Linework with immediate effect. The Customer can then demand a refund of what has been paid for the period after the time when the defect was first notified to Linework.
+8.6 NO OTHER REMEDIES
+No other remedies for defaults may be made against Linework than those explicitly mentioned in this clause 8.
+9 LIMITATION OF LIABILITY
+9.1 LIMITATION
+If the Customer should be entitled to damages or other form of compensation from Linework despite the regulations in clause 8, Linework shall in no case be liable for the Customer's loss of data and / or other form of information.
+Furthermore, the Parties shall solely be liable for actually incurred direct financial loss due to negligence or intent on its own part. Neither Party is under any circumstances liable for indirect or consequential losses, including operating losses, loss of profit, loss of goodwill, etc.
+Each Party’s total liability for the other Party’s potential financial loss shall in any case never exceed the total amount payable by the Customer to Linework for the SaaS during the past 12 months before the damage occurred.
+Customer acknowledges and agrees that (i) the SaaS is being “beta” tested and is not currently in final form, and (ii) Linework shall have no liability to Customer for any fault or defect in the SaaS prior to the time it ceases to be “beta” tested.
+9.2 EMPLOYEES, CONSULTANTS AND DIRECTORS
+To the fullest extent permissible by law, no employee, hired consultant, director, officer or other physical person working for a Party shall be held liable for damages or other financial loss caused by delivery of the SaaS.
+To the extent such persons are liable regardless of this, the limitations of liability applicable for the Parties as set out herein shall apply accordingly for such persons.
+9.3 UNLIMITED LIABILITY
+The limitation of liability in clause 9.1 does not limit either Party’s liability for:
+(i) fraud, fraudulent misrepresentation, willful misconduct, or conduct that demonstrates reckless disregard for the rights of others;
+(ii) death or personal injury occurring as a direct consequence of negligence by the other Party; or
+(iii) infringement of the other Party’s or a third party’s intellectual property rights; or
+(iv) costs incurred by Linework in relation to disputes between the Customer and the Customer’s customers; or
+(v) other loss covered by the indemnities provided for in clause 6 herein.
+Clause 9.1 shall not in any event limit the Customer’s obligation to pay fees for access to the SaaS or other products and services provided by Linework.
+10 FORCE MAJEURE
+If an extraordinary situation should arise which makes it unreasonably burdensome for a Party to fulfill its obligations herein, and which under Norwegian law must be classified as a force majeure event, the other Party must be notified of this as soon as possible. The obligations of the affected Party shall be suspended for as long as the extraordinary situation prevails. The corresponding obligations of the other Party shall be suspended for the same period.
+In force majeure situations, the other Party may only terminate the Agreement with the consent of the affected Party, or if the situation prevails or is expected to prevail for more than ninety (90) calendar days as of the date on which the situation arose, and in such case only with fifteen (15) calendar days’ notice. Each of the Parties will cover their own costs associated with ending the contractual relationship in a force majeure event. The Customer will pay the agreed price for the part of the SaaS that was contractually delivered before the expiry of the agreement. The Parties may not present other claims against each other due to the expiry of the agreement in accordance with this provision.
+In connection with force majeure situations, the Parties have a mutual disclosure obligation towards each other regarding all matters that must be deemed to be relevant to the other Party. This information must be provided as soon as reasonably possible.
+11 TERM AND TERMINATION
+11.1 TERM
+The agreement regarding the Customer’s purchase and Linework’s delivery of the SaaS is effective as from the day the agreement is entered into, at the latest on the day when the SaaS is made available to the Customer.
+The agreement shall be in force and effect until it is terminated.
+11.2 TERMINATION
+The Customer may terminate the agreement in whole or in part (e.g. by terminating parts of the SaaS only) at any time without cause through the cancellation option within the SaaS.
+Termination by the Customer will have effect after the end of the period for which the Customer has paid for the SaaS.
+Linework may terminate the agreement in whole or in part by cause as set out in these General Terms, or in any case of material breach of contract by the Customer.
+Termination by Linework will have effect at the later of (a) two months after a termination notice explaining the cause of the termination is sent to the Customer and (b) at the end of the period for which the Customer has paid for the SaaS.
+The SaaS will remain in full force and effect during the termination period.
+11.3 EFFECTS OF TERMINATION
+After the termination period, the Customer will no longer have any right to access the SaaS subscription being subject to termination.
+To the extent Linework stores Customer Data on behalf of the Customer, the Customer must itself download and make copies of the Customer Data that the Customer wish to maintain before the end of the termination period.
+Termination of the agreement with Linework will not affect Customer Data stored on locations controlled by the Customer, but Customer Data will be deleted from Lineworks’ servers after termination.
+Termination of a studio’s subscription will cause removal of artists’ access to the studio’s resources, and termination of an artist’s subscription will cause removal of related studios’ access to that artist’s resources.
+Termination shall not affect the Customer’s obligation to pay incurred and ongoing fees for the SaaS during the termination period.
+Notwithstanding anything to the contrary herein, clauses 9 (Limitation of liability), 10 (Force majeure), 11 (Term and termination), 12 (Customer data), 11 (personal information), 14 (Intellectual property rights), 15 (Confidentiality), 16 (Marketing), and 20 (Dispute resolution) shall survive the termination of these General Terms, regardless of cause.
+12 CUSTOMER DATA
+12.1 LIMITED LICENSE
+To be able to provide the SaaS, Linework may require access to information received by, or otherwise processed by, Linework about the Customer or the Customer's relationships, including personal information and other data and information uploaded in, or generated in or by, the solutions made available as part of the SaaS (the “Customer Data”).
+The Customer Data shall, in the relationship between Linework and the Customer, be considered the Customer’s property. Linework shall only have rights to access and use Customer Data to the extent that it follows from these General Terms or as otherwise agreed.
+By accepting these General Terms the Customer grants Linework permission to use to the Customer Data to the extent necessary for Linework to provide the SaaS.
+12.2 CONFIDENTIALITY OF CUSTOMER DATA
+Linework shall keep Customer Data strictly confidential. Employees, consultants, subcontractors and others who deal with the Customer Data shall only do so to the extent necessary for Linework to be able to deliver the Products with the required functionality, and all such persons shall have undertaken strict confidentiality obligations taking the confidential and sensitive nature of the Customer Data into account.
+12.3 LINEWORK'S RESPONSIBILITY FOR CUSTOMER DATA
+Linework will take reasonable precautions with a view to preventing Customer Data from being lost or going astray.
+Linework shall have no other responsibilities for Customer Data beyond what is stated in this clause 12.3 and otherwise as required by mandatory law.
+12.4 DELETION OF CUSTOMER DATA
+Upon request from the Customer, and in any event after termination of the agreement, Linework shall permanently delete all Customer Data stored by Linework. The obligation to delete Customer Data does not apply to information that has been routinely backed up or that is necessary for Linework to be able to comply with its own obligations, provided that all such information is kept strictly confidential and not used directly without the Customer's consent in Linework's business beyond what is necessary for Linework’s fulfillment of its own rights and obligations.
+Linework may also delete or disable Customer Data if required under applicable laws, and in such instances, Linework will use reasonable efforts to provide notice. If the Customer’s content is lost or damaged, Linework will make reasonable efforts to assist in restoring the content to the SaaS from any available backup copy.
+12.5 SUBCONTRACTORS’ USE OF CUSTOMER DATA
+Linework may use subcontractors for certain parts of the SaaS (such as software from Amazon Web Services, Stripe etc.). Such suppliers will only be given access to Customer Data to the extent necessary to ensure delivery of the SaaS in accordance with the Order Form and these General Terms.
+By accepting these General Terms, the Customer accepts that Linework uses any subcontractors as applicable to the relevant SaaS provided, even if such subcontractors are not specifically stated in these General Terms or other agreement documents.
+The Customer can always request an overview of which subcontractors are used, and the Customer can at any time demand that subcontractors are no longer used for specific SaaS. If removal of a subcontractor has consequences for the SaaS and the Customer insists on removing the subcontractor, Linework may terminate the delivery of the SaaS without further cause.
+12.6 OTHER USE OF CUSTOMER DATA
+Upon Customer’s prior consent, Linework may use Customer Data to train algorithms and software, for recognizing patterns in text, images and content in other forms. When training algorithms and software, Customer Data shall, to the extent technically possible, be anonymized, and in all cases kept strictly confidential. When training algorithms and software reasonable and proportionate measures shall be implemented to avoid the possibility of re-constructing Customer Data (in whole or in parts) from the results from algorithm trainings.
+13 PERSONAL INFORMATION
+Linework will process all personal data in accordance with Linework’s privacy Policy (the “Privacy Policy”).
+The Customer has the sole responsibility for ensuring that the personal data transferred to Linework is obtained and maintained by the Customer in accordance with the applicable privacy law regulations.
+14 INTELLECTUAL PROPERTY RIGHTS
+14.1 RIGHTS TO THE SAAS
+For the term of the agreement the Customer receives the right to use the SaaS as set out in clause 2.2. Unless otherwise agreed, the right of use ceases upon termination of the agreement.
+Linework retains all copyrights and all other intellectual property rights in all parts of the SaaS, and in any results of updates and developments. This applies even if the Customer has been actively involved in the development of such updates and upgrades. Linework’s retention of intellectual property rights includes all rights to material (documents, process descriptions, design descriptions, drawings, figures, solution descriptions, concrete solutions, images, sound recordings, film recordings, data files, computer programs, software code and other copyrighted or otherwise intellectual property protected material) that form part of the SaaS. The same applies to ideas, concepts, models and the like that may be included in the SaaS.
+Linework shall not in any way acquire rights to the Customer's trademark or other Customer-specific material that evidently has been prepared solely by the Customer independently of Linework.
+15 CONFIDENTIALITY
+Linework shall keep all information received about the Customer or the Customer's relations strictly confidential. Linework shall ensure that all employees and consultants which are involved with the delivery of a SaaS for Linework are obliged by similar confidentiality obligations. Linework shall further ensure that Linework's subcontractors are subject to confidentiality obligations that at least correspond to the obligations applicable for Linework as set out herein.
+Linework may only share confidential information with consultants and employees of Linework to the extent necessary to deliver its services. This also applies to employees of Linework's partners, as well as to subcontractors that Linework acts on behalf of, or cooperates with in relation to delivery of the SaaS.
+Linework may use subcontractors to deliver digital products and services (such as software from the supplier Thomson Reuters), where the supplier will be able to access certain confidential information, including any personal information. In cases where external advisors are engaged by or via Linework, the Customer is deemed to have accepted and represents that the relevant persons have accepted that Linework may transfer necessary information, including any personal information, to the relevant adviser or subcontractor for the fulfillment of the SaaS. This also applies if such advisers are established outside the EU / EEA area and applies regardless of whether the external consultant is engaged by Linework, by the Customer itself or anyone acting on behalf of the Customer.
+16 MARKETING
+Unless otherwise agreed, Linework may use the Customer's name and logo, without mentioning the specific content of the SaaS delivered to the Customer, as reference on Linework’s website and in connection with sales and marketing, including when submitting tenders. Before the Customer's name may be used in news articles or similar, Linework will ask for the Customer's consent.
+17 USE OF E-MAIL
+Linework may use e-mail to communicate in relation to delivery of the SaaS, also for the transmission of confidential information. Linework uses encryption in accordance with the Service Level Policy.
+18 COMPLIANCE
+Linework and the Customer shall at all times act in accordance with applicable laws, including export controls and economic sanctions that apply to any Party in connection with the Agreement.
+19 AMENDMENTS
+Linework may amend these General Terms with 30 days’ notice to the Customer. By continuing to use the SaaS after the three months period the Customer shall be deemed to accept the amended General Terms as applicable as form the end of the three months notice period.
+20 DISPUTE RESOLUTION
+All SaaS deliveries by Linework are subject to and governed by the laws of the State of New York that apply to contracts made and performed entirely within such State.
+In the event of a dispute the Parties shall seek to resolve the dispute by negotiations in good faith.
+The federal and state courts in the State of New York are the exclusive venue for any dispute between Linework and Customer.
+Linework Bookings, payments and shop management — all in one place. Built by tattooers, for tattooers.
+Product
+Features
+Studios
+Artists
+Pricing
+Company
+About us
+Magazine
+Book a demo
+Contact
+Legal
+Privacy policy
+Terms of service
+Made by Norwegians, launched in USA.
+© 2026 Linework Inc.

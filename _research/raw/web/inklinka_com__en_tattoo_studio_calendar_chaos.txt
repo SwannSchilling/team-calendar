@@ -1,0 +1,221 @@
+SOURCE-URL: https://inklinka.com/en/tattoo-studio-calendar-chaos
+ACCESSED: 2026-09-19
+CHARS: 7532
+
+InkLinka
+Features
+Features
+Guest Planner for Studios Payments & Payouts SMS & Email Automation Forms, Widgets & AI Chat Aftercare & Merch Sales
+Tools
+AI Business Analyst Universal Stencil Maker Studio Efficiency Check
+Guides
+Stencil Maker Guide Personal Link Guide
+Solutions
+Solutions
+For Artists For Studio Owners Tattoo Studio Essentials Calendar Context
+Why InkLinka Pricing Contact English EN
+Login Get Started
+Tattoo studio calendar
+Keep the project context inside every tattoo appointment.
+A tattoo session is more than a date and time. InkLinka connects appointments with clients, artists, projects, references, deposits and session history, so the team can see what each session is about.
+Test it during the trial Ask for setup help
+11:30
+12:00
+12:30
+13:00
+13:30
+14:00
+14:30
+15:00
+15:30
+16:00
+16:30
+17:00
+17:30
+Tattoo Session
+12:00 - 17:00
+Koi sleeve shading
+Partially paid
+Mira Solen • Anna ...
+Koi sleeve shading
+Linked records
+Client: Mira Solen
+Artist: Anna Kovalenko
+Project: Koi sleeve with peonies *
+Event Type: Tattoo Session
+Time: 12:00 - 17:00
+Date: 2026-06-18
+Event Price: $1,000
+Event partially paid
+Service status: Not completed
+Mark completed
+Deposit payment history
+$200 2026-06-18 10:15
+Processed by: Marta Lowe
+Second session for koi sleeve: refine stencil placement, shade peonies, prepare blue-grey wash set and review the project references before the client arrives.
+Pay/Redeem Edit Delete
+Studio owner
+incoming message
+Problem : “ We use Google Calendar and the appointment is booked, but the artist still asks the manager what they are doing and which references to use, so we have to send everything separately in messengers. ”
+22:51
+Calendar context
+A regular calendar, like Google Calendar or a general CRM calendar, can show when the session starts. It usually does not show the full tattoo context.
+Solution : In InkLinka, the appointment can be connected to the related tattoo project. The team can open the session and see the client, project, references, placement, notes, artist and session history in one place. The artist can also open the booked session and project from their mobile workspace.
+Studio owner
+incoming message
+Problem : “ Before the session, we often need to search for references in Instagram, WhatsApp, folders or screenshots. ”
+22:51
+References
+References should stay with the tattoo project, not only in messages.
+Solution : InkLinka keeps project files, reference images, notes and session information connected to the project. When the appointment is linked to that project, the team can find the preparation materials faster.
+Projects list
+Projects
+Manage your projects
+Add Project
+11
+Projects
+3
+Completed
+6
+In Progress (<100%)
+2
+Ready 100%
+Search by title, client, artist or style...
+Results: 11 Reset Apply
+Artist: All Artists Progress: All Status: All Booked Date from: Select start d Date to: Select end d
+Page 1 of 1 - ( Showing: 11 of 11) Display: 30
+# Title Date Artist Style Estimated Sessions Status Booked Sessions Nearest Visit Actions
+1
+Fine line family crest
+Luca Marlow
+05/23/2026 MS Mira Solen Linework
+B/W - Completed
+Progress: 100% 1 05/25/2026
+2
+Rose with Golden Key
+Noa Kestrel
+04/28/2026 OV Orin Vale Realistic
+Color 2 In progress
+Progress: 35% 1 05/29/2026
+3
+Minimal snake sleeve
+Iris Venn
+05/03/2026 TR Talia Rune Fine line
+B/W 4 Draft
+Progress: 0% 0 No scheduled
+4
+Botanical shoulder piece
+Noa Kestrel
+05/01/2026 SL Sena Lark Botanical
+Color 2 Ready
+Progress: 100% 1 06/02/2026
+5
+Lion and Rose Tattoo
+Luca Marlow
+05/03/2026 OV Orin Vale Realism
+Color 3 In progress
+Progress: 65% 2 05/30/2026
+6
+Blackwork raven cover-up
+Mara Wren
+04/21/2026 KA Kiro Ash Blackwork
+B/W 5 In progress
+Progress: 40% 3 06/05/2026
+7
+Small red rose flash
+Ezra Noll
+04/18/2026 SL Sena Lark Flash
+Color 1 Completed
+Progress: 100% 1 No scheduled
+Project detail
+Back In progress Rose with Golden Key
+Noa Kestrel
+Summary shows progress, booked sessions and the next visit in one place.
+Summary
+Progress 35%
+Sessions completed
+of planned
+1 / 2
+Estimated sessions
+agreed with client
+2
+Next visit
+05/29/2026
+Created date
+04/28/2026
+Booked sessions
+1
+Part: leg
+Style: Realistic
+Color: Color
+Cover: Yes
+Description
+Hi! I'd like to get a tattoo with a rose and a golden key. I imagine it as an elegant design, maybe with the key placed together with the rose or slightly intertwined with the stem. I'm open to your artistic idea and would love to hear how you would make it look beautiful.
+References stay attached to the tattoo project, not buried in chats.
+References (3)
+Add
+Session history keeps the work, timing and price connected.
+Session History
+1 session
+1 04/30/2026 120 min In progress EUR 1000.00
+Edit
+Studio owner
+incoming message
+Problem : “ Our manager knows where everything is. But if they are away, it becomes hard for another person to continue. ”
+22:51
+Studio handoff
+The studio should not depend on one person remembering every connection.
+Solution : InkLinka keeps the main operational context inside the system: clients, projects, appointments, artists, references, deposits and session history. This makes handoff easier when the team grows or when a new manager joins.
+Context comparison
+Before and after connected context
+Before With InkLinka
+- The appointment shows only date and time
++ The appointment can open the related project
+- References are searched in chats or folders
++ References stay with the project
+- Deposit status is checked separately
++ Deposit context stays connected
+- Artist asks for project details
++ Artist can see the session context
+- Manager keeps many details in memory
++ Main studio context is stored in the system
+Setup support
+Test it with your real studio workflow.
+Create a few artists, clients, projects and appointments. Attach references, check how deposits and project context work, and decide if this setup fits your studio.
+If you need help, you can use the internal support chat. We can guide you through the setup.
+Your name Work email
+Studio name What is hardest to control in your calendar? Ask for setup help
+FAQ
+Practical questions before testing InkLinka
+Can InkLinka replace our current calendar?
+InkLinka is designed to add tattoo-specific context around appointments: clients, projects, references, deposits, artists and session history. You can test whether it fits your current scheduling workflow during the trial.
+Can artists see what they need to prepare?
+Yes. When an appointment is connected to a project, the artist can see the related client, references, notes, placement, project stage and session details.
+Does InkLinka help with references stored in chats?
+InkLinka keeps reference images and project files with the tattoo project, so the team does not need to rely only on Instagram, WhatsApp, screenshots or folders.
+Can a new manager understand what is going on?
+InkLinka helps keep the main connections between clients, projects, appointments, deposits and artists in the studio system, which makes handoff clearer.
+InkLinka
+Professional Studio Management
+Tattoo studio CRM and management software for bookings, projects, clients and payments.
+Owned and operated by Inklinka Technologies OÜ
+Product
+Pricing
+Solutions
+Tattoo Studio CRM
+Tattoo Booking Software
+Tattoo Artist CRM
+Guest Artist Software
+Tattoo Studio Management Software
+Tattoo Studio Calendar Software
+Tattoo Calendar Context
+Tattoo Deposit Management
+Inklinka Magazine
+Blog
+Tattoo Artist Interviews
+Support
+FAQs
+© 2026 Inklinka Technologies OÜ. All rights reserved.
+Terms • Privacy
+We love Ukraine and stand with Ukraine.
+Chat

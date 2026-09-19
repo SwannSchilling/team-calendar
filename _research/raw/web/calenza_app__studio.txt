@@ -1,0 +1,127 @@
+SOURCE-URL: https://calenza.app/studio
+ACCESSED: 2026-09-19
+CHARS: 6813
+
+Skip to content Calenza Solutions Barbershops
+Salons
+Spas
+Studios
+Features
+How it works
+FAQ
+Sign in Get started
+Studio booking & management software
+Studio software for booking, artist pay and checkout in one.
+Calenza is studio software for tattoo and appointment-based creative studios — tattoo booking, artist commissions and checkout in one place, with the day's books reconciled to the cent.
+Get started See what's inside
+Booking + POS in one system
+Books reconcile to the cent
+Per-artist pay auto-tallied
+One product, the whole front desk
+Everything it takes to run the floor.
+Calenza is all-in-one studio software: booking and a calendar for every artist, commission tracking, and point of sale in one place. Whether you run a tattoo studio or a session-based studio, appointments get booked, tickets get rung up, and every artist's commission and the day's cash tally themselves.
+Studio booking & calendar
+Book sessions and walk-ins per artist on a day or week calendar. Every booking stays visible — mark it paid, no-show, rescheduled or restored.
+Artist commissions
+Pay each artist on commission, salary or hybrid. Earnings tally as tickets close, with weekly targets and a one-tap payday with a full payout trail.
+Checkout & studio POS
+Ring up sessions and products on one ticket, edit any price, take a deposit-style payment and split it across methods. Books and commissions self-update.
+Reports & cash drawer
+Reports by day, week, month, quarter or year, plus a cash drawer that reconciles — expected cash equals collected minus payouts. Export anytime.
+Staff & commissions
+Pay your team the way you actually run the shop.
+Commission, salary or a hybrid of both — set per person. Earnings tally the moment a ticket closes, and payday is one action with a permanent, voidable record.
+Per-person commission, salary, or a hybrid blend.
+Earnings update live as tickets are cashed out.
+One-tap payday with method and a full audit trail.
+Hours, schedules and weekly targets set per person.
+Earnings today
+updates as tickets close
+Maya R. $ 0
+Stylist · commission owed $ 412
+Theo K. $ 0
+Barber · hybrid owed $ 318
+Jun A. $ 0
+Barber · salary owed $ 240
+Total owed today $970
+Checkout & cash-out
+Close the ticket; the books close themselves.
+Edit any line price at the point of sale, add retail products, apply a discount, and split the payment across cash, card or transfer. The books and every commission update automatically — no second entry.
+Edit any price at the till — discounts and add-ons.
+Sell services and retail products on one ticket.
+Split payments across cash, card or transfer.
+Books and commissions recalculate on their own.
+Ticket · Dana W.
+Maya R. · 9:00 AM
+Open
+Cut & style edited $48.00
+Beard trim service $12.00
+Styling product retail $16.00
+Total $ 0.00
+Take payment · split Books & commissions update automatically
+Schedule & reports
+One calendar, and numbers that reconcile to the cent.
+Book appointments and walk-ins on a day or week calendar, then trust what it adds up to. Revenue counts only completed, paid tickets, and at day's end expected cash matches the drawer.
+Day and week calendar; every booking stays visible.
+Mark paid, no-show, cancel, reschedule or restore.
+Reports by day, week, month, quarter or year — with CSV export.
+Cash drawer: expected cash = collected − payouts.
+Close the day Tuesday
+Cash collected completed tickets $1,240
+Card & transfer completed tickets $2,090
+Payouts out staff paydays − $970
+Expected in drawer $ 0
+Cash collected − payouts · matches the till
+How it works
+Up and running in three steps.
+01 Set up the studio
+Add artists, hours and the sessions or services you offer — minutes, no installs.
+02 Add artists & pay
+Bring in the team and set each artist's commission, salary or hybrid pay.
+03 Book, work, cash out
+Take bookings and walk-ins, close each ticket at the studio POS, and let commissions and the books tally themselves.
+Trust & security
+Built to hold real money, carefully.
+Calenza tracks takings, commissions and pay for real businesses — so security and accuracy aren't features, they're the point.
+Encrypted connections
+Every connection runs over TLS, and your data is stored on managed, access-controlled infrastructure.
+Each shop's data is isolated
+Row-level security separates every business, so one shop can never see another's clients, sales or staff.
+Role-based access
+Owners, managers and staff each see only what they should — and the commission ledger is write-protected on the server.
+Export anytime
+Your data is yours. Export clients, bookings and sales to CSV whenever you want, no lock-in.
+FAQ
+Studio booking & management software, questions answered.
+What software do tattoo studios use for booking and pay? Tattoo studios use software like Calenza to book sessions per artist, track each artist's commission, and take payment at checkout in one place. Booking, commissions and the till live in one system, so the schedule, pay and the books stay in sync without re-entering anything.
+Does Calenza work as tattoo studio management software? Yes. Calenza handles the management side of a studio — a per-artist calendar, client records with visit history, services and products with stock, staff commissions, and reports that reconcile — so the studio runs from one system instead of several.
+How does Calenza track artist commissions in a studio? Set each artist's pay as a commission percentage, a salary, or a hybrid. As tickets close, earnings tally per artist automatically against a server-side ledger that artists cannot alter, and payday is one action with a permanent, voidable record.
+Does Calenza include studio checkout and point of sale? Yes. Calenza includes studio point of sale: ring up sessions and retail on one ticket, edit any price, apply discounts, and split payment across cash, card or transfer — with the books and commissions recalculating themselves and a cash drawer that reconciles at day's end.
+Can Calenza handle walk-ins and prevent double-booking? Yes. You can record a walk-in in a few taps or schedule a session on the calendar, where each artist's bookings are laid out by time so the front desk can see availability at a glance and keep the day's slots clear.
+Calenza for your business
+Barbershops Salons Spas All features
+Take your next booking today.
+Set up your shop, add your team, and let Calenza run the day — bookings, staff pay and the books, all in one place.
+Get started See what's inside
+Calenza Appointment & scheduling software for service businesses of every kind.
+Product
+Booking & calendar
+Staff & commissions
+Checkout & cash-out
+Schedule & reports
+Solutions
+Barbershops
+Salons
+Spas
+Studios
+Company
+Red Zen Cloud
+Support
+Sign in
+Get started
+Legal
+Privacy Policy
+Terms of Service
+Security
+© 2026 Calenza, a product of Red Zen Cloud LLC .
+Design. Develop. Deploy.

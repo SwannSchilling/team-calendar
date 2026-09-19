@@ -1,0 +1,152 @@
+### FINAL-URL: https://inklinka.com/terms
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+InkLinka Terms of Service Privacy Policy
+Back to login
+Legal
+Terms of Service
+These Terms of Service ("Terms") govern access to and use of InkLinka's websites, software, hosted applications, APIs, communication features, integrations, payment-related tooling, and related services (collectively, the "Services").
+Last updated: April 14, 2026
+Legal documents provided by Inklinka Technologies OÜ , Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-202, 10120, Estonia
+InkLinka is owned and operated by Inklinka Technologies OÜ. References to "InkLinka," "we," "us," and "our" in these Terms refer to Inklinka Technologies OÜ acting as the operator of the Services unless a different entity is expressly identified in writing.
+These Terms are intended to define InkLinka as a software and infrastructure provider only, and to allocate operational, legal, regulatory, payment, tax, customer-facing, and recordkeeping responsibility to the businesses and users that operate through the Services.
+Nothing in these Terms limits or excludes non-waivable rights or liabilities to the extent such rights or liabilities cannot be limited or excluded under applicable law.
+1. Acceptance of Terms
+By accessing or using the Services, creating an account, activating a workspace, or permitting any user to access the Services through your account, workspace, tenant, or organization, you agree to be bound by these Terms on behalf of yourself and, where applicable, the business or organization you represent.
+If you do not agree to these Terms, you must not access or use the Services.
+If you are accepting these Terms on behalf of a business or organization, you represent and warrant that you have authority to bind that entity.
+2. Business Use Only
+The Services are offered for business and professional use only and are not intended for personal, family, or household use.
+You represent and warrant that you are using the Services in connection with a business, professional, commercial, or organizational activity and not as a consumer acting primarily for personal use.
+3. InkLinka Role
+InkLinka provides software, hosting, workflow tools, integrations, and technical infrastructure only.
+InkLinka is not:
+a tattoo, piercing, beauty, wellness, healthcare, medical, legal, tax, accounting, payroll, employment, banking, payment, insurance, or regulatory advisory service;
+a clinic, studio operator, merchant of record, employer, staffing agency, escrow provider, trustee, fiduciary, or records custodian for your business;
+responsible for the acts, omissions, services, conduct, pricing, quality, safety, legality, licensing, promises, or customer treatment of any studio, artist, manager, operator, contractor, employee, workspace member, or customer.
+InkLinka does not supervise procedures, verify qualifications, monitor licensing, validate legal compliance, guarantee service outcomes, or assume responsibility for appointments, deposits, invoices, refunds, chargebacks, payouts, taxes, classifications, disclosures, waivers, or customer communications generated or managed through the Services.
+4. Customer Operational Responsibility
+You are solely responsible for your business operations and all uses of the Services under your account, workspace, tenant, or credentials.
+You are solely responsible for:
+your services, procedures, appointments, pricing, promotions, refund rules, customer promises, disputes, and studio operations;
+compliance with applicable law, consumer rules, licensing requirements, tax obligations, employment rules, health and safety obligations, privacy law, and recordkeeping requirements;
+all customer communications, disclosures, notices, waivers, consent flows, cancellation rules, and payment instructions;
+all accounting treatment, tax treatment, artist compensation, contractor classification, payroll treatment, and internal controls;
+reviewing whether the Services are suitable for your business and legal environment.
+Any workflows, templates, reminders, automations, reports, dashboards, messaging tools, or payment-related features made available through the Services are provided for convenience only and do not replace independent professional judgment, legal review, accounting review, regulatory review, compliance controls, or backup procedures.
+5. Eligibility and Account Security
+You must provide accurate, current, and complete registration information and keep it updated.
+You are responsible for:
+maintaining the confidentiality of your passwords, access codes, API keys, and authentication credentials;
+restricting access to authorized users only;
+all activity conducted through your account, workspace, tenant, integrations, devices, or credentials, whether authorized by you or not, except to the extent prohibited by law.
+You must promptly notify InkLinka of any unauthorized access, compromise, or suspected security incident involving your account or workspace.
+6. User Data and Content
+You retain responsibility for all data, content, files, messages, forms, records, notes, media, invoices, reports, settings, customer information, and business information submitted to, stored in, transmitted through, or generated through the Services ("User Data").
+You represent and warrant that:
+you have all rights, permissions, authorizations, notices, disclosures, and lawful bases necessary to collect, use, upload, process, store, transmit, and share all User Data;
+your User Data and your use of the Services do not violate law, third-party rights, contractual obligations, privacy rights, intellectual property rights, or professional duties;
+you will maintain your own legally required records and not rely on the Services as your sole legally required archive unless expressly agreed by InkLinka in writing.
+InkLinka is not responsible for reviewing User Data for legality, accuracy, completeness, adequacy, retention compliance, or regulatory fitness.
+7. Sensitive, Regulated, and High-Risk Use
+Unless InkLinka expressly agrees otherwise in a separate written agreement, you must not rely on the Services as a certified or guaranteed environment for:
+regulated medical records,
+emergency services,
+legal trust records,
+official government filing systems,
+guaranteed tax or accounting compliance,
+guaranteed employment compliance,
+guaranteed consumer law compliance,
+irreplaceable archives for which independent backup is not maintained,
+any use requiring uninterrupted availability, certified retention, or fail-safe operation.
+You are solely responsible for deciding whether to upload or process health-related, biometric, identity, tax, employment, payment, consent-related, or other sensitive or regulated information through the Services.
+InkLinka may, but is not required to, restrict, suspend, remove, quarantine, refuse, or delete data, files, or workflows that it believes create legal, security, fraud, abuse, infrastructure, or compliance risk.
+8. Acceptable Use
+You may not use the Services:
+for unlawful, fraudulent, deceptive, abusive, defamatory, infringing, harmful, or malicious purposes;
+to transmit malware, spam, phishing content, or unauthorized advertising;
+to interfere with, probe, disrupt, overload, scrape, reverse engineer, or attempt unauthorized access to the Services or related systems;
+to use the Services in a manner that creates material legal, reputational, payment, security, or operational risk for InkLinka or others;
+to process data or operate workflows that you are not legally permitted to operate.
+InkLinka may investigate violations and take any action it reasonably considers appropriate.
+9. Third-Party Services, Integrations, and Payment Providers
+The Services may interoperate with or rely on third-party providers, including hosting providers, messaging tools, analytics providers, communication providers, payment processors, connected account providers, AI features, plugins, and integrations.
+Your use of third-party services may be subject to separate terms, privacy notices, onboarding requirements, eligibility rules, reserves, underwriting decisions, and compliance requirements imposed by those third parties.
+When you connect a Stripe account and accept direct payments for products, as between you and InkLinka and to the extent permitted by applicable law, you are the seller and merchant responsible for the connected account, the customer transaction, fulfillment, refunds, disputes, taxes, Stripe processing fees, negative balances, reserves, payout settings, and every other connected-account cost or obligation. InkLinka supplies software and may collect the platform fee disclosed for your plan.
+InkLinka does not control and is not responsible for:
+third-party availability, security, outages, reserves, holds, freezes, terminations, underwriting, fraud checks, payout timing, settlement timing, reversals, chargebacks, compliance reviews, or account actions;
+the legality, accuracy, performance, security, or fitness of third-party services;
+any losses, delays, holds, penalties, frozen funds, failed payouts, disputed charges, processing failures, or operational interruptions caused by third-party services.
+fees, expenses, liabilities, reversals, chargebacks, or negative balances incurred by your Stripe connected account, except to the extent responsibility cannot lawfully be excluded.
+10. Fees, Billing, and Taxes
+You agree to pay all fees, subscription charges, usage-based charges, transaction-related charges, taxes, and other amounts due in connection with the Services, without setoff or deduction except where required by law.
+Unless expressly stated otherwise:
+fees are non-refundable;
+subscriptions renew automatically for the applicable term unless cancelled in accordance with the Service settings or applicable order terms;
+you are responsible for all taxes, levies, duties, and governmental charges associated with your use of the Services, excluding taxes based on InkLinka's net income.
+Failure to pay amounts due may result in suspension, restriction, or termination of access.
+11. Availability, Changes, and Backups
+InkLinka may modify, update, replace, suspend, restrict, or discontinue any part of the Services at any time.
+Where commercially reasonable, InkLinka may provide notice of material planned changes, but InkLinka may take immediate action without prior notice where it reasonably believes such action is necessary for security, fraud prevention, abuse prevention, infrastructure protection, legal compliance, payment risk management, or operational integrity.
+The Services are not guaranteed to be uninterrupted, error-free, secure, or compatible with all devices, browsers, integrations, networks, or third-party environments.
+You are solely responsible for maintaining your own backups, exports, records, and continuity measures for any data or workflows material to your business, customers, legal compliance, accounting, tax, operations, or disputes.
+12. Data Retention, Access, and Deletion
+InkLinka may retain, disable access to, export, delete, preserve, or restrict User Data and account-related information in accordance with its systems, retention practices, legal obligations, security needs, billing status, dispute handling needs, fraud prevention requirements, backup architecture, and internal enforcement processes.
+Following suspension or termination:
+your access to the Services may cease immediately;
+InkLinka may delete or anonymize User Data after a commercially reasonable period or earlier where permitted or required;
+InkLinka may retain data where reasonably necessary for legal compliance, tax, accounting, dispute resolution, fraud prevention, security, backup restoration cycles, or enforcement of these Terms.
+InkLinka has no obligation to store, maintain, or recover User Data for your benefit except to the extent required by applicable law or expressly agreed in writing.
+13. Intellectual Property
+InkLinka and its licensors retain all rights, title, and interest in and to the Services, software, interfaces, workflows, documentation, visual design, branding, know-how, and related intellectual property.
+Subject to these Terms and payment of all applicable fees, InkLinka grants you a limited, revocable, non-exclusive, non-transferable, non-sublicensable right to access and use the Services for your internal business operations during the applicable subscription term.
+Except where prohibited by law, you may not:
+copy, resell, sublicense, distribute, or commercially exploit the Services except as expressly permitted;
+reverse engineer, decompile, disassemble, extract source code, or attempt to derive underlying code, models, logic, or structure;
+create derivative works from the Services;
+remove proprietary notices or branding.
+14. Suspension and Termination
+InkLinka may suspend, limit, restrict, or terminate access to the Services, in whole or in part, immediately and without liability, if InkLinka reasonably believes that:
+you breached these Terms;
+your use creates legal, payment, fraud, abuse, security, compliance, reputational, or operational risk;
+a third-party provider requires restriction or termination;
+continued provision of the Services is no longer commercially or operationally reasonable.
+You may stop using the Services at any time and may terminate your subscription subject to any applicable minimum term, billing cycle, or non-cancellable commitment.
+Termination or suspension does not:
+relieve you of accrued payment obligations;
+require InkLinka to continue hosting or preserving User Data;
+create liability for InkLinka for business interruption, lost customers, lost revenue, loss of data, reputational harm, or downstream claims.
+15. Disclaimers
+To the maximum extent permitted by law, the Services are provided on an "as is" and "as available" basis without warranties of any kind, whether express, implied, statutory, or otherwise.
+InkLinka disclaims, to the maximum extent permitted by law, all warranties, including any implied warranties of merchantability, fitness for a particular purpose, title, non-infringement, quiet enjoyment, accuracy, availability, security, or that the Services will be uninterrupted, error-free, or suitable for your legal, tax, accounting, operational, regulatory, or recordkeeping needs.
+InkLinka does not warrant that:
+the Services will meet your business requirements or legal obligations;
+the Services will preserve all data without loss or corruption;
+third-party providers will continue to support any integration or feature;
+any workflow, automation, message, reminder, payment status, or report will be complete, accurate, or legally sufficient for your use case.
+You are solely responsible for determining whether the Services are appropriate for your business and for maintaining independent controls, records, reviews, and backups.
+16. Limitation of Liability
+To the maximum extent permitted by law, InkLinka and its affiliates, and their respective officers, directors, employees, contractors, licensors, and service providers, will not be liable for any indirect, incidental, consequential, special, exemplary, punitive, or enhanced damages, or for any loss of profits, revenue, goodwill, expected savings, business opportunities, customers, data, or business interruption, arising out of or relating to the Services, even if advised of the possibility of such damages.
+To the maximum extent permitted by law, InkLinka's total aggregate liability arising out of or relating to the Services, these Terms, or any related claim will not exceed the greater of: (a) the total amounts paid by you to InkLinka for the Services in the 12 months immediately preceding the event giving rise to the claim; or (b) EUR 100.
+The exclusions and limitations in these Terms apply regardless of the theory of liability, whether in contract, tort, negligence, strict liability, statutory duty, restitution, or otherwise.
+Nothing in these Terms excludes or limits liability to the extent such liability cannot be excluded or limited under applicable law.
+17. Indemnification
+You will defend, indemnify, and hold harmless InkLinka and its affiliates, and their respective officers, directors, employees, contractors, licensors, and service providers, from and against any and all claims, demands, actions, proceedings, investigations, liabilities, damages, losses, judgments, settlements, penalties, fines, costs, and expenses, including reasonable legal fees and professional costs, arising out of or relating to:
+your use of the Services;
+your business operations;
+your User Data;
+your customers, staff, artists, contractors, or end users;
+your violation of law, regulation, third-party rights, or these Terms;
+your services, appointments, pricing, payments, tax handling, refunds, chargebacks, communications, or disclosures.
+InkLinka may assume exclusive control of the defense and settlement of any matter subject to indemnification, and you will cooperate fully at your own expense. You may not settle any such matter in a way that imposes any admission, obligation, or restriction on InkLinka without InkLinka's prior written consent.
+18. Governing Law and Venue
+These Terms and any non-contractual disputes arising out of or in connection with them are governed by the laws of Estonia, excluding conflict-of-law principles.
+The courts located in Tallinn, Estonia will have exclusive jurisdiction over all disputes arising out of or relating to these Terms or the Services, except where applicable law requires otherwise.
+19. Changes to the Terms
+InkLinka may update these Terms from time to time.
+Updated Terms become effective when posted, unless a later effective date is stated. To the maximum extent permitted by law, your continued access to or use of the Services after the effective date of updated Terms constitutes acceptance of the updated Terms.
+Where required by applicable law, InkLinka will provide additional notice of material changes.
+20. Contact
+Service operator: Inklinka Technologies OÜ.
+Registered address: Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-202, 10120, Estonia
+Support email: main@inklinka.com

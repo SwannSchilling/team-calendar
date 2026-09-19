@@ -1,0 +1,165 @@
+### FINAL-URL: https://anolla.com/en/about-us
+### CONTENT-TYPE: text/html; charset=utf-8
+### TEXT:
+menu Menu
+anolla
+Explore
+person Sign in
+headset_mic Ask for help
+en
+Official languages (26):
+Čeština
+Dansk
+Deutsch
+Eesti
+English
+Español
+Français
+Hrvatski
+Italiano
+Latviešu
+Lietuvių
+Magyar
+Nederlands
+Norsk
+Polski
+Português
+Română
+Slovenčina
+Slovenščina
+Suomi
+Svenska
+Ελληνικά
+Български
+Русский
+Українська
+Malti
+For service providers
+About us
+Anolla is evolving service booking from a static calendar into an intelligent experience. Founded in 2011, we’ve grown steadily across 30+ countries—building booking infrastructure that learns and adapts.
+14
++
+Years of active development
+30
++
+Countries
+AA+
+Credit rating
+100
+%
+Independent
+How we build the future of booking
+Traditional booking systems are passive. They wait for a customer to pick a time and then lock it in. We’re building something fundamentally different: infrastructure that gets better over time at predicting needs, recommending optimal times, and personalizing communication.
+We’re developing a platform that understands demand patterns and the dynamics that move markets. The system automatically analyzes historical data, seasonal trends, and real-time availability to generate intelligent recommendations. Even today, it helps businesses optimize capacity and helps customers find a better time—our development focus is to make these capabilities increasingly proactive.
+We built the platform API-first, meaning it integrates seamlessly with both existing tools and future technologies. Whether it’s voice assistants, autonomous agents, or workflows we haven’t even imagined yet—Anolla is designed to adapt and connect smoothly.
+Anolla has been shaped over the years through close collaboration with real customers. Thousands of businesses, hundreds of industries, and continuous feedback have formed our understanding of what truly works—and what doesn’t. Our progress has been consistent, deliberate, and analytics-driven: each new AI capability is introduced gradually, supported by real usage data and user experience.
+We design infrastructure for a reality where AI mediates most service interactions—treating this not as a distant future concept, but as an architectural challenge of today.
+Where we’re headed
+Our technology development is guided by a clear vision. Our goal is to create technology that makes collaboration between people and businesses effortless. We believe the services of the future are personalized, transparent, and proactive. Even today, the platform can manage complex scheduling rules and resources—this is the foundation we’re using to build proactive AI models.
+Our aim is to anticipate user needs before they arise. This will enable true hyper-personalization to become a natural part of the service experience. We’re shaping a future where technology is invisible, yet its impact is felt in every interaction.
+If you’re building services for the next decade, we want to be your infrastructure.
+Why we’ve grown organically
+Since 2011, we’ve grown through real customers, user feedback, and monthly subscriptions—without external funding. This hasn’t been an ideological stance, but a natural path. Our growth and development have been funded from our own operations, which has provided independence, stability, and the freedom to prioritize long-term product quality, customer loyalty, and platform reliability.
+Customers running real businesses have been our strongest validator and most reliable source of feedback. We’re genuinely grateful—because they helped shape the platform in many directions and revealed what actually works. This has aligned our product development, architecture, and priorities with direct needs, and pushed us to think through every detail to ensure smooth workflows and a high-quality experience even amid continuous evolution.
+Our operating model relies on automation and thoughtfully chosen tools. We believe a small, focused team—supported by strong architecture and an efficient platform—is a better foundation for long-term resilience than a large organizational burden. This is the true “lean” approach for the AI era—mobile, innovation-led, and quick to adapt to market change.
+This doesn’t mean we rule out investments, mergers, or strategic partnerships. We’re always open to collaborations that help accelerate our vision, strengthen the core team, or increase capability. But our primary focus remains product development and stable, sustainable growth grounded in a strong product.
+Who leads Anolla
+Meelis and Tarko Koger lead the company. Meelis focuses on product development and the technical side. Tarko is responsible for strategic direction, long-term planning, and operational leadership. We work with a small core team supported by a flexible network of specialists across four continents—this is a true “lean” approach in today’s AI era.
+Background and legal information
+Legal information and trust: The owner and operator of the Anolla platform is Booklux OÜ, a company founded and registered in Estonia (registry code: 12127160, VAT: EE102000843). The company has an independent AA+ credit rating and no outstanding payment defaults. These are public records that confirm our stable financial management and long-term viability.
+Brand history: Our journey began in 2011 under the name Otsiabi OÜ. From that, the booking software Booklux was created, and it later became the company’s legal name. We later developed the Agado client app aimed at service users and customers. Over time, we realized that the best user experience emerges when the provider and customer worlds operate on one unified platform. That’s why we merged Booklux and Agado into a single AI-enabled end-to-end platform serving all roles—from service providers to end users. Creating a unified experience and strengthening our international position also required a name that isn’t tied only to booking or a single market segment. That’s how ANOLLA was born—a complete platform identity and internationally resonant brand, officially registered with the European Union Intellectual Property Office, reflecting our broader vision.
+Reviews and ratings: We measure quality through direct customer feedback rather than aggregating public reviews. Our key quality metrics come from in-platform workflows, conversations, and feedback analytics. App store ratings reflect only a small portion of users, as platform migrations and major version changes have repeatedly reset previous ratings. Our mobile apps primarily serve as interfaces for the main PWA platform.
+Security and compliance: Anolla runs on secure, scalable cloud infrastructure where high availability and data protection are part of the architecture. GDPR and privacy principles are built into the system at the foundational level—not added later. For payment processing, we use certified and internationally recognized providers. Legal and regulatory compliance is a standard part of our development and operations.
+Customer support philosophy: We believe technology works best when people can focus on substance—not tools. Over the years, we’ve seen that truly durable solutions come from product quality, not isolated support requests. Traditional support models don’t always solve issues thoroughly and aren’t always available at the right moment. That’s why we focus heavily on automation, AI agents, and feedback-driven product development—with the goal of making the platform increasingly intuitive and ultimately reducing the need for support altogether. This approach helps keep the platform accessible, cost-efficient, and scalable, and enables support at any time and in any language. This is not about avoiding human support—it’s a deliberate strategic choice toward a better product, higher reliability, and a more affordable service.
+Principles: We follow high ethical standards in our decisions and development. Our goal is to be a trustworthy partner for long-term collaboration. We don’t promise perfection. We promise that we will always move forward—toward better.
+Note on third-party data: Public data portals may occasionally contain outdated or misleading information that we did not create or verify. For example, incorrect references to other countries or inaccurate statuses do not reflect reality. Our only legal entity is Booklux OÜ, based in Estonia, which has been active and financially sound throughout our operating history. If we discover misleading information, we request corrections or removals directly from the sources.
+Create Free Account
+Download app
+Tap to leave a rating
+star
+star
+star
+star
+star
+4.8 ( 186 ratings)
+Legal information
+Terms of Use
+Privacy Policy
+Customer support
+Ask for help
+Rate Anolla
+Customer support
+About us
+Information close
+Feedback close
+Do you like Anolla?
+thumb_down
+thumb_up
+Rate Anolla
+Let us know what you like or what we can improve. Your feedback is important to us.
+Write here
+Send
+How was your experience? close
+star_border
+star_border
+star_border
+star_border
+star_border
+Public review with private feedback
+Share your experience
+Post
+Later
+Done
+My contact details close
+First name
+Last name
+Email address
+Verify code
++1 +7 +20 +27 +30 +31 +32 +33 +34 +36 +39 +40 +41 +43 +44 +45 +46 +47 +48 +49 +51 +52 +53 +54 +55 +56 +57 +58 +60 +61 +62 +63 +64 +65 +66 +81 +82 +84 +86 +90 +91 +92 +93 +94 +95 +98 +211 +212 +213 +216 +218 +220 +221 +222 +223 +224 +225 +226 +227 +228 +229 +230 +231 +232 +233 +234 +235 +236 +237 +238 +239 +240 +241 +242 +243 +244 +245 +248 +249 +250 +251 +252 +253 +254 +255 +256 +257 +258 +260 +261 +262 +263 +264 +265 +266 +267 +268 +269 +290 +291 +297 +298 +299 +350 +351 +352 +353 +354 +355 +356 +357 +358 +359 +370 +371 +372 +373 +374 +375 +376 +377 +378 +380 +381 +382 +385 +386 +387 +389 +420 +421 +423 +500 +501 +502 +503 +504 +505 +506 +507 +508 +509 +590 +591 +592 +593 +594 +595 +596 +597 +598 +599 +670 +672 +673 +674 +675 +676 +677 +678 +679 +680 +681 +682 +685 +686 +687 +688 +689 +691 +692 +720 +850 +852 +853 +855 +856 +870 +880 +886 +960 +961 +962 +963 +964 +965 +966 +967 +968 +970 +971 +972 +973 +974 +975 +976 +977 +992 +993 +994 +995 +996 +998 +1242 +1246 +1264 +1268 +1284 +1340 +1345 +1441 +1473 +1599 +1649 +1664 +1670 +1671 +1684 +1758 +1767 +1784 +1809 +1868 +1869 +1876
+Prefix
+Phone
+Verify code
+Birthday
+Day
+Month
+Year
+1
+Done
+Anolla
+search Service search
+account_circle
+My account
+account_circle Greetings
+account_circle Sign up or join
+Sign up or join
+event_available My bookings
+folder_special My inquiries 0
+request_quote My offers
+forum My conversations 0
+search booklux
+search google
+camera
+search map
+search share test
+search feedback test
+person_pin For service providers
+Customer support
+support_agent Ask for help (24/7)
+thumbs_up_down Rate Anolla
+help Help Center
+help DEMO
+Sign up or join close
+Email address
+Keep me signed in
+Continue with a social media account
+Continue with Google
+Continue with Apple
+Continue with Facebook
+I have read and agree to the following:
+Terms of Use ,
+Privacy Policy
+Agree and continue
+Enter the verification code close
+Edit
+Confirm
+Resend code

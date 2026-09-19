@@ -1,0 +1,16 @@
+ok TattooArtists|booking app: feed=24 new=18
+ok TattooArtists|last minute cancellation: feed=25 new=20
+ok TattooArtists|deposit: feed=25 new=15
+!! TattooArtists|commission: __ERR__ retries exhausted
+ok TattooArtists|guest spot: feed=25 new=25
+ok TattooArtists|instagram reference: feed=10 new=9
+!! TattooArtists|clients never come back: __ERR__ retries exhausted
+ok TattooArtists|waitlist: feed=4 new=4
+ok TattooArtists|consent form: feed=12 new=10
+!! TattooArtists|reminder text: __ERR__ retries exhausted
+ok TattooArtists|tattoo software: feed=7 new=5
+ok TattooArtists|internet down: feed=3 new=2
+ok TattooArtists|chair rent: feed=13 new=11
+!! TattooArtists|second location: __ERR__ retries exhausted
+ok TattooArtists|admin: feed=9 new=8
+TOTAL NEW=127 CORPUS=182
